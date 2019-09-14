@@ -1,0 +1,23 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "24/08/2007", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "(turbobit.net/[0-9a-z]+)", 
+                "url": "http://\\1.html"
+            }
+        ]
+    }, 
+    "free": false, 
+    "id": "turbobit", 
+    "name": "Trubobit", 
+    "settings": [],
+    "version": 2
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dangotoons",
+  "name": "Dangotoons",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "http://i.imgur.com/OWMr43C.png",
+  "banner": "http://i.imgur.com/JQSXCaB.png",
+  "categories": [
+    "tvshow",
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <allowoverlays>false</allowoverlays>
+    <controls>
+        <control type="group" id="10001">
+            <posx>440</posx>
+            <posy>242</posy>
+            <width>400</width>
+            <height>235</height>
+            <control type="image">
+                <width>400</width>
+                <height>235</height>
+                <texture border="10">Windows/Background.png</texture>
+            </control>
+            <control type="image">
+                <width>400</width>
+                <height>35</height>
+                <texture border="10">Windows/Head.png</texture>
+            </control>
+            <control type="label" id="10002">
+                <posy>0</posy>
+                <posx>0</posx>
+                <height>35</height>
+                <width>400</width>
+                <font>font12</font>
+                <textcolor>0xFFFFFFFF</textcolor>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>Captcha</label>
+            </control>
+            <control type="button" id="10003">
+                <posx>370</posx>
+                <posy>5</posy>
+                <width>25</width>
+                <height>25</height>
+                <texturefocus>Controls/CloseFO.png</texturefocus>
+                <texturenofocus>Controls/CloseNF.png</texturenofocus>
+            </control>
+            <control type="image" id="10004">
+                <posy>35</posy>
+                <posx>5</posx>
+                <width>390</width>
+                <height>100</height>
+            </control>
+            <control type="edit" id="10005">
+                <posy>150</posy>
+                <posx>5</posx>
+                <width>390</width>
+                <height>30</height>
+                <align>center</align>
+                <aligny>center</aligny>
+                <hinttext>Introduce el texto de la imagen</hinttext>
+                <texturefocus>Controls/InputFO.png</texturefocus>
+                <texturenofocus>Controls/InputNF.png</texturenofocus>
+            </control>
+            <control type="button" id="10006">
+                <posy>190</posy>
+                <posx>40</posx>
+                <width>140</width>
+                <height>30</height>
+                <textwidth>100</textwidth>
+                <texturefocus>Controls/ButtonFO.png</texturefocus>
+                <texturenofocus>Controls/ButtonNF.png</texturenofocus>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>Cancelar</label>
+            </control>
+            <control type="button" id="10007">
+                <posy>190</posy>
+                <posx>210</posx>
+                <width>140</width>
+                <height>30</height>
+                <textwidth>100</textwidth>
+                <texturefocus>Controls/ButtonFO.png</texturefocus>
+                <texturenofocus>Controls/ButtonNF.png</texturenofocus>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>Aceptar</label>
+            </control>
+        </control>
+    </controls>
+</window>

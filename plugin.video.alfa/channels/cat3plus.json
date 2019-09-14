@@ -1,0 +1,14 @@
+{
+  "id": "cat3plus",
+  "name": "Cat3plus",
+  "active": true,
+  "adult": true,
+  "language": [],
+  "thumbnail": "https://i.imgur.com/SJxXKa2.png",
+  "fanart": "https://i.imgur.com/ejCwTxT.jpg",
+  "banner": "https://i.imgur.com/bXUyk6m.png",
+  "categories": [
+    "movie",
+    "vos"
+  ]
+}

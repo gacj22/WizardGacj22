@@ -1,0 +1,15 @@
+{
+  "id": "yape",
+  "name": "Yape",
+  "thumbnail": "yape.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas por idioma, género, calidad, año, país."
+}

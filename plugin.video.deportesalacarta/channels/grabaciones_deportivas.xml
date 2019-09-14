@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>grabaciones_deportivas</id>
+	<name>Grabaciones Deportivas</name>
+	<language>es</language>
+	<update_url></update_url>
+	<active>true</active>
+	<include_in_global_search>false</include_in_global_search>
+	<adult>false</adult>
+	<version>3</version>
+	<date>08/07/2016</date>
+	<changes>Modificado nueva version pelisalacarta</changes>
+	<fanart></fanart>
+	<thumbnail>http://i.imgur.com/r8mhW9K.png?1</thumbnail>
+	<categories>
+		<category>deportes</category>
+	</categories>
+</channel>

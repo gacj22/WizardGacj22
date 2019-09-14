@@ -1,0 +1,30 @@
+{
+  "id": "ciberdocumentales",
+  "name": "CiberDocumentales",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://s9.postimg.cc/secdb5s8v/ciberdocumentales.png",
+  "banner": "https://s1.postimg.cc/sa486z0of/ciberdocumentales_banner.png",
+  "categories": [
+    "documentary"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nuvid",
+  "name": "Nuvid",
+  "language": ["*"],
+  "active": true,
+  "adult": true,
+  "thumbnail": "http://i.imgur.com/rSbuStX.png",
+  "banner": "nuvid.png",
+  "categories": [
+    "adult"
+  ]
+}

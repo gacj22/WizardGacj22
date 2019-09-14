@@ -1,0 +1,12 @@
+{
+  "id": "cumlouder",
+  "name": "Cumlouder",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "cumlouder.png",
+  "banner": "cumlouder.png",
+  "categories": [
+    "adult"
+  ]
+}

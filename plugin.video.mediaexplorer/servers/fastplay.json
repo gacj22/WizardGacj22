@@ -1,0 +1,27 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "01/09/2018",
+      "description": "Incluido soporte js"
+    },
+    {
+      "date": "29/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "fastplay.(?:to|cc|sx)/(?:flash-|embed-|)([A-z0-9]+)",
+        "url": "http://fastplay.to/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "fastplay",
+  "name": "FastPlay",
+  "settings": [],
+  "version": 2
+}

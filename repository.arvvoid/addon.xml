@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addon id="repository.arvvoid" name="Kodi ArvVoid Repository" version="1.0.0" provider-name="arvvoid">
+    <extension point="xbmc.addon.repository" name="Kodi ArvVoid Repository">
+    <info compressed="false">https://raw.github.com/arvvoid/repository.arvvoid/master/addons.xml</info>
+    <checksum>https://raw.github.com/arvvoid/repository.arvvoid/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/arvvoid/repository.arvvoid/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi ArvVoid Repository</summary>
+        <description lang="en">A repository for my Kodi add-ons and add-on test releases.</description>
+        <disclaimer lang="en">THERE IS NO WARRANTY FOR THE ADD-ONS, THEY CAN BREAK AND STOP WORKING AT ANY TIME.</disclaimer>
+        <platform>all</platform>
+    </extension>
+  </addon>

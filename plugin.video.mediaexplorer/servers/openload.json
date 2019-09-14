@@ -1,0 +1,76 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "04/04/2019",
+            "description": "Reparar por cambios en la web"
+        },
+        {
+            "date": "03/03/2019",
+            "description": "Reparar por cambios en la web"
+        },
+		{
+            "date": "16/08/2018",
+            "description": "Videos con comprobacion de referer"
+        },
+        {
+            "date": "06/04/2018",
+            "description": "Reparar por cambios en la web"
+        },
+        {
+            "date": "01/03/2018",
+            "description": "Corregir fallo en patron"
+        },
+        {
+            "date": "24/02/2018",
+            "description": "Corregir enlaces que solo se muestran con /embed/"
+        },
+        {
+            "date": "20/08/2017", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "(?:openload|oload)\\.[^/.]+/(embed|f)/([0-9a-zA-Z-_]+)",
+                "url": "https://openload.co/\\1/\\2/"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "openload",
+    "ids": [
+        "oload"
+    ],
+    "name": "Openload", 
+    "settings": [
+        {
+            "default": false, 
+            "enabled": true, 
+            "id": "api", 
+            "label": "Usar API si el metodo tradicional falla", 
+            "type": "bool", 
+            "visible": true
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-1,true)", 
+            "id": "user", 
+            "label": "Usuario:", 
+            "type": "text", 
+            "visible": true
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-2,true)", 
+            "hidden": true, 
+            "id": "password", 
+            "label": "Contrase\u00f1a", 
+            "type": "text", 
+            "visible": true
+        }
+    ], 
+    "version": 8
+}

@@ -1,0 +1,78 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "05/07/2019",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "07/05/2019",
+            "description": "Corregido por cambios en la web"
+        },
+        {
+            "date": "02/03/2019",
+            "description": "Corregido patron"
+        },
+        {
+            "date": "01/09/2018",
+            "description": "Incluido soporte js"
+        },
+        {
+            "date": "21/08/2018",
+            "description": "Añadido soporte povw1deo.com"
+        },
+        {
+            "date": "23/07/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "14/07/2018",
+            "description": "Corregido mensaje 'El vídeo está siendo procesado'"
+        },
+        {
+            "date": "07/07/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "08/06/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "14/04/2018",
+            "description": "Corregido gracias a Alfa Team"
+        },
+        {
+            "date": "31/03/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "10/03/2018",
+            "description": "Corregido regex"
+        },
+        {
+            "date": "19/01/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "18/08/2017", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "(?:powvideo|povw1deo).(?:net|xyz|com)/(?:embed-|iframe-|preview-|)([a-z0-9]+)",
+                "url": "http://powvideo.net/iframe-\\1-1536x701.html"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "powvideo",
+    "ids": [
+        "povw1deo"
+    ],
+    "name": "Powvideo", 
+    "settings": [],
+    "version": 15
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pornhive",
+  "name": "pornhive",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://www.pornhive.tv/assets/images/logo.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

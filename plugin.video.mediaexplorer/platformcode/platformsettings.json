@@ -1,0 +1,36 @@
+{
+  "settings": [
+    {
+      "default": false,
+      "id": "platform_log",
+      "label": "Usar el log de kodi:",
+      "type": "bool"
+    },
+    {
+      "default": true,
+      "id": "setResolvedUrl",
+      "label": "Permitir reanudar la reproducción:",
+      "type": "bool"
+    },
+    {
+      "default": true,
+      "id": "mark_as_watched",
+      "label": "Marcar películas y episodios como visto automáticamente:",
+      "type": "bool"
+    },
+    {
+      "default": 4,
+      "enabled": "eq(-1,true)",
+      "id": "time_for_watched",
+      "label": "   - Despues de reproducir durante",
+      "type": "list",
+      "lvalues": [
+        "0 seg.",
+        "5 min.",
+        "Mas del 30%",
+        "Mas del 50%",
+        "Mas del 80%"
+      ]
+    }
+  ]
+}

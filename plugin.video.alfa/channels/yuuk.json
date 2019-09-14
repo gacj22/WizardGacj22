@@ -1,0 +1,16 @@
+{
+  "id": "yuuk",
+  "name": "yuuk",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://yuuk.net/wp-content/uploads/2018/06/yuuk_net_logo.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

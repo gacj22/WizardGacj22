@@ -1,0 +1,15 @@
+{
+  "id": "xvideos",
+  "name": "xvideos",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "xvideos.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}
+

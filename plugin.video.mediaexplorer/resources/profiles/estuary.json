@@ -1,0 +1,603 @@
+{
+  "name": "Estuary",
+  "skin_list": [
+    "skin.estuary"
+  ],
+  "skin_default": [
+    "skin.estuary"
+  ],
+  "group": "    %s",
+  "contents": {
+    "default": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster or item.thumb or item.icon)"
+      },
+      "category": "files",
+      "view": 50
+    },
+    "items": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster or item.icon)"
+      },
+      "category": "files",
+      "view": 50
+    },
+    "icons": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster or item.thumb or item.icon)"
+      },
+      "category": "movies",
+      "view": 54
+    },
+    "channels": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster)"
+      },
+      "category": "movies",
+      "view": 500
+    },
+    "servers": {
+      "art": {
+        "poster": "eval(item.serverimage or item.thumb or item.poster)"
+      },
+      "category": "videos",
+      "view": 55
+    },
+    "videos": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "thumb": "eval(item.thumb or item.poster or item.icon)"
+      },
+      "category": "videos",
+      "view": 500
+    },
+    "movies": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster or item.thumb or item.icon)"
+      },
+      "category": "movies",
+      "view": 50
+    },
+    "tvshows": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "poster": "eval(item.poster or item.thumb or item.icon)"
+      },
+      "category": "tvshows",
+      "view": 54
+    },
+    "seasons": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "thumb": "eval(item.poster or item.thumb)"
+      },
+      "category": "seasons",
+      "view": 53
+    },
+    "episodes": {
+      "art": {
+        "fanart": "eval(item.fanart)",
+        "thumb": "eval(item.thumb or item.poster or item.icon)"
+      },
+      "category": "episodes",
+      "view": 54
+    }
+  },
+  "colors": {
+    "default": "FFEFFBFB",
+    "color1": "FFff6666",
+    "color2": "FF0101FF",
+    "color3": "FF2EFEF7",
+    "color4": "FF00cc99"
+  },
+  "types": {
+    "default": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s"
+        }
+      ]
+    },
+    "info": {
+      "info": {
+        "aired": "eval(item.aired)",
+        "cast": "eval(item.cast)",
+        "castandrole": "eval(item.castandrole)",
+        "code": "eval(item.code)",
+        "director": "eval(item.director)",
+        "duration": "eval(item.duration)",
+        "genre": "eval(item.genre)",
+        "mediatype": "eval(item.mediatype)",
+        "mpaa": "eval(item.mpaa)",
+        "originaltitle": "eval(item.originaltitle or item.title)",
+        "plot": "eval(item.plot)",
+        "plotoutline": "eval(item.plotoutline)",
+        "rating": "eval(item.rating)",
+        "studio": "eval(item.studio)",
+        "tagline": "eval(item.tagline)",
+        "title": "eval(item.title)",
+        "trailer": "eval(item.trailer)",
+        "votes": "eval(item.votes)",
+        "writer": "eval(item.writer)",
+        "year": "eval(item.year)",
+        "season": "eval(item.season or item.seasons)",
+        "episode": "eval(item.episode or item.episodes)",
+        "tvshowtitle": "eval(item.tvshowtitle)"
+      },
+      "labels": [
+        {
+          "value": "Información",
+          "sublabel": "%s",
+          "color": "color3",
+          "bold": true
+        }
+      ]
+    },
+    "item": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s"
+        }
+      ]
+    },
+    "item1": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s",
+          "color": "color1"
+        }
+      ]
+    },
+    "item2": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s",
+          "color": "color2"
+        }
+      ]
+    },
+    "channel": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s"
+        }
+      ]
+    },
+    "setting": {
+      "art": {
+        "thumb": "thumb/setting.png",
+        "icon": "icon/setting.png",
+        "poster": "poster/setting.png"
+      },
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "color1"
+        }
+      ]
+    },
+    "next": {
+      "art": {
+        "thumb": "thumb/next.png",
+        "icon": "icon/next.png",
+        "poster": "poster/next.png"
+      },
+      "info": {
+        "plot": " "
+      },
+      "labels": [
+        {
+          "value": "Página siguiente",
+          "sublabel": "%s",
+          "bold": true
+        }
+      ]
+    },
+    "search": {
+      "art": {
+        "thumb": "thumb/search.png",
+        "icon": "icon/search.png",
+        "poster": "poster/search.png"
+      },
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "color4"
+        }
+      ]
+    },
+    "label": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "color3",
+          "bold": true
+        }
+      ]
+    },
+    "user": {
+      "art": {
+        "thumb": "thumb/user.png",
+        "icon": "icon/user.png",
+        "poster": "poster/user.png"
+      },
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "color2"
+        }
+      ]
+    },
+    "warning": {
+      "art": {
+        "thumb": "thumb/warning.png",
+        "icon": "icon/warning.png",
+        "poster": "poster/warning.png"
+      },
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "yellow"
+        }
+      ]
+    },
+    "highlight": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label)",
+          "sublabel": "%s",
+          "color": "yellow"
+        }
+      ]
+    },
+    "download": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval([('green', 'green', 'orange', 'red')[item.download_status] ,item.download_progress])",
+          "sublabel": "[COLOR %s][%d%%] [/COLOR] "
+        },
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s"
+        },
+        {
+          "value": "eval(item.download_channel)",
+          "sublabel": " [%s]"
+        }
+      ]
+    },
+    "download_episode": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval([('green', 'green', 'orange', 'red')[item.download_status] ,item.download_progress])",
+          "sublabel": "[COLOR %s][%d%%] [/COLOR] "
+        },
+        {
+          "value": "eval([item.season, item.episode])",
+          "sublabel": "%dx%02d: "
+        },
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s"
+        }
+      ]
+    },
+    "update": {
+      "info": {
+        "plot": "eval(item.description or ' ')"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s",
+          "color": "default"
+        },
+        {
+          "value": "eval(item.version)",
+          "sublabel": " versión: %s",
+          "color": "color2"
+        },
+        {
+          "value": "eval(item.fecha)",
+          "sublabel": " (%s)",
+          "color": "color4"
+        }
+      ]
+    },
+    "server": {
+      "info": {
+        "plot": "eval(item.description)"
+      },
+      "labels": [
+        {
+          "value": "eval([('Descargar de','Ver en')[bool(item.stream)] if not settings.get_setting('sort_filter_server') else ' ',item.servername])",
+          "sublabel": "%s: %s"
+        },
+        {
+          "value": "eval(item.lang)",
+          "sublabel": " [%s]",
+          "color": "color3"
+        },
+        {
+          "value": "eval(item.quality)",
+          "sublabel": " (%s) ",
+          "color": "default"
+        },
+        {
+          "value": "eval(('%g GB' % round(item.size/(1024 * 1024.0),2)) if item.size > 1022976 else ('%g MB' % round(item.size/1024.0,2)) if item.size else '')",
+          "sublabel": " (%s) ",
+          "color": "color1"
+        }
+      ]
+    },
+    "video": {
+      "info": {
+        "mediatype": "video",
+        "title": "eval(item.title or item.label)"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s"
+        },
+        {
+          "value": "eval(('%g GB' % round(item.size/(1024 * 1024.0),2)) if item.size > 1022976 else ('%g MB' % round(item.size/1024.0,2)) if item.size else '')",
+          "sublabel": " (%s) "
+        }
+      ]
+    },
+    "movie": {
+      "info": {
+        "aired": "eval(item.aired)",
+        "cast": "eval(item.cast)",
+        "castandrole": "eval(item.castandrole)",
+        "code": "eval(item.code)",
+        "director": "eval(item.director)",
+        "duration": "eval(item.duration)",
+        "genre": "eval(item.genre)",
+        "mediatype": "movie",
+        "mpaa": "eval(item.mpaa)",
+        "originaltitle": "eval(item.originaltitle or item.title)",
+        "playcount": "eval(int(bool(item.watched)))",
+        "plot": "eval(item.plot or ' ')",
+        "plotoutline": "eval(item.plotoutline)",
+        "rating": "eval(item.rating)",
+        "studio": "eval(item.studio)",
+        "tagline": "eval(item.tagline)",
+        "title": "eval(item.title or item.label)",
+        "trailer": "eval(item.trailer)",
+        "votes": "eval(item.votes)",
+        "writer": "eval(item.writer)",
+        "year": "eval(item.year)"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s",
+          "color": "default"
+        },
+        {
+          "value": "eval(item.year)",
+          "sublabel": " [%s]",
+          "color": "color2",
+          "bold": true
+        },
+        {
+          "value": "eval(item.lang)",
+          "sublabel": " [%s]",
+          "color": "color4"
+        },
+        {
+          "value": "eval(item.quality)",
+          "sublabel": " (%s) ",
+          "color": "default"
+        },
+        {
+          "value": "eval(('%g GB' % round(item.size/(1024 * 1024.0),2)) if item.size > 1022976 else ('%g MB' % round(item.size/1024.0,2)) if item.size else '')",
+          "sublabel": " (%s) ",
+          "color": "color1"
+        }
+      ]
+    },
+    "tvshow": {
+      "info": {
+        "aired": "eval(item.aired)",
+        "cast": "eval(item.cast)",
+        "castandrole": "eval(item.castandrole)",
+        "code": "eval(item.code)",
+        "director": "eval(item.director)",
+        "duration": "eval(item.duration)",
+        "episode": "eval(item.episodes)",
+        "genre": "eval(item.genre)",
+        "mediatype": "tvshow",
+        "mpaa": "eval(item.mpaa)",
+        "originaltitle": "eval(item.originaltitle or item.title)",
+        "playcount": "eval(int(bool(item.watched)))",
+        "plot": "eval(item.plot)",
+        "plotoutline": "eval(item.plotoutline)",
+        "rating": "eval(item.rating)",
+        "season": "eval(item.seasons)",
+        "status": "eval(item.status)",
+        "studio": "eval(item.studio)",
+        "tagline": "eval(item.tagline)",
+        "title": "eval(item.title)",
+        "trailer": "eval(item.trailer)",
+        "votes": "eval(item.votes)",
+        "writer": "eval(item.writer)",
+        "year": "eval(item.year)"
+      },
+      "labels": [
+        {
+          "value": "eval(item.label or item.title)",
+          "sublabel": "%s[CR]",
+          "color": "default"
+        },
+        {
+          "value": "eval(item.year)",
+          "sublabel": "(%s)",
+          "color": "color2"
+        },
+        {
+          "value": "eval(item.lang)",
+          "sublabel": " [%s]",
+          "color": "color4"
+        },
+        {
+          "value": "eval(item.quality)",
+          "sublabel": " (%s) ",
+          "color": "default"
+        },
+        {
+          "value": "eval(('%g GB' % round(item.size/(1024 * 1024.0),2)) if item.size > 1022976 else ('%g MB' % round(item.size/1024.0,2)) if item.size else '')",
+          "sublabel": " (%s) ",
+          "color": "color1"
+        }
+      ]
+    },
+    "season": {
+      "info": {
+        "aired": "eval(item.aired)",
+        "cast": "eval(item.cast)",
+        "castandrole": "eval(item.castandrole)",
+        "code": "eval(item.code)",
+        "director": "eval(item.director)",
+        "duration": "eval(item.duration)",
+        "episode": "eval(item.episodes)",
+        "genre": "eval(item.genre)",
+        "mediatype": "season",
+        "mpaa": "eval(item.mpaa)",
+        "originaltitle": "eval(item.originaltitle or item.title)",
+        "playcount": "eval(int(bool(item.watched)))",
+        "plot": "eval(item.plot)",
+        "plotoutline": "eval(item.plotoutline)",
+        "rating": "eval(item.rating)",
+        "season": "eval(item.seasons)",
+        "studio": "eval(item.studio)",
+        "tagline": "eval(item.tagline)",
+        "title": "eval(item.title)",
+        "trailer": "eval(item.trailer)",
+        "votes": "eval(item.votes)",
+        "writer": "eval(item.writer)",
+        "year": "eval(item.year)"
+      },
+      "labels": [
+        {
+          "value": "eval(item.season)",
+          "sublabel": "Temporada %s"
+        }
+      ]
+    },
+    "episode": {
+      "info": {
+        "aired": "eval(item.aired)",
+        "cast": "eval(item.cast)",
+        "castandrole": "eval(item.castandrole)",
+        "code": "eval(item.code)",
+        "director": "eval(item.director)",
+        "duration": "eval(item.duration)",
+        "genre": "eval(item.genre)",
+        "mediatype": "episode",
+        "mpaa": "eval(item.mpaa)",
+        "originaltitle": "eval(item.originaltitle or item.title)",
+        "playcount": "eval(int(bool(item.watched)))",
+        "plot": "eval(item.plot)",
+        "plotoutline": "eval(item.plotoutline)",
+        "rating": "eval(item.rating)",
+        "studio": "eval(item.studio)",
+        "tagline": "eval(item.tagline)",
+        "title": "eval(item.title)",
+        "trailer": "eval(item.trailer)",
+        "tvshowtitle": "eval(item.tvshowtitle)",
+        "votes": "eval(item.votes)",
+        "writer": "eval(item.writer)",
+        "year": "eval(item.year)"
+      },
+      "labels": [
+        {
+          "value": "eval([item.season,item.episode])",
+          "sublabel": "%dx%02d: ",
+          "color": "color2"
+        },
+        {
+          "value": "eval(item.label or item.title or item.tvshowtitle)",
+          "sublabel": "%s",
+          "color": "default"
+        },
+        {
+          "value": "eval(item.lang)",
+          "sublabel": " [%s]",
+          "color": "color2"
+        },
+        {
+          "value": "eval(item.quality)",
+          "sublabel": " (%s)",
+          "color": "default"
+        },
+        {
+          "value": "eval(('Cap. %d al %d' % (min(item.multi_episodes), max(item.multi_episodes)) if len(item.multi_episodes) >2 and max(item.multi_episodes) - min(item.multi_episodes) == len(item.multi_episodes) -1 else 'Cap. %s' % str(item.multi_episodes)[1:-1]) if item.multi_episodes else '' )",
+          "sublabel": " (%s)",
+          "color": "color3"
+        },
+        {
+          "value": "eval(('%g GB' % round(item.size/(1024 * 1024.0),2)) if item.size > 1022976 else ('%g MB' % round(item.size/1024.0,2)) if item.size else '')",
+          "sublabel": " (%s) ",
+          "color": "color3"
+        }
+      ]
+    }
+  }
+}

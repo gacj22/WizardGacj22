@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30000">
+        <!-- Storage -->
+        <setting label="30327" type="lsep" />
+        <setting id="download_storage" type="enum" label="30315" lvalues="30316|30317" default="1" />
+          <setting id="auto_memory_size" label="30376" type="bool" default="true" visible="eq(-1,1)" />
+          <setting type="text" label="30377" enable="false" visible="eq(-2,1)" />
+
+          <setting id="auto_memory_size_strategy" type="enum" label="30378" lvalues="30380|30381|30382" default="1" enable="eq(-2,true)" visible="eq(-3,1)" />
+          <setting type="text" label="30379" enable="false" visible="eq(-4,1)" />
+
+          <setting id="memory_size" label="30318" type="number" default="100" enable="eq(-4,false)" visible="eq(-5,1)" />
+          <setting id="auto_adjust_memory_size" label="30499" type="bool" default="true" visible="eq(-6,1)" />
+
+          <setting type="text" label="30348" enable="false" visible="eq(-7,0)" />
+          <setting type="text" label="30349" enable="false" visible="eq(-8,1)" />
+          <setting type="text" label="30350" enable="false" visible="eq(-9,1)" />
+          <setting type="text" label="30351" enable="false" visible="eq(-10,2)" />
+          <setting type="text" label="30352" enable="false" visible="eq(-11,3)" />
+
+        <setting id="download_path" type="folder" label="30001" source="auto" option="writeable" />
+        <setting type="action" label="30498" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path/download)" />
+        <setting id="library_path" type="folder" label="30026" default="special://temp/elementum_library/" source="auto" option="writeable" />
+        <setting type="action" label="30498" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path/library)" />
+        <setting id="torrents_path" type="folder" label="30451" default="special://temp/elementum_torrents/" source="auto" option="writeable" />
+        <setting type="action" label="30498" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path/torrents)" />
+
+        <setting type="action" label="30452" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path)" />
+
+        <!-- Download -->
+        <setting label="30325" type="lsep" />
+        <setting id="use_torrent_history" type="bool" label="30538" default="true" />
+        <setting id="torrent_history_size" label="30539" type="slider" option="int" range="0,1,200" default="50" />
+        <setting id="keep_downloading" type="enum" label="30028" lvalues="30319|30320|30321" default="1" />
+        <setting id="keep_files_playing" type="enum" label="30312" lvalues="30309|30310|30311" default="1" />
+        <setting id="keep_files_finished" type="enum" label="30313" lvalues="30309|30310|30311" default="1" />
+        <setting id="completed_move" type="bool" label="30301" default="false" />
+          <setting id="completed_movies_path" type="folder" label="30214" source="auto" option="writeable" subsetting="true" visible="eq(-1,true)" />
+          <setting id="completed_shows_path" type="folder" label="30215" source="auto" option="writeable" subsetting="true" visible="eq(-2,true)" />
+          <setting id="completed_help" label="30302" type="text" enable="false" subsetting="true" visible="eq(-3,true)" />
+        <setting id="silent_stream_start" type="bool" label="30359" default="false" />
+        <setting id="choose_stream_auto" type="bool" label="30023" default="false" />
+        <setting id="force_link_type" type="bool" label="30324" default="false" />
+        <setting id="smart_episode_match" type="bool" label="30333" default="true" />
+        <setting id="smart_episode_start" type="bool" label="30525" default="true" />
+    </category>
+    <category label="30326">
+        <!-- General -->
+        <setting label="30000" type="lsep" />
+        <setting id="play_resume" label="30372" type="bool" default="true" />
+        <setting id="store_resume" label="30533" type="bool" default="true" />
+        <setting id="store_resume_action" type="enum" label="30534" lvalues="30414|30310|30413" default="1" />
+        <setting id="play_resume_back" label="30516" type="slider" option="int" range="0,1,120" default="0" />
+        <setting id="add_specials" type="bool" label="30055" default="false" />
+        <setting id="unaired_seasons" type="bool" label="30284" default="false" />
+        <setting id="unaired_episodes" type="bool" label="30285" default="false" />
+        <setting id="playback_percent" label="30416" type="slider" option="int" range="1,1,100" default="85" />
+        <setting id="library_update" type="enum" label="30480" lvalues="30481|30482|30414" default="0" />
+        <setting id="strm_language" label="30475" type="text" default="Original" />
+            <setting type="action" label="30476" action="RunPlugin(plugin://plugin.video.elementum/cmd/select_strm_language)" subsetting="true" />
+        <setting id="library_nfo_movies" type="bool" label="30483" default="true" />
+        <setting id="library_nfo_shows" type="bool" label="30484" default="true" />
+
+        <!-- Searching -->
+        <setting label="30019" type="lsep" />
+        <setting type="action" label="30054" action="RunPlugin(plugin://plugin.video.elementum/library/update)" />
+        <setting id="library_update_delay" label="30059" type="slider" option="int" range="10,10,900" default="300" />
+        <setting id="library_update_frequency" label="30060" type="slider" option="int" range="0,1,24" default="6" />
+        <setting id="library_auto_scan" type="bool" label="30089" default="true" />
+    </category>
+    <category label="30544">
+        <setting type="text" label="30545" enable="false" />
+        <setting type="text" label="30555" enable="false" />
+        <setting id="autoscrape_is_enabled" label="30010" type="bool" default="false" />
+        <setting id="autoscrape_library_enabled" label="30556" type="bool" default="false" />
+
+        <!-- What to search -->
+        <setting label="30550" type="lsep" />
+        <setting id="autoscrape_strategy" type="enum" label="30546" lvalues="30547|30548|30553|30554" default="0" />
+        <setting id="autoscrape_strategy_expect" label="30549" type="slider" option="int" range="1,1,100" default="3" />
+
+        <!-- When to search -->
+        <setting label="30551" type="lsep" />
+        <setting id="autoscrape_limit_movies" label="30557" type="slider" option="int" range="1,1,200" default="50" />
+        <setting id="autoscrape_per_hours" label="30552" type="slider" option="int" range="1,1,240" default="12" />
+        <setting id="autoscrape_interval" label="30561" type="slider" option="int" range="1,1,600" default="30" />
+    </category>
+    <category label="30033">
+        <!-- Appearance -->
+        <setting label="30033" type="lsep" />
+        <setting id="results_per_page" label="30021" type="slider" option="int" range="3,1,50" default="9" />
+        <setting id="default_fanart" label="30092" type="bool" default="true" />
+        <setting id="use_fanart_tv" label="30491" type="bool" default="false" />
+        <setting id="do_not_disturb" label="30093" type="bool" default="false" />
+        <setting id="enable_overlay_status" type="bool" label="30022" default="true" />
+          <setting id="overlay_status_offset" type="number" label="30030" default="150" subsetting="true" visible="eq(-1,true)" />
+        <setting id="disable_bg_progress" label="30094" type="bool" default="false" />
+        <setting id="disable_bg_progress_playback" label="30386" type="bool" default="true" />
+        <setting id="add_episode_numbers" label="30505" type="bool" default="false" />
+        <setting id="viewmode_movies" label="30034" type="number" default="" />
+        <setting id="viewmode_tvshows" label="30035" type="number" default="" />
+        <setting id="viewmode_seasons" label="30036" type="number" default="" />
+        <setting id="viewmode_episodes" label="30037" type="number" default="" />
+        <setting id="viewmode_menus_movies" label="30142" type="number" default="" />
+        <setting id="viewmode_menus_tvshows" label="30143" type="number" default="" />
+        <setting id="viewmode_menus_movies_genres" label="30144" type="number" default="" />
+        <setting id="viewmode_menus_tvshows_genres" label="30145" type="number" default="" />
+    </category>
+    <category label="BitTorrent">
+        <!-- BitTorrent -->
+        <setting label="BitTorrent" type="lsep" />
+        <setting id="buffer_size" label="30003" type="number" default="20" />
+        <!-- <setting id="auto_adjust_buffer_size" label="30500" type="bool" default="true" /> -->
+        <setting id="auto_kodi_buffer_size" label="30502" type="bool" default="true" />
+        <setting id="buffer_timeout" label="30088" type="slider" option="int" range="10,5,600" default="60" />
+        <setting id="max_upload_rate" label="30004" type="number" default="" />
+        <setting id="max_download_rate" label="30005" type="number" default="" />
+        <setting id="autoload_torrents" type="bool" label="30421" default="true" />
+        <setting id="autoload_torrents_paused" type="bool" label="30515" default="true" />
+        <setting id="limit_after_buffering" label="30025" type="bool" default="false" />
+        <setting id="connections_limit" label="30027" type="number" default="" />
+
+        <setting id="conntracker_limit_auto" label="30486" type="bool" default="true" />
+        <setting id="conntracker_limit" label="30485" type="number" default="" enable="eq(-1,false)" />
+        <setting id="disable_upload" label="30369" type="bool" default="false" />
+        <setting id="session_save" label="30029" type="slider" option="int" range="5,5,60" default="15" />
+        <setting id="share_ratio_limit" label="30051" type="number" default="25" />
+        <setting id="seed_time_ratio_limit" label="30052" type="number" default="200" />
+        <setting id="seed_time_limit" label="30053" type="number" default="2" />
+        <setting id="disable_dht" label="30050" type="bool" default="false" />
+        <setting id="disable_tcp" label="30328" type="bool" default="false" />
+        <setting id="disable_utp" label="30329" type="bool" default="false" />
+        <setting id="disable_upnp" label="30063" type="bool" default="false" />
+        <setting id="encryption_policy" label="30064" type="enum" lvalues="30010|30065|30066" default="0" />
+        <setting id="listen_autodetect_ip" label="30370" type="bool" default="true" />
+        <setting id="listen_interfaces" label="30090" type="text" default="" visible="eq(-1,false)" />
+        <setting type="action" label="30473" action="RunPlugin(plugin://plugin.video.elementum/cmd/select_interface/listen)" subsetting="true" visible="eq(-2,false)" />
+        <setting id="outgoing_interfaces" label="30091" type="text" default="" subsetting="true" visible="eq(-3,false)" />
+        <setting type="action" label="30473" action="RunPlugin(plugin://plugin.video.elementum/cmd/select_interface/outgoing)" subsetting="true" visible="eq(-4,false)" />
+        <setting id="listen_autodetect_port" label="30371" type="bool" default="true" />
+        <setting id="listen_port_min" label="30006" type="number" default="6891" visible="eq(-1,false)" />
+        <setting id="listen_port_max" label="30007" type="number" default="6899" visible="eq(-2,false)" />
+        <setting id="tuned_storage" label="30086" type="bool" default="false" />
+        <setting id="spoof_user_agent" label="30074" type="enum" lvalues="30065|30075|30076|30077|30078|30079|30080|30081|30082|30083|30084|30085" />
+        <setting id="use_libtorrent_config" label="30503" type="bool" default="true" />
+        <setting type="text" label="30504" enable="false" />
+        <setting id="magnet_trackers" label="30507" type="enum" lvalues="30508|30509|30510" default="0" />
+        <setting id="use_libtorrent_logging" label="30506" type="bool" default="false" />
+        <setting id="libtorrent_profile" label="30511" type="enum" lvalues="30512|30513|30514" default="0" />
+        <!-- <setting id="use_libtorrent_deadline" label="30518" type="bool" default="true" /> -->
+        <setting id="use_libtorrent_pauseresume" label="30519" type="bool" default="false" />
+    </category>
+    <category label="30239">
+        <!-- Searching -->
+        <setting label="30478" type="lsep" />
+        <setting id="use_original_title" type="bool" label="30038" default="false" />
+        <setting id="use_anime_en_title" type="bool" label="30526" default="true" />
+
+        <setting label="30522" type="lsep" />
+        <setting id="min_candidate_size" label="30523" type="slider" option="int" range="0,10,1000" default="100" />
+        <setting id="min_candidate_show_size" label="30524" type="slider" option="int" range="0,1,1000" default="4" />
+
+        <!-- Sorting -->
+        <setting label="30041" type="lsep" />
+        <setting id="sorting_mode_movies" label="30042" type="enum" lvalues="30044|30045|30046|30375" default="2" />
+        <setting id="sorting_mode_shows" label="30043" type="enum" lvalues="30044|30045|30046|30375" default="2" />
+        <setting id="resolution_preference_movies" label="30047" type="enum" values="1080p / 720p / 480p|720p / 1080p / 480p|720p / 480p / 1080p|480p / 720p / 1080p" />
+        <setting id="resolution_preference_shows" label="30048" type="enum" values="1080p / 720p / 480p|720p / 1080p / 480p|720p / 480p / 1080p|480p / 720p / 1080p" />
+        <setting id="percentage_additional_seeders" label="30049" type="number" default="25" />
+        
+        <!-- Caching -->
+        <setting label="30387" type="lsep" />
+        <setting id="use_cache_selection" label="30388" type="bool" default="true" />
+        <setting id="use_cache_search" label="30389" type="bool" default="false" />
+        <setting id="cache_search_duration" label="30390" type="number" default="180" visible="eq(-1,true)" />
+
+        <!-- Providers -->
+        <setting label="30239" type="lsep" />        
+        <setting id="skip_burst_search" label="30559" type="bool" default="false" />
+        <setting id="provider_disable_failing" label="30031" type="bool" default="false" />
+        <setting id="provider_allowed_failures" label="30032" type="slider" option="int" range="0,1,10" default="3" />
+        
+        <!-- Custom timeout -->
+        <setting label="30016" type="lsep" />
+        <setting id="custom_provider_timeout_enabled" label="30017" type="bool" default="false" />
+        <setting id="custom_provider_timeout" label="30018" type="slider" option="int" range="7,1,180" default="30" visible="eq(-1,true)" />
+    </category>
+    <!-- Proxy -->
+    <category label="30008">
+    <setting label="30490" type="lsep" />
+        <setting id="internal_dns_enabled" label="30495" type="bool" default="true" />
+        <setting id="internal_dns_help" label="30496" type="text" enable="false" />
+        <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" />
+
+        <setting id="internal_proxy_enabled" label="30487" type="bool" default="true" />
+        <setting id="internal_proxy_logging" label="30489" type="bool" default="false" />
+
+        <setting id="antizapret_enabled" label="30497" type="bool" default="false" />
+
+        <setting label="30008" type="lsep" />
+        <setting id="proxy_enabled" label="30010" type="bool" default="false" />
+          <setting id="proxy_type" label="30067" type="enum" default="1" subsetting="true" lvalues="30068|30069|30071|30073" visible="eq(-1,true)" />
+          <setting id="proxy_host" label="30011" type="text" default="" subsetting="true" visible="eq(-2,true)" />
+          <setting id="proxy_port" label="30012" type="number" default="1080" subsetting="true" visible="eq(-3,true)" />
+          <setting id="proxy_login" label="30013" type="text" default="" subsetting="true" visible="eq(-4,true)" />
+          <setting id="proxy_password" label="30014" type="text" default="" option="hidden" subsetting="true" visible="eq(-5,true)" />
+          <setting id="use_proxy_http" label="30492" type="bool" default="true" subsetting="true" visible="eq(-6,true)" />
+          <setting id="use_proxy_tracker" label="30493" type="bool" default="true" subsetting="true" visible="eq(-7,true)" />
+          <setting id="use_proxy_download" label="30494" type="bool" default="true" subsetting="true" visible="eq(-8,true)" />
+    </category>
+    <category label="30540">
+        <setting label="OpenSubtitles" type="lsep" />
+        <setting id="osdb_user" label="30057" type="text" default="" />
+        <setting id="osdb_pass" label="30014" type="text" option="hidden" default="" />
+        <setting id="osdb_auto_language" label="30383" type="bool" default="true" />
+        <setting id="osdb_language" label="30384" type="text" default="" enable="eq(-1,false)" />
+        <setting label="30541" type="lsep" />
+        <setting id="osdb_auto_load" label="30528" type="bool" default="false" />
+        <setting id="osdb_auto_load_count" label="30529" type="slider" option="int" range="1,1,20" default="1" />
+        <setting id="osdb_auto_load_delete" label="30530" type="bool" default="true" />
+        <setting id="osdb_auto_load_skipexists" label="30542" type="bool" default="true" />
+        <setting label="30543" type="lsep" />
+        <setting id="osdb_included_enabled" label="30010" type="bool" default="true" />
+        <setting id="osdb_included_skipexists" label="30542" type="bool" default="true" />
+    </category>
+    <category label="30056">
+        <!-- Trakt -->
+        <setting label="30033" type="lsep" />
+        <setting id="force_use_trakt" label="30357" type="bool" default="false" />
+
+        <setting label="30000" type="lsep" />
+        <setting type="action" label="30058" action="RunPlugin(plugin://plugin.video.elementum/trakt/authorize)" />
+        <setting id="trakt_scrobble" type="bool" label="Scrobble" default="false" />
+        <setting id="trakt_sync" label="30061" type="slider" option="int" range="0,1,24" default="2" />
+        <setting id="trakt_token" type="text" label="Trakt token" default="" visible="false" />
+        <setting id="trakt_username" type="text" label="30057" default="" enable="false" visible="!eq(-1,'')" />
+        <setting type="action" label="30330" action="RunPlugin(plugin://plugin.video.elementum/trakt/update)" />
+        <setting id="trakt_refresh_token" type="text" label="Trakt refresh token" default="" visible="false" />
+        <setting id="trakt_token_expiry" type="number" label="Trakt token expiry" default="0" visible="false" />
+
+        <setting label="30362" type="lsep" />
+        <setting id="trakt_sync_collections" type="bool" label="30363" default="true" />
+        <setting id="trakt_sync_watchlist" type="bool" label="30364" default="true" />
+        <setting id="trakt_sync_userlists" type="bool" label="30365" default="true" />
+        <setting id="trakt_sync_watched" type="bool" label="30366" default="true" />
+        <setting id="trakt_sync_watchedback" type="bool" label="30367" default="true" />
+
+        <setting id="trakt_sync_added_movies"              type="bool" label="30447" default="true" />
+        <setting id="trakt_sync_added_movies_location"     type="enum" label="30442" lvalues="30257|30254|30436" default="0" visible="eq(-1,true)" />
+        <setting                                           type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/added/movies)" visible="eq(-1,2)" />
+        <setting id="trakt_sync_added_movies_list_name"    type="text" label="30443"                 default="" visible="eq(-2,2)" enable="false" />
+        <setting id="trakt_sync_added_movies_list"         type="number" label="Added userlist ID"   default="" visible="false" />
+
+        <setting id="trakt_sync_added_shows"               type="bool" label="30448" default="true" />
+        <setting id="trakt_sync_added_shows_location"      type="enum" label="30445" lvalues="30257|30254|30436" default="0" visible="eq(-1,true)" />
+        <setting                                           type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/added/shows)" visible="eq(-1,2)" />
+        <setting id="trakt_sync_added_shows_list_name"     type="text" label="30446"                 default="" visible="eq(-2,2)" enable="false" />
+        <setting id="trakt_sync_added_shows_list"          type="number" label="Added userlist ID"   default="" visible="false" />
+        
+        <setting id="trakt_sync_removed_movies"            type="bool" label="30449" default="true" />
+        <setting id="trakt_sync_removed_movies_location"   type="enum" label="30442" lvalues="30257|30254|30436" default="0" visible="eq(-1,true)" />
+        <setting                                           type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/removed/movies)" visible="eq(-1,2)" />
+        <setting id="trakt_sync_removed_movies_list_name"  type="text" label="30443"                 default="" visible="eq(-2,2)" enable="false" />
+        <setting id="trakt_sync_removed_movies_list"       type="number" label="Removed userlist ID"   default="" visible="false" />
+
+        <setting id="trakt_sync_removed_shows"             type="bool" label="30450" default="true" />
+        <setting id="trakt_sync_removed_shows_location"    type="enum" label="30445" lvalues="30257|30254|30436" default="0" visible="eq(-1,true)" />
+        <setting                                           type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/removed/shows)" visible="eq(-1,2)" />
+        <setting id="trakt_sync_removed_shows_list_name"   type="text" label="30446"                 default="" visible="eq(-2,2)" enable="false" />
+        <setting id="trakt_sync_removed_shows_list"        type="number" label="Removed userlist ID"   default="" visible="false" />
+
+        <setting label="30424" type="lsep" />
+        <setting id="trakt_progress_sort" type="enum" label="30429" lvalues="30430|30431|30432|30433" default="0" />
+        <setting id="trakt_progress_unaired" type="bool" label="30428" default="true" />
+        <setting id="trakt_progress_color_date" label="30425" type="text" default="yellow" />
+        <setting id="trakt_progress_color_show" label="30426" type="text" default="none" />
+        <setting id="trakt_progress_color_episode" label="30427" type="text" default="skyblue" />
+        <setting id="trakt_progress_color_unaired" label="30440" type="text" default="deeppink" />
+        <setting id="trakt_progress_date_format" label="30434" type="text" default="yyyy-mm-dd" />
+
+        <setting label="30290" type="lsep" />
+        <setting id="trakt_calendars_color_date" label="30425" type="text" default="yellow" />
+        <setting id="trakt_calendars_color_show" label="30426" type="text" default="none" />
+        <setting id="trakt_calendars_color_episode" label="30427" type="text" default="skyblue" />
+        <setting id="trakt_calendars_color_unaired" label="30440" type="text" default="deeppink" />
+        <setting id="trakt_calendars_date_format" label="30434" type="text" default="yyyy-mm-dd" />
+      </category>
+    <category label="30015">
+        <!-- Database -->
+        <setting label="30460" type="lsep" />
+        <setting type="action" label="30461" action="RunPlugin(plugin://plugin.video.elementum/status)" />
+        <setting type="action" label="30462" action="RunPlugin(plugin://plugin.video.elementum/cmd/database/clear_movies)" />
+        <setting type="action" label="30463" action="RunPlugin(plugin://plugin.video.elementum/cmd/database/clear_shows)" />
+        <setting type="action" label="30464" action="RunPlugin(plugin://plugin.video.elementum/cmd/database/clear_torrent_history)" />
+        <setting type="action" label="30465" action="RunPlugin(plugin://plugin.video.elementum/cmd/database/clear_search_history)" />
+        <setting type="action" label="30466" action="RunPlugin(plugin://plugin.video.elementum/cmd/database/clear_database)" />
+
+        <!-- Cache -->
+        <setting label="30467" type="lsep" />
+        <setting type="action" label="30468" action="RunPlugin(plugin://plugin.video.elementum/cmd/cache/clear_tmdb)" />
+        <setting type="action" label="30469" action="RunPlugin(plugin://plugin.video.elementum/cmd/cache/clear_trakt)" />
+        <setting type="action" label="30470" action="RunPlugin(plugin://plugin.video.elementum/cmd/cache/clear_cache)" />
+
+        <!-- Logging -->
+        <setting label="30455" type="lsep" />
+        <setting type="action" label="30453" action="RunPlugin(plugin://plugin.video.elementum/cmd/paste/bundle)" />
+        <setting type="action" label="30456" action="RunPlugin(plugin://plugin.video.elementum/cmd/paste/all)" />
+        <setting id="logger_silent" type="bool" label="30407" default="false" />
+
+        <!-- TMDB -->
+        <setting label="30039" type="lsep" />
+        <setting id="tmdb_api_key" label="30040" type="text" default="" />
+
+        <!-- Connectivity -->
+        <setting label="30408" type="lsep" />
+        <setting id="local_only_client" label="30412" type="bool" default="false" />
+        <setting id="local_port" label="30409" type="number" default="65221" />
+        <setting id="remote_host" label="30411" type="text" default="127.0.0.1" />
+        <setting id="remote_port" label="30410" type="number" default="65220" />
+    </category>
+</settings>

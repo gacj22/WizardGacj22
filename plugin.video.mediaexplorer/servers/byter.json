@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "04/09/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "byter.tv/v/([a-z0-9]+)",
+        "url": "http://byter.tv/v/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "byter",
+  "name": "Byter.tv",
+  "settings": [],
+  "version": 1
+}

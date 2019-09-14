@@ -1,0 +1,17 @@
+{
+  "id": "streamingporn",
+  "name": "streamingporn",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://streamingporn.xyz/wp-content/uploads/2017/06/streamingporn.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+
+

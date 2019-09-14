@@ -1,0 +1,11 @@
+{
+  "id": "xdvideos",
+  "name": "XDVideos",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "http://i.imgur.com/vKcZxXS.png",
+  "categories": [
+    "tvshow"
+  ]
+}

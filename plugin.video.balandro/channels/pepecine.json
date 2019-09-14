@@ -1,0 +1,15 @@
+{
+  "id": "pepecine",
+  "name": "PepeCine",
+  "thumbnail": "pepecine.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast"],
+
+  "notes": "Películas: novedades, por género. Series: últimos episodios, por género."
+}

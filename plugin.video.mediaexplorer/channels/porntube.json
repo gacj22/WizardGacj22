@@ -1,0 +1,29 @@
+{
+    "active": true,
+    "adult": true,
+    "categories": ["adult"],
+    "changes": [
+        {
+          "date": "11/01/2019",
+          "description": "Reparación por cambios en la web"
+        },
+        {
+            "date": "09/09/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "porntube",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "PornTube",
+    "search": {
+        "adult": {
+          "action": "search",
+          "content": "videos"
+        }
+    },
+    "settings": [],
+    "version": 2
+}

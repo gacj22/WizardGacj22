@@ -1,0 +1,30 @@
+{
+  "id": "animeid",
+  "name": "Animeid",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "animeid.png",
+  "banner": "animeid.png",
+  "categories": [
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_anime",
+      "type": "bool",
+      "label": "Incluir en Novedades - Episodios de anime",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seriesblanco",
+  "name": "SeriesBlanco",
+  "thumbnail": "seriesblanco.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat"],
+
+  "notes": "Series por género, por año, ... y también películas."
+}

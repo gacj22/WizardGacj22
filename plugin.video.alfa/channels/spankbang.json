@@ -1,0 +1,16 @@
+{
+  "id": "spankbang",
+  "name": "spankbang",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://static.spankbang.com/static_desktop/Images/logo_desktop@2xv2.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}
+
+

@@ -1,0 +1,46 @@
+REPRODUCTORES
+
+Torrentin no es un reproductor, por si solo no puede reproducir un torrent pero es capaz de hacer de puente 
+con el motor AceStream (Android, Windows, Linux) para reproducirlo, o tambien puede enviar el torrent/magnet
+a otros Add-Ons de Kodi o a aplicaciones de android que son capaces de reproducir torrents sin descargarlo 
+previamente, tambien puede reproducir enlaces AceLive y guardarlos en listas M3U.
+
+Puede guardar los archivos torrent junto con sus caratulas en dos directorios distintos y posteriormente poder 
+navegar por ellos y volver a lanzarlos con cualquier reproductor de la lista o reproducir el ultimo torrent que ha
+sido cargado, evitandonos asi volver a navegar por las listas de canales de otros Add-Ons.
+Asi mismo tambien puede cargar un torrent local de cualquier directorio y reproducirlo.
+
+Tambien puede guardar el video que estamos reproduciendo con el motor AceStream en disco o tarjeta por si lo
+queremos conservar (la grabación se inicia cuando la descarga ha llegado al 100%), guardándolo junto con su carátula,
+todo ello configurable en la pestaña AceStream de la configuración.
+
+Para reproducirlos obviamente tienes que tener instalado alguno(s) de los 23 reproductores soportados, estos son:
+
+ - Motor AceStream [App en android o programa en windows/Linux] (antiguos 3.0.x y nuevos 3.1.x)
+
+Add-Ons de KODI:
+ - XBMCtorrent
+ - Stream
+ - KmediaTorrent
+ - Pulsar
+ - Quasar
+ - Elementum
+ - p2p-Streams
+ - Plexus
+ - Torrenter
+ - Yet Another Torrent Player (YATP)
+
+App's de Android (La mayoria se pueden instalar desde el Play Store, visita el foro si no encuentras alguno):
+ - Torrent Video Player
+ - Torrent Video Player Pro
+ - BitX
+ - BitFalcon
+ - Torrent Stream Controller
+ - AcePlayer
+ - mTorrent (GP)
+ - mTorrent (MDC)
+ - Xtorrent
+ - Torrent Player
+ - Torrent Video Streaming
+ - Turkey torrent video player
+

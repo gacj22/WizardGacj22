@@ -1,0 +1,15 @@
+{
+  "id": "cliver",
+  "name": "Cliver",
+  "thumbnail": "cliver.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas y Series, por género, por año, por cadena, ..."
+}

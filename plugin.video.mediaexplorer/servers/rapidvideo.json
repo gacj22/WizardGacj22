@@ -1,0 +1,31 @@
+{
+  "active": true,
+  "changes": [
+    {
+        "date": "29/05/2019",
+        "description": "Añadido dominio .to"
+    },
+    {
+        "date": "29/05/2019",
+        "description": "Fix"
+    },
+    {
+        "date": "27/01/2018",
+        "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "rapidvid(?:eo|).(?:org|com|to)/(?:\\?v=|e/|embed/|v/)([A-z0-9]+)",
+        "url": "https://www.rapidvideo.com/e/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "rapidvideo",
+  "name": "Rapidvideo",
+  "settings": [],
+  "version": 4
+}

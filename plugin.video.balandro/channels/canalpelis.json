@@ -1,0 +1,15 @@
+{
+  "id": "canalpelis",
+  "name": "CanalPelis",
+  "thumbnail": "canalpelis.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas: por género, por año. Series: lista."
+}

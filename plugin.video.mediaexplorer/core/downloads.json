@@ -1,0 +1,99 @@
+{
+    "settings": [
+        {
+            "label": "Ubicación de archivos", 
+            "type": "label"
+        }, 
+		{
+            "default": "eval(os.path.join(sysinfo.data_path, 'downloads'))",
+            "id": "download_path", 
+            "label": "Ruta para las descargas:", 
+            "type": "folder"
+        },
+		{
+            "default": true, 
+            "id": "library_add", 
+            "label": "Añadir descargas completadas a la biblioteca automáticamente:",
+            "type": "bool"
+        },
+		{
+            "default": false,
+            "id": "library_move", 
+            "label": "Mover el archivo descargado a la ruta de la biblioteca:",
+            "type": "bool"
+        },
+		{
+            "default": true, 
+            "id": "browse", 
+            "label": "Permitir ver los archivos descargados desde descargas:", 
+            "type": "bool"
+        },
+		{
+            "label": "Descarga", 
+            "type": "label"
+        }, 
+        {
+            "default": 1, 
+            "id": "block_size", 
+            "label": "Tamaño por bloque:", 
+            "lvalues": [
+                "128 KB", 
+                "256 KB", 
+                "512 KB", 
+                "1 MB",
+				"2 MB"
+            ], 
+            "type": "list" 
+        }, 
+		{
+            "default": 4,
+            "id": "part_size", 
+            "label": "Tamaño por parte:", 
+            "lvalues": [
+                "1 MB", 
+                "2 MB", 
+                "4 MB", 
+                "8 MB",
+				"16 MB",
+				"32 MB"
+            ], 
+            "type": "list"
+        }, 
+		{
+            "default": 4, 
+            "id": "max_connections", 
+            "label": "Número máximo de conexiones simultáneas:", 
+            "lvalues": [
+                "1", 
+                "2", 
+                "3", 
+                "4",
+				"5",
+				"6", 
+                "7", 
+                "8",
+				"9",
+				"10"
+            ], 
+            "type": "list"
+        }, 
+		{
+            "default": 5, 
+            "id": "max_buffer", 
+            "label": "Número máximo de partes en memoria:", 
+            "lvalues": [
+                "2", 
+                "4", 
+                "6", 
+                "8",
+				"10",
+				"12", 
+                "14", 
+                "16",
+				"18",
+				"20"
+            ], 
+            "type": "list"
+        } 
+    ]
+}

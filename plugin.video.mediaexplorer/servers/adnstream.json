@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "24/08/2007",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "adnstream.com/video/([a-zA-Z]+)",
+        "url": "http://www.adnstream.com/video/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "adnstream",
+  "name": "ADNStream",
+  "settings": [],
+  "version": 1
+}

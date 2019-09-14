@@ -1,0 +1,88 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow"
+    ], 
+    "changes": [
+        {
+            "date": "16/07/2019",
+            "description": "Fix por cambio en la web"
+        },
+        {
+            "date": "05/07/2019",
+            "description": "Fix por cambio en la web"
+        },
+        {
+            "date": "14/06/2019",
+            "description": "Cambio de dominio"
+        },
+        {
+            "date": "21/05/2019",
+            "description": "Fix por cambio en la web"
+        },
+        {
+            "date": "27/02/2019",
+            "description": "Fix por cambio en la web"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "23/02/18", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "cliver", 
+    "min_version": {
+        "main": "1.1.1",
+        "python": "2.7.9"
+    }, 
+    "name": "Cliver", 
+    "newest": {
+        "episode": {
+            "action": "contents",
+            "content_type": "episodes", 
+            "post": {"tipo": "nuevos-capitulos"}
+        }, 
+        "movie": {
+            "action": "contents", 
+            "content_type": "movies", 
+            "post": {"tipo": "index"}
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "search",
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "contents", 
+            "content_type": "movies",
+            "post": {"tipo": "genero"},
+            "url": {
+                "action": "https://www.cliver.to/peliculas/genero/accion/",
+                "adventure": "https://www.cliver.to/peliculas/genero/aventura/",
+                "animation": "https://www.cliver.to/peliculas/genero/animacion/",
+                "comedy": "https://www.cliver.to/peliculas/genero/comedia/",
+                "drama": "https://www.cliver.to/peliculas/genero/drama/",
+                "fantasia": "https://www.cliver.to/peliculas/genero/fantasia/",
+                "intrigue": "https://www.cliver.to/peliculas/genero/suspenso/",
+                "musical": "https://www.cliver.to/peliculas/genero/musical/",
+                "romantic": "https://www.cliver.to/peliculas/genero/romantico/",
+                "science-fiction": "https://www.cliver.to/peliculas/genero/ciencia-ficcion/",
+                "terror": "https://www.cliver.to/peliculas/genero/terror/",
+                "war": "https://www.cliver.to/peliculas/genero/belico/",
+                "western": "https://www.cliver.to/peliculas/genero/western/"
+            }
+        }, 
+        "tvshow": {
+            "action": "search",
+            "content_type": "tvshows"
+        }
+    }, 
+    "settings": [],
+    "version": 7
+}

@@ -1,0 +1,17 @@
+{
+  "id": "streamcherry",
+  "name": "Streamcherry",
+
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "streamcherry.com/(?:embed|f)/([A-z0-9]+)",
+        "url": "http://streamcherry.com/embed/\\1"
+      }
+    ]
+  }
+
+}

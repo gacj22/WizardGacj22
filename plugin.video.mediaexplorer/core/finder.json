@@ -1,0 +1,69 @@
+{
+    "settings": [
+        {
+            "default": true, 
+            "enabled": true, 
+            "id": "multithread", 
+            "label": "Buscador MultiThread", 
+            "type": "bool", 
+            "visible": true
+        },
+        {
+              "id": "group_result",
+              "label": "Agrupar resultados:",
+              "type": "list",
+              "default": 0,
+              "enabled": true,
+              "visible": true,
+              "lvalues": [
+                "Solo por categorias (mas rápido)",
+                "Por canales y por categorias",
+                "Por categorias y por el titulo (menos preciso)",
+                "Por categorias y por el codigo IMDB (mas lento, mas preciso)"
+              ]
+        },
+        {
+              "id": "max_result",
+              "label": "Máximo numero de resultados por canal:",
+              "type": "list",
+              "default": 0,
+              "enabled": true,
+              "visible": true,
+              "lvalues": [
+                "Sin limite",
+                "10",
+                "20",
+                "30",
+                "40"
+              ]
+        },
+        {
+              "id": "sort_result",
+              "label": "Ordenar resultados",
+              "type": "bool",
+              "default": false,
+              "visible": true
+        },
+        {
+            "default": 0, 
+            "enabled": true, 
+            "id": "saved_searches_limit", 
+            "label": "Busquedas guardadas:", 
+            "lvalues": [
+                "10", 
+                "20", 
+                "30", 
+                "40"
+            ], 
+            "type": "list", 
+            "visible": true
+        },
+        {
+              "id": "last_search",
+              "label": "Mostrar la última busqueda en el cuadro de texto",
+              "type": "bool",
+              "default": true,
+              "visible": true
+        }
+    ]
+}

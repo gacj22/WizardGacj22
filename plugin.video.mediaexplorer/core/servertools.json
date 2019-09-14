@@ -1,0 +1,56 @@
+{
+  "settings": [
+    {
+      "id": "resolve_stop",
+      "label": "Dejar de buscar url cuando se obtenga una:",
+      "type": "bool",
+      "default": false
+    },
+    {
+      "id": "group_servers_type",
+      "label": "Agrupar y ordenar servidores por tipo:",
+      "type": "list",
+      "default": 0,
+      "lvalues": [
+        "No agrupar",
+        "Streaming, Download, Torrent",
+        "Download, Torrent, Streaming",
+        "Torrent, Streaming, Download",
+        "Download, Streaming, Torrent",
+        "Streaming, Torrent, Download",
+        "Torrent, Download, Streaming"
+      ]
+    },
+    {
+      "id": "hide_servers_unknown",
+      "label": "Ocultar servidores desconocidos:",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "id": "hide_servers_type",
+      "label": "Ocultar enlaces del tipo:",
+      "type": "list",
+      "default": 0,
+      "lvalues": [
+        "No ocultar",
+        "Download",
+        "Torrent",
+        "Download y Torrent"
+      ]
+    },
+    {
+      "id": "sort_servers",
+      "label": "Ordenar enlaces:",
+      "type": "list",
+      "default": 0,
+      "lvalues": [
+        "No ordenar",
+        "Por servidores preferidos y calidades",
+        "Por calidades y servidores preferidos",
+        "Solo por servidores preferidos",
+        "Solo por calidades"
+      ]
+    }
+  ]
+}

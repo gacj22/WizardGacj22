@@ -1,0 +1,37 @@
+{
+  "id": "pelisipad",
+  "name": "PelisIpad",
+  "language": ["cast"],
+  "active": false,
+  "adult": false,
+  "thumbnail": "http://i.imgur.com/FzLmGKK.png",
+  "categories": [
+    "movie",
+    "tvshow",
+    "direct"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1",
+        "Ninguno"
+      ]
+    }
+  ]
+}

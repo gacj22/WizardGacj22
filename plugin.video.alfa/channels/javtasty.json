@@ -1,0 +1,21 @@
+{
+  "id": "javtasty",
+  "name": "JavTasty",
+  "language": ["*"],
+  "active": true,
+  "adult": true,
+  "thumbnail": "http://i.imgur.com/OTYwbAa.png?1",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "menu_info",
+      "type": "bool",
+      "label": "Mostrar menú antes de reproducir con imágenes",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

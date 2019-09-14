@@ -1,0 +1,64 @@
+# Kodi Media Center language file
+# Addon Name: Musicando
+# Addon id: plugin.video.musicando
+# Addon Provider: Catoal
+msgid ""
+msgstr ""
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#settings labels
+
+msgctxt "#30000"
+msgid "Musicando"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Live"
+msgstr ""
+
+msgctxt "#30002"
+msgid "No hay videos Live disponibles ahora mismo."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Porcentaje mínimo para marcar un video como visto"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Todos Los Videos"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Información"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Marcar como visto"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Eliminar vistos"
+msgstr ""
+
+msgctxt "#30008"
+msgid "General"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Mostrar todos los videos"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Página Siguiente"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Videos por Páginas"
+msgstr ""
+

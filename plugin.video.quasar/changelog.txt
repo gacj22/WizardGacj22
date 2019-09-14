@@ -1,0 +1,467 @@
+Quasar changelog
+======
+
+[B]v0.9.78[/B] - Apr 13 2017
+- Hotfix for bad status error notification, #832
+- Yet another fix for the regression of episodes not being
+  marked as watched in library :fire: #821 #832
+- Fixed resuming episodes from watched progress in library
+  since the introduction of the 'Resume playback from
+  library integration' setting, #736
+
+[B]v0.9.77[/B] - Apr 13 2017
+- Fixed season streaming (regression), #826
+- Fixed episodes in library not being marked as
+  watched (regression), #821
+- Added support for automatic download and selection
+  of subtitles within torrents
+- Fixed daemon restarting on first install when
+  required settings haven't been set yet, #825
+- Fixed playback when jumping to next item, #822
+- Added support for 32-bit systems on 64-bit ARM
+  architectures, #810
+- Improved reliability of marking item progress and
+  watched state, scakemyer/quasar#31
+- Better matching of active torrents with punctuation
+  or mark characters
+
+[B]v0.9.76[/B] - Apr 1 2017
+- Fixed Titles / InfoLabels not being set when playing from
+  home screen widgets, Torrents menu or WebUI, #739 #300 #256
+- Added support for multi-part RAR archives, #613
+    - Download will need to be completed before playback can
+      start and will require around twice the amount of space
+      to allow for extraction
+    - Requires the `unrar` (or `unrar.exe` on Windows) utility
+      to be installed globally on your system (in your $PATH)
+- Added automatic selection of current episode in season packs
+- Added `year` parameter to episode and season payloads
+  to providers
+- Torrents no longer get paused when starting to simply
+  resume playback
+- Fixed unicode path usage in overlay status
+- Updated WebUI header image
+
+[B]v0.9.75[/B] - Mar 2 2017
+- Added feature to move finished downloads to separate folders,
+  #440, #536, #97
+  - Files will only be moved after seeding is finished (see
+    BitTorrent settings), and will wait if currently playing
+  - If the same item exists with library integration, the strm
+    file will be removed to prevent duplicates, leaving you
+    with a local file in your library instead :tada:
+  - **Note**: Season packs still need work, since we move
+    individual files and delete the folder afterwards, so
+    you can easily lose a few episodes this way. This will
+    be fixed in the next release, but I didn't want to delay
+    this feature any longer. You've been warned until then.
+- Properly check we have valid, writable, locally mounted paths
+  and inform user otherwise, #768, #641, #440, #419...
+- Fixed catch-all error notifications and regression from #740
+- Possible fix for installation with Kodi from Windows Store,
+  #547, #763
+- Inform user which platform/architecture package was expected
+  when getting the 'Unable to find Quasar binary' error, #772
+- Total download/upload rates are now shown in the background
+  progress dialog, along with per torrent rates, #754
+- WebUI:
+  - Fixed deleting multiple torrents (again) and added
+    seeding progress bar
+  - Added total download/upload rate stats
+  - Improved responsive for tablet/mobile, #743
+
+
+[B]v0.9.74[/B] - Feb 24 2017
+- Clean up leftover .parts files when deleting torrents, and
+  stale .parts files when starting up, #735
+- Notify when getting custom Trakt lists and username isn't
+  set, and log errors or bad status, #751
+- Fixed missing fanart for Trakt items causing an Internal
+  server error
+- Fixed library strm files using /play and /links URIs after
+  library refactor, preventing the 'Choose stream automatically'
+  setting from being used, #745
+- Fixed handling of unicode characters in Windows paths, #732
+- Fixed handling of unicode characters in notifications, #740
+- Fixed comparison of 'Next' labels with unicode characters
+  for pagination handling, #752
+
+Special thanks to @elgatito for all his great
+contributions lately.
+
+
+[B]v0.9.73[/B] - Feb 16 2017
+- Fixed playback issues with library integration on Kodi 17, #736
+- Added 'Resume playback from library integration' setting
+
+Note: Watched status and resume points with library integration
+      only work on Kodi 17
+
+
+[B]v0.9.72[/B] - Feb 15 2017
+- Fixed new lockfile mechanism preventing startup on Android, #731
+- Fixed reliably preventing multiple instances on Windows :fire:
+
+
+[B]v0.9.71[/B] - Feb 15 2017
+- Added 'Disable background progress dialog' setting, #724
+- Fixed multiple instances of daemon running on Windows
+  using lockfile
+- Fixed immediate updating of add/remove to/from library, #709
+- Fixed settings changes often not showing immediately by
+  clearing page caches only
+- Fixed various IOError-related issues, #714
+- Fixed unicode characters in translations with placeholders
+  causing translation to fail, #725
+
+
+[B]v0.9.70[/B] - Feb 14 2017
+- Fixed automatically marking as "watched" with library
+  integration, including resume progress support, #16 :tada:
+  - Improved Trakt scrobbling in the process
+- Fixed Trakt authorization not refreshing its token
+  before it expires after three months
+
+
+[B]v0.9.69[/B] - Feb 11 2017
+- Fixed add/remove for collection and watchlist not
+  changing after refresh, #709
+- Fixed rate limiter getting stuck during cooldown, #715
+- Fixed 'Ask to delete' getting skipped with
+  'Do not ask to keep downloading' enabled
+- Fixed stream auto-selection for episodes, #716
+- Fixed end-of-list pagination for TMDB lists
+- Retry checking if Kodi's JSON-RPC is enabled, #712
+
+
+[B]v0.9.68[/B] - Feb 8 2017
+- Greatly improved initial installation process, #706
+- 'Background handling' is now 'Do not ask to keep downloading'
+- Prevent daemon from starting and inform user if no
+  JSON-RPC connection to Kodi can be made
+- Also prevent daemon from starting if we can't copy an
+  update to destination path, preventing many double-launches
+  on Windows
+- Moved Choose stream automatically under TV Show scraper
+  setting, and now defaults to disabled
+- Replaced many number settings with sliders
+- Updated dependencies, Kodi 15 support is officially over
+- Updated Installation section of README
+
+
+[B]v0.9.67[/B] - Feb 6 2017
+- Filenames are now sorted alphabetically when choosing
+  files (mostly for season packs), #697
+- Menus now set their content type, allowing all view modes,
+  and added a context menu to set the default view mode per
+  section
+- Overlay status now shows the name and the size of the
+  chosen file instead of the torrent's name and total size
+- Most of the IP address in 'external IP received' alert
+  is now hidden in logs
+- Set resolution to 480p when none is matched from tags
+- Color-coded status in torrents list
+- Fixed deleting multiple files from web UI
+- Added text shadow in overlay status
+
+
+[B]v0.9.66[/B] - Feb 5 2017
+- Fixed unintuitive controls in choose stream dialog and give focus to
+  first list item
+- Fixed new resolve/scrape progress indicator blocking timeouts
+- Fixed trackers that failed not updating progress indicator
+- Removed skipping torrent resolver for public torrent files that have
+  their infohash set, since the torrent link might still be invalid
+- Using the 'Clear cache' option now only clears directory listing
+  caches to reduce the load on TheMovieDB. If you absolutely need
+  to remove all cache files for some probably wrong reason,
+  do it manually from your userdata folder
+- Added 'Do Not Disturb' mode in Appearance section of settings, which
+  disables sound on all notifications, #695
+
+
+[B]v0.9.65[/B] - Feb 3 2017
+- Hotfix: new translatable progress dialogs caused a crash when receiving no
+  translations, ie. when starting to stream...
+
+
+[B]v0.9.64[/B] - Feb 3 2017
+- Fixed remaining crashes after library integration and
+  caching overhauls :fire: #691, #692
+- Improved rate-limiter with cool-down based on `Retry-After`
+  headers, those "bad status: 429" errors are gone
+- Added progress indicator when resolving torrent files
+  and scraping trackers
+- Updated dialogs for Krypton, and cleaner context menus
+- Added default fanart on menu items and a
+  'Use default fanart' setting to disable it
+- Lowered default results per page to 9
+- Updated add-on icon
+
+### Deprecation warning
+- Dropped support for Kodi 14, #75
+
+
+[B]v0.9.63[/B] - Feb 1 2017
+- Added all Trakt Calendars, #580
+- Added Listen and Outgoing interfaces settings, #295
+- Fixed regression in caching filestore, introduced in v0.9.61
+  but manifesting itself mostly in v0.9.62, #684
+- Fixed issue related to connections limit in libtorrent, and
+  just use its default if no connections limit is set, fixes
+  remaining 'stuck on Finding...' issues, #683
+- Possible fix for crashes related to failing JSON-RPC calls
+- Web UI optimizations, removed overly CPU-hungry progress
+  bar animation, and show version numbers at the bottom
+
+
+[B]v0.9.62[/B] - Jan 30 2017
+- Fixed Trakt rate limiting to reduce errors with code 429
+  - This will still need to be battle-tested, and other
+    improvements are planned for this
+- Fixed crashes when no JSON-RPC connection is available, #677
+- Fixed crash when choosing Trakt as scraper for Kodi library
+  content and content isn't actually scraped from Trakt, #673
+- Fixed crashes in duplicate checking calls, #679
+- Re-implemented proper automatic re-scan of Kodi library after
+  updates and added setting in Advanced section (defaults to
+  Enabled to match behavior prior to 0.9.61), #431
+- Caching got seriously overhauled and improved.
+  - Added cache warming on startup for near-instant
+    loading of Trending / Most popular lists :fire:
+  - Proper expiration times were finely tuned to make sure
+    pages load as fast as possible, while always having
+    fresh content and no more episodes not being updated
+  - 5 pages of results are pre-fetched and cached to prevent
+    results from shifting between pages. You **will**
+    notice longer wait times every 5 page unless the shows
+    and movies they contain have already been cached.
+  - Please try not to use 'Clear cache' option, at all. And
+    only if absolutely necessary otherwise. Clearing caches,
+    contrary to popular belief, does not typically solve any
+    issue in Quasar, on the contrary. It only causes added
+    strain on everything by having to fetch the exact same
+    information over and over again about movies and shows.
+    - If you _do_ need to forcefully refresh something,
+      head over to your userdata for Quasar and remove
+      the specific file in question that starts with
+      `page.`... Their names are now using easily
+      recognizable patterns to allow selective clearing.
+    - Improved, automated options will soon be added also.
+  - Fixed TMDB lists not following the 'Results per page'
+    setting, #468
+- Cleanly notify when Quasar is still starting up
+- Moved 'Torrents' above 'Add torrent', 'Trakt' above 'Search'
+  in both Movies and TV Shows, and 'Genres' are now under their
+  own directory in both sections
+- Removing torrents from web UI no longer triggers
+  'Ask to delete' in Kodi
+- Label and alignment fixes in web UI, fixed header link
+- Fixed 'Finished' torrents showing up as 'Paused'
+- Renamed TV scraper setting to
+  'TV show scraper used by Kodi library' for more clarity
+- Golang was updated to 1.8rc3 and the stability and performance
+  gains are significant. Of interest from their release notes:
+
+> - The overhead of calls from Go into C has been reduced by
+>   about half.
+> - The new back end reduces the CPU time required by our
+>   benchmark programs by 20-30% on 32-bit ARM systems. For
+>   64-bit x86 systems, which already used the SSA back end
+>   in Go 1.7, the gains are a more modest 0-10%. Other
+>   architectures will likely see improvements closer to
+>   the 32-bit ARM numbers. 
+
+
+[B]v0.9.61[/B] - Jan 28 2017
+- Complete overhaul of library integration
+  - Duplicates are properly handled by default
+    - Make sure you set the 'TV scraper used by library'
+      according to your Kodi library content, defaults to
+      TVDB like Kodi. This is needed to match the unique IDs
+      of shows and episodes to properly detect duplicates,
+      and the setting has been moved right under
+      'Library path' to show its importance.
+    - Removed confusing and now obsolete 'Ignore duplicates'
+      setting, #632
+  - Syncing lists with Trakt no longer re-adds manually removed
+    movies and shows. If you add them back later on, they will
+    start getting synced again, #632
+  - Missing seasons and episodes can be added with the new
+    'Merge to library' context menu on TV Shows, #632
+    - Synced shows from Trakt automatically get merged
+  - No more `QuasarDB.json`, it will automatically get imported
+    into the brand new BoltDB library and removed if successful.
+    The new library sits in your profile folder as `library.db`
+  - Removing from library can now be done from Quasar
+    like before, from the library directly, or by simply removing
+    the .strm files and using Kodi's 'Clean library' feature
+  - Quasar no longer triggers Kodi's library scan when it updates
+    its internal library, ~~and never should have done so~~ this
+    will be back as an option in the next release. It will
+    instead ask you if you want to scan (or clean) your Kodi
+    library when you add or remove an item managed by Quasar. For
+    automatic re-scans and cleanups, use the fully-featured
+    `XBMC Library Auto Update` add-on, or Kodi's own
+    'Update library on startup' setting for one-time scans.
+    - Pro-tip: Set Quasar's library update delay on startup
+       1 minute lower than your automatic re-scan
+- Added 'Show unaired seasons' and 'Show unaired episodes'
+  settings, #633
+- Copied the Trakt/Trending lists for movies and shows above
+  'Most Popular' and 'Recent Episodes' respectively
+- Only 'Choose stream...' or 'Choose stream automatically' show up
+  in context menu depending on default preference
+- Fixed various 'GetShow' and 'GetImages' errors
+- Descriptive error handling, obscure "Navigation error" is
+  gone for good :tada:
+- Another attempt at better global and selective cache clearing
+- Color-coded labels and statistics in web UI
+- Translations now support placeholders
+
+
+[B]v0.9.60[/B] - Jan 23 2017
+- Hotfix for web UI using wrong host, #659
+
+
+[B]v0.9.59[/B] - Jan 23 2017
+- Fixed adding torrent files from URLs in web UI, #659
+- Fixed caching regression introduced in v0.9.39, #645
+- Adjusted Popular/Trending/Recent lists with shorter cache expiration
+- Added search to web UI :tada:
+- Updated translations
+
+
+[B]v0.9.58[/B] - Jan 22 2017
+- Fixed race condition of resume data crashes :fire: #653
+- Fixed writing changelogs
+- Removed built-in repository caching
+- Reliably show last available version in logs
+- Linked web UI header to itself
+- Added Made with :heart: mention and linked to contributors
+
+
+[B]v0.9.57[/B] - Jan 20 2017
+- Fixed adding invalid magnet links and torrent files causing crash, #654
+- Fixed multi-file torrents not downloading only selected file, #647
+- Fixed checking available space of chosen file only, #510, #647
+- Fixed checking for valid magnet links and torrent files, #654
+- Fixed showing choose stream dialog when selecting previous choice, #643
+- Added configurable initial buffering timeout, #253
+- Added 'Delete torrent and files' context menu, #423
+- Added toggle to delete files with torrent in web UI
+- Added dimmer in web UI for error messages
+- ~~Again a possible fix for resume data crashes~~ :fire: #653
+
+
+[B]v0.9.56[/B] - Jan 18 2017
+- Added Quasar Burst to the built-in repository
+- Added seamless backup repository
+- Added context menu to Enable all/Disable all providers, #493
+- Removed redundant "pre-release" option from settings
+- Prevent whole cache from being flushed when adding
+  Trakt lists to library
+- Updated Hebrew translations
+
+
+[B]v0.9.55[/B] - Jan 15 2017
+- Global search now using the same 'Choose stream' dialog, #204
+- Another possible fix for saveResumeData crashes :fire:
+  - At least double-checking we don't get corrupted data...
+- Uncheck item in web UI after deleting
+- Mark overlay status offset as subsetting
+- Use https for TheMovieDB API calls
+- Updated translations
+
+
+[B]v0.9.54[/B] - Jan 13 2017
+- Hotfix for playing from library, #638
+
+
+[B]v0.9.53[/B] - Jan 13 2017
+- Proper fix for tracker scraping results and crashes, #628
+- Possible fix for saveResumeData crashes
+- Name matching of active torrents using Aho-Corasick algorithm
+  - No more having to select the same torrent again if it's
+    already in your torrents list.
+- Updated translations
+
+
+[B]v0.9.52[/B] - Jan 10 2017
+- Fixed crash on Android due to large opened port range after the v0.9.49 upgrade, #626
+  - We're now picking one or two random ports in the range of
+    'listen_port_min' and 'listen_port_max'
+- Fixed crash when writing strm of a movie that can't be found, #625
+- Torrent files are now saved in a temp folder when resolving results
+  - Also sets the result's torrent URI to that saved torrent file,
+    solving numerous issues with private trackers and speeding up
+    opening streams
+- Fixed double-output logging for invoked providers
+
+
+[B]v0.9.51[/B] - Jan 7 2017
+- Fixed adding local torrent files causing crash
+- Added saving `.torrent` files and resuming session from them instead of using
+  fastresume files only, #357
+- Web UI can now add torrents without starting to stream
+- Hovering over the progress bar in web UI shows the percentage
+- Fixed memory leak when adding a torrent file from a URI
+- Properly fixed wrong resolution in choose stream dialog, #261 :fire:
+- Check available space when resuming torrents or adding from web UI
+
+
+[B]v0.9.50[/B] - Jan 6 2017
+- Switched libtorrent to RC_1_1 branch (see [changelog](https://github.com/arvidn/libtorrent/blob/RC_1_1/ChangeLog))
+  - Fixes `torrent_error_alert` and `file_error_alert` using 
+    internal storage on Android, #620
+  - Seems to have fixed random crashes when seeding starts
+  - Possible fix for fastresume files getting corrupted
+- Added tuned storage setting (uses more RAM), mostly for Android
+  external storage and OS-mounted NAS setups
+  - Enabled pool allocators on Android
+  - `read_cache` and `coalesce_reads`/`coalesce_write` enabled
+  - `max_queued_disk_bytes` at 10MB instead of 1MB
+  - automatic `cache_size` (1/8 of RAM) instead of 16MB
+- Fixed background progress dialog not properly closed or reset when
+  changing settings or shutting down
+- `Ask to keep the files` switched to `Ask to delete the files`
+
+**Sidenote**: It's recommended to update `Listen port min` and `Listen port max`
+  settings to 6881 and 6885 respectively (libtorrent default is 6881 only, we
+  open more ports by default in case the user is running other torrent clients,
+  but feel free to set both settings to 6881 if you only run Quasar)
+
+
+[B]v0.9.49[/B] - Jan 4 2017
+- Upgraded to libtorrent 1.1.1
+  - All your settings should work just as before
+  - Please double-check if you were using the SOCKS5 proxy,
+    since all proxy types that libtorrent supports are now
+    also available (SOCK4, SOCKS5[w/pw], HTTP[w/pw], I2PSAM)
+  - Android users might be able to use external storage with
+    the much improved disk operations, and OS-mounted NAS
+    might even work too, please report on this (#51, #72,
+    #98, #131, #233, #481, #482, #608, ...)
+  - `Listen port min` and `Listen port max` settings should be reduced
+    to 6881 and 6885 respectively (libtorrent default is 6881 only)
+  - All fixes and improvements since 1.1.0
+- Added encryption policy and proxy type settings
+- Added Play button in web UI, nicer favicon
+- Added user-agent spoofing setting (highly inadvisable)
+- Cache no longer needs clearing after changing settings or upgrading #616
+- Exclude excessive /torrents/list logging from web UI calls
+- Fixed memory leaks in fast resume saving and loading #441
+- Fixed upgrade loop when GitHub API failed to return last tag #591
+- Fixed wrong resolution of combined results with different names #261
+- Show all provider names of combined results
+- Separate private tracker results for same infohash
+- Prevent updating add-on repositories twice
+- Fixed alert mask not being re-applied on reconfigure
+- Fixed invalid fastresume files preventing subsequent ones from loading
+- Fixed regression introduced in v0.9.7 (that's right) where
+  LSD/DHT/UPNP/NATPMP never started unless user applied a
+  settings change on each session
+- Other stability fixes
+
+
+

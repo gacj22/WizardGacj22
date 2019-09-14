@@ -1,0 +1,72 @@
+{
+  "active": true,
+  "name": "Megadede",
+  "adult": false,
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "changes": [
+    {
+      "date": "04/10/2018",
+      "description": "Descartar episodios sin enlaces"
+    },
+    {
+      "date": "28/09/2018",
+      "description": "Primera versión"
+    }
+  ],
+  "id": "megadede",
+  "language": "es",
+  "min_version": {
+    "main": null,
+    "python": "2.7.9"
+  },
+  "newest": {
+    "movie": {
+      "action": "movies",
+      "url": "https://www.megadede.com/pelis",
+      "content_type": "movies"
+    },
+    "tvshow": {
+      "action": "tvshows",
+      "url": "https://www.megadede.com/series",
+      "content_type": "tvshows"
+    },
+    "episode":{
+          "action": "tvshows",
+          "url": "https://www.megadede.com/series",
+          "content_type": "episodes"
+        }
+  },
+  "search": {
+    "movie":{
+      "action": "movie_search",
+      "content_type": "movies"
+    },
+    "tvshow": {
+      "action": "tv_search",
+      "content_type": "tvshows"
+    }
+  },
+  "settings": [
+    {
+      "default": "",
+      "enabled": true,
+      "id": "user",
+      "label": "Usuario:",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "default": "",
+      "enabled": true,
+      "hidden": true,
+      "id": "password",
+      "label": "Contraseña:",
+      "type": "text",
+      "visible": true
+    }
+  ],
+  "version": 2
+}

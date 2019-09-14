@@ -1,0 +1,15 @@
+{
+  "id": "cinecalidad",
+  "name": "CineCalidad",
+  "thumbnail": "cinecalidad.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie", "torrent"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Acceso por separado a Castellano y Latino. Películas: destacadas, por género, por año."
+}

@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "01/12/2017",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [
+    ],
+    "patterns": [
+      {
+        "pattern": "mega(?:.co)?.nz/(#[F]?![A-Za-z0-9-_]+![A-Za-z0-9-_]+)",
+        "url": "http://mega.co.nz/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "mega",
+  "name": "Mega",
+  "settings": [],
+  "version": 1
+}

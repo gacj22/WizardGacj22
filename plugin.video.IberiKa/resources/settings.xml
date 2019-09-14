@@ -1,0 +1,18 @@
+﻿<settings>
+  		
+  <category label="Configuración General">
+        <setting type="lsep" label="Para que funcione todas sus secciones" option="close" action="RunPlugin(plugin://plugin.video.IberiKa/?mode=7)" />
+        <setting type="lsep" label="Hay que dar a por Defecto y luego a OK" option="close" action="RunPlugin(plugin://plugin.video.IberiKa/?mode=7)" />
+		<setting id="ask_playlist_items" type="bool" label="Elegir Fuente de Video" default="true" visible="false"/>
+		<setting id="debug" type="bool" label="Enable Add-on Debugging" default="true" visible="false"/>
+        <setting id="1080pquality" label="[COLOR gold]Mejorar calidad 1080p[/COLOR]" type="bool" default="true"/>
+        <setting id="add_playlist" type="bool" label="Activar Multilink" default="true" visible="false"/>
+        <setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid with:" default="Genesis"visible="false"/>
+        <setting id="donotshowbychannels" label="Ocultar Canales" type="bool" default="false" visible="false"/>
+
+	<setting id="parentalblockedpin" label="Pass de Administrados" type="text"  option="hidden"  default="eclipse" enable="false"/>
+    	<setting id="parentalblocked" label="Aplicado Pass" type="bool" default="true" enable="false"visible="false"/>  
+
+</category>
+  </settings>
+

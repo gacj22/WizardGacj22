@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.torrentin" name="Torrentin" version="0.6.2" provider-name="ciberus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Torrent player</summary>
+    <description lang="en">This add-on launches android torrent/magnet video players for playing torrent videos, also includes AceStream engine client and bridge to other torrent player plugins.</description>
+    <summary lang="es">Reproductor de torrent</summary>
+    <description lang="es">Este add-on ejecuta aplicaciones externas de Android para reproducir videos por torrent o magnet, tambien incorpora cliente para el motor Acestream (Android/Windows/Linux) y puede enlazar con otros plugins.</description>
+    <disclaimer lang="en">This KODI AddOn does not contain internal or direct links to any type of copyright video, it's only a torrent storage-redirect-player.</disclaimer>
+    <disclaimer lang="es">Este AddOn de KODI no contiene enlaces internos o directos a material protegido por copyright de ningun tipo, solamente es un Archivador-Catalogador-Reproductor-Redireccionador de archivos torrent.</disclaimer>
+    <platform>all</platform>
+    <website>https://github.com/surebic/plugin.video.torrentin</website>
+    <source>https://github.com/surebic/plugin.video.torrentin</source>
+    <forum>http://www.htcmania.com/showthread.php?t=995348</forum>
+    <license>GNU GPL. No comercial. Ver https://es.m.wikipedia.org/wiki/GNU_General_Public_License</license>
+    <assets>
+         <icon>icon.png</icon>
+         <fanart>fanart.jpg</fanart>
+         <screenshot>resources/screenshots/home.png</screenshot>
+         <screenshot>resources/screenshots/utils.png</screenshot>
+         <screenshot>resources/screenshots/maintenance.png</screenshot>
+     </assets>
+    <news>Scraper de torrents/magnets mejorado, fallos corregidos, etc.[CR]Visita el foro para mas informacion:[CR]http://www.htcmania.com/showthread.php?t=995348[CR]Gracias a todos por vuestro apoyo.</news>
+  </extension>
+</addon>

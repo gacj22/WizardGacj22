@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "24/08/2007",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(?:backin).net/([A-Z0-9]+)",
+        "url": "http://backin.net/s/generating.php?code=\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "backin",
+  "name": "Backin",
+  "settings": [],
+  "version": 1
+}

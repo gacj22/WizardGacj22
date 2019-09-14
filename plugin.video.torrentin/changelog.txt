@@ -1,0 +1,530 @@
+Plugin Video Torrentin
+
+Argumentos:
+uri=http://  o  https://  o  acestream://  o  file://  o  magnet:
+player=0-9 (prevalece sobre el seleccionado en configuración)
+image=pathimage
+ejemplo: plugin://plugin.video.torrentin/?uri=http%3A%2F%2Fwww.elitetorrent.net%2Fget-torrent%2F27233&image=imageurl&player=0'
+
+-------------------------------------------------------------------------------
+Version 0.6.2
+-------------------------------------------------------------------------------
+beta1
+- Cambios en la rutina de lanzar ExtendedInfo desde el menu de reproductores (1ª opcion del menú):
+    - Cambiada la ventana de aviso por ventana con aviso de espera, título, año, puntuacion y votos,
+      con pregunta si se quiere reproducir o abandonar.
+    - Si no se encuentra ningun titulo de la pelicula a buscar en el torrent/magnet muestra teclado para
+      introducirlo a mano.
+- Nuevas opciones para tener mejor ordenados los torrents: Ahora se pueden crear (y borrar) directorios
+  y subdirectorios en el Principal y Secundario, asi como mover los torrents/magnets de un directorio a otro,
+  todo esto se hace a traves de los menus contextuales.
+
+beta2
+- Añadido Genero de la pelicula en la ventana de espera al lanzar ExtendedInfo.
+- Añadida opcion en configuracion/reproductores para mostrar/activar automaticamente los
+  que estes instalados y activados.
+- Cambiados enlaces de actualizacion a bit.ly por proximo cierre de goo.gl (invisible al usuario).
+- Incluido aviso en backup bajo windows
+
+- Nuevo grupo en telegram del AddOn:   https://t.me/joinchat/F3B8jhByuijlsnnYthW7VQ  donde podremos 
+  hablar mas rapida y directamente y donde se publicaran la betas y los configs.
+-------------------------------------------------------------------------------
+Version 0.6.1
+-------------------------------------------------------------------------------
+- Mejorado el scraper de torrents/magnets para encontrar los datos extra en TMDb con nombres
+  complicados de los mismos.
+- Arreglado el problema del "Error al copiar el fichero torrent", (si no se puede copiar al principal
+  como torrentin.torrent por que da error en ciertas plataformas se lanza desde donde este).
+- Ahora se pueden definir dos Addons proveedores de torrents (pelisalacarta o sucesores) en
+  Opciones/General a los que ir desde el menú principal y a los que poder parchear/desparchear.
+- Renombrador de Peliculas: Al renombrar ahora comprueba si ya existe una pelicula con ese
+  mismo nombre en el directorio y pregunta si se quiere sobre-escribir.
+- Nueva opcion de Auto-Parcheo, configurable en Opciones/General, si se actualizan los AddOns
+  proveedores de torrents definidos en AddOn 1 y 2 o plexus, plexus-streams y kmediatorrent y
+  por tanto se desparcheen se auto-parchearan automaticamente sin tener que ir al submenu de
+  Utilidades/Parches para parchearlos a mano.
+
+beta2
+- Modificado el auto-parcheo, se elimina del mismo el kmedia y se ponen ajustes adicionales para
+  auto-parchear plexus y plexus-streams.
+- Modificado auto-parcheo para elegir parche Automático o No automático.
+- Cambiado Semillas: por S: en las estadisticas durante la pausa de la reproduccion de AceStream
+  ya que se ocultaba el numero de semillas en kodi-krypton (Estuary) al ser las letras mas grandes.
+- Añadido nuevo reproductor Elementum. (fork de Quasar, se pueden tener instalados ambos).
+- Añadidos dos nuevos menús contextuales en el listado de peliculas renombradas para actualizar
+  la informacion extra de la que esta bajo el cursor y de todas las del directorio (con aviso), esto se
+  hace ya que la puntuacion, votos, poster fanart, etc, puede haber variado desde que se catalogó y
+  se guardo en caché, con esto se obtiene una informacion mas actualizada, sobre todo de la
+  valoracion que es lo que mas cambia.
+
+beta3
+- Modificado auto-parcheo con opciones individuales para cada Add-On.
+- Añadida comprobacion automatica de actualizaciones del torrentin, solo se comprueba una vez al
+  dia, si hay una version disponible mas reciente que la instalada muestra la utilidad de actualizacion.
+- Añadido el tipo de video al final de la sinopsis en el listado de peliculas renombradas (las que ya esten
+  en el cache no se mostrara, solo las nuevas o cuando se actualicen los datos extra).
+- Añadida opcion en Configuracion/Utilidades/renombrador de peliculas para que no muestre el aviso
+  inicial de directorio y opciones y pase directamente a renombrar.
+- Añadida opcion en Configuracion/Utilidades/Backup de Kodi para poder editar el nombre del archivo de backup.
+- Opciones de Backup se mueven para arriba en Configuracion/Utilidades (despues del Renombrador de P).
+- Añadida llamada al script ExtendedInfo en el menu contextual de los listados de torrents principal y
+  secundario y en el de peliculas renombradas (para que salga hay que tener instalado el script Extendedinfo:
+  Add-Ons, icono de la caja abierta de la esquina sup-izq, buscar , extendedinfo, salen tres, instalar el script).
+  NOTA: Con los antiguos ficheros de informacion de peliculas/torrents que ya se tengan grabados en vuestro kodi
+     se busca solo por nombre, por lo que puede dar error con alguna pelicula que coincida el nombre con otra
+     de otro año, para evitar esto y ya que el extendedinfo no adimite año en la pelicula a buscar he tenido que 
+     añadir el numero de identificacion de la pelicula en los nuevos ficheros de informacion, asi que si os sale
+     alguna cambiada seleccionar "Actualizar informacion extra" en el menu contextual, se creara un nuevo
+     fichero de informacion con el identiicador de la pelicula en tmdb y despues ya la identificara correctamente
+     el script extendedinfo.
+
+-RC1
+- Añadido ExtendedInfo en el menu de reproductores (se accede picando en la primera opcion de Info del torrent)
+  asi podemos ver la informacion de la pelicula/serie, trailers, etc. antes de lanzar un torrent.
+  si se pica y no esta instalado abre dialogo con instrucciones para instalarlo.
+
+-------------------------------------------------------------------------------
+Version 0.6.0
+-------------------------------------------------------------------------------
+- Renombrador de Peliculas: Si la pelicula esta en un subdirectorio y esta activada la opcion preguntar
+  preguntara primero si se quiere renombrar y mover al directorio anterior, si se contesta que no,
+  volvera a preguntar si se renombra sin mover.
+- Adaptado el parche del pelis a las nuevas versiones 4.3.0beta (CE y los forks que vengan...)
+  configurable en la opcion AddOn de ajustes/General.
+- Arreglado el problema de envio de torrents locales con punto en el nombre a las App (TSC y demás).
+- Añadido ajuste en Opciones/General para configurar el navegador a usar en android para las consultas
+  web de TMDb e ir al foro (Navegador nativo o Google Chrome).
+- Arreglado error en el scraper de Peliculas (Renombradas).
+- Eliminados los canales del asterisco del parche y del git. (ya no se distribuiran con el torrentin ni se auto-actualizaran).
+- Cambios en el addon.xml incluyendo snapshoots para krypton.
+- Eliminada opcion de actualizar/Buscar informacion extra de torrents guardados desde el menu de reproductores
+  (solo se puede hacer desde el menu contextual).
+- Eliminada la opcion de ir a canales torrent o menu principal del pelis o el que sea, (va siempre a canales torrent).
+- Sacado este changelog del addon, (solo estara disponible en la web).
+- Eliminado codigo innecesario (parches antiguos y demás).
+
+-------------------------------------------------------------------------------
+Version 0.5.6
+-------------------------------------------------------------------------------
+- Corregido error al buscar con teclado en TMDb.
+- La opcion para renombrar peliculas pasa al sub-menu Utilidades.
+- Añadidas entradas a Configuracion en menu Utilidades y Mantenimiento.
+- Canales del parche actualizados (DivxTotal y Newpct1_mod).
+- Añadida opción de actualizar información extra en el menu de reproductores para los torrents guardados.
+-------------------------------------------------------------------------------
+Version 0.5.5
+-------------------------------------------------------------------------------
+- Actualización de todos los canales incluidos en el parche y añadido canal Newpct1.com (mod), ahora a todos los
+  canales del parche se les añade un asterisco al final del nombre en los listados para identificarlos mejor.
+  Mejorados todos con soporte para InfoPlus, Extended Info (AddOn externo) y Buscar trailer en los menus 
+  contextuales y muchas mas opciones.
+- Incluidos 4 nuevos reproductores (Xtorrent, Torrent Player, Torrent Video Streaming y Turkey torrent video player).
+  con esto torrentin ya es capaz de reproducir videos por torrent a traves de 22 reproductores en total.
+  Ver el archivo Players_Leeme.txt (o en el foro) para mas informacion de donde descargarlos en el Play Store.
+- Modificado el parche para plexus, (ahora parchea la antigua versión 0.1.4 y la nueva 0.1.6.a según este instalada
+  una u otra), el parche de la nueva 0.1.6.a solo permite seleccionar Torrentin como reproductor, no estan incluidas
+  las otras dos opciones del 0.1.4 de guardar enlaces AceLive en listas (ya los guarda el Torrentin) ni seleccionar el
+  tipo de motor [App] nuevo o viejo (esta versión ya incorpora el nuevo por defecto).
+- La opcion del menu Ir a pelisalacarta (o canales torrent) no saldrá si no esta instalado y parcheado el pelis.
+- Arregladas las series del canal Newpct1.com * (mod).
+- Cambios cosmeticos en la configuracion, se acortan los textos para evitar tanto auto-desplazamiento y se ponen
+  algunos colores para diferenciarlos.
+------beta 2
+- Aunque no tiene nada que ver con la reproducción de torrents se añade apartado Herramientas en los ajustes
+  con opciones para salvar/restaurar la configuración de Kodi, Limpieza de archivos temporalesde Kodi,
+  renombrador de archivos (para que los scrapers encuentren las pelis de ET). 
+- Añadido movedor de archivos, si los archivos estan dentro de la misma unidad (disco/tarjeta) es super rapido
+  pues solo es un cambio en la FAT, pero si se mueven de una unidad a otra ya es mas lento pues en realidad
+  lo que se haces es copiar/borrar, esto es asi de siempre y pasa con todos los gestores de archivos de todos
+  los sistemas.
+-------beta 3
+- Arreglado problema en backup (y demas rutinas del Addon) con los nombres de fichero no ASCII.
+- Añadidos 2 nuevos renombradores de archivos, uno puede eliminar una o varias cadenas de texto
+  (separadas por | ) de los nombres y el otro remplaza los puntos (.) y sub-guiones (_) por espacios.
+- Se elimina el aviso de Herramientas de cerrar con OK al cambiar los directorios y las opciones ya
+  que cierra los ajustes y los salva al ejecutar cualquier opcion.
+- Si se borran los temporales solamente o al hacer el backup con borrado se cierra Kodi al terminar,
+  ya que despues de hacerlo no funciona Kodi con normalidad y necesita reiniciarse.
+---------beta 4
+- Añadido nuevo renombrador que quita todo lo que este entre ( ) y [ ], parentesis y corchetes incluidos.
+- Añadida rutina para contar cuantos Megas nos tiene ocupado los caches de kodi y se muestran al principio
+  de la opcion Limpiar caches y temporales de Kodi, a continuacion pide confirmacion para limpiar o no.
+- Añadidas ventanas de confirmacion antes de salvar, restaurar backup de Kodi, asi como cambios en los avisos.
+- Se elimina el chequeo de addons al cerrar la configuracion y por tanto los mensajes El Add-On  blablabla  está
+  activado en el menú de reproductores y está deshabilitado o no instalado...
+- Añadido nuevo renombrador exclusivo para peliculas, las renombra como "Título de la película (año)"
+  asi tenemos la coleccion bien catalogada, sin tanta porqueria ni publicidad de webs en los nombres y los
+  scrapers de kodi la encuentran a la primera sin posibilidad de error, para hacer esto el renombrador se
+  encarga de ir buscando las peliculas en TMDb para saber el titulo correcto y año de publicacion, si no hay    
+  resultados o no la encuentra se puede re-editar el titulo con el teclado, y si hay mas de una que coincida
+  da a elegir entre ellas o se puede editar manualmente el titulo a buscar e incluso poder consultar en la web
+  si tenemos dudas, esta pensado para poder mostrar las caratulas de esa lista en un futuro, pero por el
+  momento queda asi, todo muy guiado y con posibilidad de pedir confirmacion antes de renombrar cualquier
+  fichero de pelicula como en los otros renombradores, además solo procesa peliculas, si ya esta exportada la
+  coleccion y encuentra ficheros .jpg .nfo o todo lo que no sea un video los ignora, en el procesado se oculta
+  la extension del archivo (mkv, avi, etc.) y se le añade al final, tiene la posibilidad de mantener el tag [Screener]
+  en las peliculas que lo tengan, para saber en un futuro que no tiene buen audio y poder remplazarla por la
+  version definitiva, escanea directorios enteros sin parar, si queremos salir (y usamos krypton+Estuary) entrar
+  en la busqueda manual y en el teclado picar en Cancelar y saldra del bucle.
+  Si se quiere refinar la busqueda manual se puede añadir al final un espacio y el año de publicacion, pero
+  NO INCLUIR el año entre parentesis o se creerá que es una pelicula ya correctamente renombrada y la ignorará.
+ ---Cerrando beta4 en proceso de testeo---
+
+---------beta5 (final)
+- Corregidos errores detectados en windows.
+- Mejora de todas las Herramientas, con pre-avisos y demas, que ahora pasan a llamarse Utilidades.
+- Nuevos menus para poder ejecutar todas las opciones que antes solo se podian hacer desde la Configuración,
+  aunque se mantiene la opcion de hacerlo desde ella, en los parches a otros AddOns desde los menus solo
+  apareceran los AddOns instalados o activados.
+- Añadida posibilidad de hacer mas de un backup y de restaurar el que se elija de los creados, y tambien añadida
+  la posibilidad de no definir el directorio donde se guardan las copias, si se deja vacio usara el directorio
+  Principal de torrents. Se recuerda que el backup se restaura sobre el Kodi actual, para hacerlo sobre un Kodi
+  limpio hay que borrar datos en Ajustes del sistema->Aplicaciones->Kodi (o el directorio de Kodi en windows).
+- Añadida opcion en el menu de utilidades para ejecutar la App RAR (rarlab) para asi poder descomprimir videos.
+  esta opcion como es logico solo aparece en android.
+- Añadida posibilidad de lanzar en windows el torrent/magnet/acestream/AceLive con el programa asociado a
+  cada uno, con esta nueva opcion ya se puede lanzar un enlace acelive con el programa AcePlayer de windows
+  que tambien asocia los .torrent a el, si es un magnet y tenemos instalado el uTorrent lo abrira con el para
+  descargarlo. (esta opcion aparecerá en el menu siempre, no se puede desconectar y como es logico en
+  android no saldrá).
+- Añadido auto-setup en windows para la primera instalacion de torrentin, ya no obligara a seleccionar un 
+  directorio en el primer arranque, si no existe c:\Torrents lo creará y usara como directorio principal, (esto mismo
+  ya se hacia desde hace mucho en android con la ruta /mnt/sdcard/torrents)
+- Mas opciones de windows arregladas, como la consulta en web del renombrador de peliculas, actualizador del
+  AddOn, etc.
+
+---------RC1
+- Solucionado el bug que a veces no detectaba que estaba parcheado el pelis.
+- Al parchear pelisalacarta se hace un backup del nuevo canal divxtotal del pelis para que no sea sobre-escrito
+  con el mio, y si se desparchea se restablece.
+- Actualizados los menus de parcheo, si esta parcheado el pelis no muestra los dos parches, solo una opcion
+  para desparchear, los demas no apareceran en el menú si no esta instalado el addon a parchear o ya esta
+  parcheado, solo aparecera la opcion de parchear en el menu si esta instalado y no parcheado.
+- Se quitan todas las opciones de "Click aquí" y demas ejecutables de la configuracion, dejandola solo para lo
+  que es, configurar el addon, por lo que entre otras cosas DESAPARECE LA PESTAÑA DE PARCHES DE LA
+  CONFIGURACION, estando estos en el menu Utilidades.
+- Se elimina el parche del obsoleto latinototal.
+- Añadida nueva entrada en el menú principal para listar (y reproducir) las pelis que ya esten correctamente
+  renombradas del directorio del renombrador de peliculas, al estar ya correctamente renombradas las busca
+  en TMDb y extrae poster, fanart, argumento, valoracion... (si hay peliculas sin renombrar las ignora).
+- Añadida posibilidad de definir un directorio de peliculas y listarlas (sin info a menos que esten incluidas en la
+  coleccion de Kodi) y reproducirlas desde el menu principal.
+
+----RC2
+- Incluido cache de los datos de peliculas renombradas obtenidos de TMDb porque si hay muchas tarda bastante en
+  re-buscarlas cada vez que se listan desde el menu principal, y tambien opcion para limpiar el cache al finalizar el
+  renombrado (borrara la informacion en el cache de las peliculas que hayan sido movidas o borradas).
+- Modificada la rutina de Listar peliculas (y de Peliculas renombradas con la opcion de scraper = Kodi), si las
+  peliculas estan ya incorporadas en la coleccion o biblioteca de kodi mostrara todos sus datos obtenidos por los
+  scrapers de Kodi, si no estan incluidas mostrara solo la informacion del video y un icono/fotograma de la pelicula.
+- Menus auto-ocultables, si no estan confgurados los directorios de torrents (secundario), Peliculas, Peliculas
+  renombradas (este usa el directorio del renombrador de peliculas), addons instalados y ya parcheados o no
+  instalados no saldra esa opcion en el menu principal o de parcheo, esto ya estaba desde hace tiempo con ir a
+  pelialacarta, listas AceLive (M3U), ultimo torrent/magnet, etc... segun vayamos usado o configurando el addon iran
+  apareciendo esas opiciones en los menús.
+- Añadido genero de la pelicula en el scraper interno (Torrentin como scraper).
+- Añadida opcion para incluir subdirectorios en el renombrador de peliculas y en el listado desde el menu principal.
+- Modificado parche plexus para incluir la 0.1.7 (mod de ronnieHD).
+
+---- RC3
+- Ahora al guardar un torrent o magnet se guarda con informacion extra (poster, fanart, descripción, etc.)
+  para una mejor presentación desde los listados de torrents Principal y Secundario, (este nuevo metodo es 
+  compatible con el metodo antiguo de torrent+caratula, por lo que los torrents guardados anteriormente no
+  se veran afectados).
+- Añadidos menus contextuales en torrents/magnets del Principal y Secundario para buscar la informacion extra
+  en los torrents que ya tengamos guardados de antes o para actualizar la misma los que ya la tengan y otro para
+  borrar el torrent o magnet, estos salen en color para diferenciarlos de los del sisema.
+- Revisada y arreglada la antigua rutina de guardar torrent/magnet, asi como eliminado el chequeo del parche
+  y el aviso de "Si no parcheas pelisalacarta no se guardará la carátula" ya que ahora no es necesario parchear
+  pelisalacarta para obtener las caratulas.
+- Reproductores (App) desactivados por defecto en el menu (primera instalacion).
+- Re-escritas las rutinas del renombrador de películas y del scraper de ellas al listarlas desde el menú principal.
+
+--- Final
+- Depuradas nuevas rutinas.
+- Añadida opcion en Ajustes (General) para desactivar el sonido en las notificaciones.
+- Corregidos errores encontrados en windows.
+
+Nuevamente gracias a los que colaborais en el proceso de testeo y depuracion del addon, probablemente seais
+los unicos que leeis esa morcilla de changelog.
+
+Resumen de novedades 0.5.5:
+- 4 Nuevos reproductores (App's de android), con esto torrentin puede usar 22 reproductores en total.
+- Canales actualizados y nuevo mod de NewPct1 en el parche de pelisalacarta.
+- Posibilidad de lanzar en windows los torrents o video en directo (AceLive) con AcePlayer. o mandar
+  magnets a uTorrent (depende de que programa este asociado a cada tipo de archivo en windows).
+- Información extendida al guardar y listar los torrents/magnets en el directorio principal y secundario.
+- Nuevos menus con acceso a los parcheadores y a nuevas utilidades:
+   --- Mantenimiento de Kodi: backup y restauracion de la configuracion completa de kodi y limpieza de cahés.
+   --- Renombrador de peliculas, movedor de archivos y varios renombradores de archivos.
+   --- Utilidades varias como poder lanzar RAR (en android) para descomprimir y reproducir videos comprimidos
+        en rar dentro de torrents.
+   --- Opcion para listar (y reproducir) dos directorios de peliculas desde el menu principal, con posibilidad de usar
+        scraper interno para el listado de películas renombradas.
+
+
+-------------------------------------------------------------------------------
+Version 0.5.4
+-------------------------------------------------------------------------------
+- Adaptados parches y opciones del menú para el nuevo pelisalacarta 4.2.0 (se mantiene el parche para la 4.1.x
+  detecta la versión y aplica uno u otro).
+- Arreglado nombre tTorrent desde el menú de reproductores/Gestores.
+- Si no hay vídeo dentro del torrent (normalmente comprimido en rar o zip) aparte de mostrar el aviso no muestra
+  reproductores en el menú ya que hoy en día no hay ningún reproductor capaz de reproducirlo.
+- Eliminado el aviso de no funcionamiento al activar Guardar el vídeo reproducido con AceStream en disco/tarjeta
+  en android en la configuración del AceStream, ya que con la ultima actualización 3.1.11.2 del AceStream si
+  funciona esta opción y los guarda sin problema.
+- Ahora al mostrar los torrents o magnets de los directorios principal y secundario indica el tipo.
+- Cambios cosméticos.
+- Solucionado error de la configuracion por los xml de los canales (gracias servidores)
+- Eliminado el aviso coñazo de "Acestream detenido" con la opcion de mostrar estadisticas continuas durante
+  la pausa. (solo sale con las dos ultimas).
+- Añadida auto-actualizacion de mis canales incluidos en el parche (cuando hay alguno que no funcione y lo
+  arregle o lo mejore se actualizara automáticamente al abrirlo sin necesidad de cambiar el torrentin, esto se
+  hace a traves del actualizador del pelisalacarta).
+- Ahora se muestra en la configuracion/Parches el estado de los mismos (solo pelis y plexus-streams) si se
+  actualiza el Add-On parcheado a una nueva version volverá a Off para avisar que hay que re-parchear.
+- Incluida la auto-actualización del AddOn a través del nuevo botón en la configuracion.
+
+--- Modificaciones en los canales incluidos en el parche (DivxTotal, EliteTorrent.net, EstrenosDTL, ExtrenosGO y Yifi):
+- Arreglados los canales que no funcionaban.
+- Arreglado el buscador y mejorado el canal EliteTorrent, posibilidad de obtener el torrent y magnet, muestra
+  la información completa de la película en el enlace magnet y solo argumento en el torrent.
+- Arreglado y mejorado el canal yify con nuevas opciones para listar directamente películas mas votadas y
+  mas descargadas. (ahora hay ciertas películas que se necesita estar registrado en la web para poder descargar
+  el torrent por lo que da error con ellas, se solucionara...)
+- Re-escrito y mejorado el canal DivxTotal, ahora el buscador busca en todo, incluyendo musica, programas, otros, etc.
+  por lo que se puede usar para bajar y descargar musica o cualquier otra cosa de esta web mandando el torrent al
+  gestor de descargas.
+- Arreglados buscadores de los canales para la nueva beta2 del pelis.
+- Estan modificando y renovando algunos canales del pelis, de momento no le ha tocado a EliteTorrent pero por si
+  en un futuro le toca y para no interferir con el original del pelis, se cambia el nombre de mi mod del mismo
+  pasandose a llamar EliteTorrent.net y sera independiente de interno del pelis. (se mostraran los dos).
+- Incluida la busqueda de fondos, posters, argumentos, puntuacion, año, etc. en TMDb para los 5 canales, esto hace
+  la presentacion de los listados de las peliculas algo mas lenta pero mucho mejor, no obstante esto se puede
+  desconectar en la configuracion del canal y se mostrara solo los datos obtenidos de la web del canal, skin de KODI
+  recomendado para mejor visualizacion de los listados: "Black Glass Nova".
+- Incluida opcion de una lista en el canal Elitetorrent.net con acceso direto al torrent.
+- Incluida la opcion para mostrar solo el nombre de la pelicula en los listados del canal Yify en vez de 
+  nombre, calidad, genero, año con colores, esto se hace porque con el listado completo con colores no se
+  encuentran los subtitulos em opensubtitles.org y hay que utilizar la cadena de busqueda manual.
+
+-------------------------------------------------------------------------------
+Version 0.5.3
+-------------------------------------------------------------------------------
+- Solucionado problema con algunos torrents que no se arrancan con Quasar.
+- Cambiado el orden en que aparecen los add-ons en el menu de reproductores y la configuracion, los mas modernos aparecen antes.
+- Cambiada la opcion de abrir canales torrent del pelisalacarta del menu principal a la primera posicion.
+
+-------------------------------------------------------------------------------
+Version 0.5.2
+-------------------------------------------------------------------------------
+- Igual que la anterior pero adaptados los parches y canales para la nueva versión 4.1.X de pelisalacarta.
+- Cambio de este changelog, ultimas versiones aparecen antes.
+
+-------------------------------------------------------------------------------
+Version 0.5.1
+-------------------------------------------------------------------------------
+- Arreglado error no reproducía si se selecciona Info del torrent  o Guardar torrent/magnet y se re-abre el menú. ( gracias P0wer_ ).
+- Añadida opción en el menú principal para reproducir el ultimo magnet.
+- Las opciones del menu principal de reproducir ultimo torrent y magnet ahora muestran la caratula de los mismos.
+- Para mayor rapidez en el arranque ya no se descarga la caratula al principio.
+- Arreglado error en el primer arranque en windows si no esta configurado el directorio principal.
+- Modificado parche plexus para poder enviar enlaces AceLive a Torrentin en Windows (solo se podia en android).
+- Actualizada la llamada del auto-arranque de las nuevas versiones (3.1.x) del motor AceStream, (se puede seguir usando
+   la llamada al antiguo 3.0.x activándolo en la nueva opción añadida en Configuración/AceStream) y se incluye un aviso para
+   notificarlo que solo saldrá tres veces.
+- Añadido botón en Configuración/Reproductores para auto-configurarlos activando los add-ons instalados y desactivando
+   los no instalados o deshabilitados, después de darle al botón se pueden re-configurar a mano pero al salvar la configuración
+   seguirá avisando si hay alguno activado y no instalado o deshabilitado.
+- Modificado todo el tema de las carátulas, ahora se guarda solamente el enlace de las mismas, solo se descargan cuando se
+   guarda un torrent o magnet con la opcion de Guardar del menú de reproductores.
+- Modificado las opciones de reproducir ultimo magnet/torrent, solo guarda los que le llegan nuevos de fuera, si se reproducen
+   desde los directorios principal/secundario o fichero local no se guardan en esas opciones del menú principal, y si no hay
+   ninguno (nueva instalación) no aparecen las opciones en el menu. (si explorais el directorio principal con algun explorador
+   de ficheros y veis un archivo llamado torrentin.jpg o torrentin.png podéis borrarlo tranquilamente, ya no se usa).
+- Añadido, ahora al Plexus y p2p-streams se les pasa también la carátula y nombre del vídeo a reproducir.
+- Debido a la nueva moda de meter videos comprimidos en rar o zip por algunas webs se le añade un aviso en el caso de que
+   el archivo de mayor tamaño del torrent no sea un vídeo.
+- Añadido, ahora el parche del plexus incorpora también una nueva opción en la configuración del Acestream para auto-ejecutar
+   el motor externo nuevo (3.1.x) o el antiguo (3.0.x).
+- Añadido parche para Plexus-Streams multi-versión (mientras no cambien los ficheros parcheados) para reproducir los enlaces
+   con Torrentin o Plexus.
+- Nueva opción en Configuración/General para reproducir directamente solo los enlaces AceLive con AceStream sin presentar el
+   menú de reproductores aunque tengamos configurado que lo presente (lo seguirá presentando con torrents y magnets).
+- Se elimina el parche del obsoleto p2p-streams.
+- Añadido nuevo ajuste en la configuración para la opción del menú principal de "Ir a pelisalacarta" y poderla cambiar a la de
+   "Ir a canales torrent de pelisalacarta".
+- Ajustes en los reproductores ya que ahora el TSC reproduce magnets (no todos, los de ET dan fallo pero los de
+   pelismagnet y cuelgame los reproduce sin problema). 
+- Se cambia el nombre del ajuste del reproductor por defecto para evitar problemas a los que actualicen desde versiones antiguas.
+- Se añade un chequeo al guardar la configuración y si esta instalado AceStream 3.1.x y activado Guardar el vídeo en disco o tarjeta
+  avisa por si se quiere desactivar la opción de guardar el vídeo (solo en Android).
+- Arreglado el canal DivxTotal que se incluye en el parche del pelisalacarta.
+
+
+-------------------------------------------------------------------------------
+Version 0.5.0
+-------------------------------------------------------------------------------
+- Nuevo pacheador para pelisalacarta multiversión (añade las carátulas a los vídeos ya que no se puso esta opción en la oficial,
+   asi como el modo automatico), el parche es reversible, volviendo a parchear se elimina, este parche debería valer para versiones
+   futuras (si se actualiza el pelis habría que volver a parchear), si no se parchea el pelis, el torrentin seguirá funcionando pero al
+   guardar un torrent o magnet en directorio principal o secundario se guardara sin la carátula y no se mostrará la misma sobre el
+   video en el reproductor interno por AceStream.
+- El nuevo parcheador del pelisalacarta también parchea el canal EliteTorrent con mis mejoras:
+      EliteTorrent (ciberus fork) que incluye los siguientes cambios:
+          - Listado por categorías: fecha, valoración y popularidad (solo salia por fecha).
+          - Añadido buscador (no tenia).
+          - Modificado para obtener de la web el torrent en vez del magnet.
+          - Menus con colores para diferenciar, Películas, Docus, Series, etc.
+          - Añadido fanart y thumbnails.
+     También incluye los canales torrent que cree hace meses (DivTotal, EstrenosDTL, EstrenosGO y Yify-Torrents) y modifica Newpct
+     para que sea incluido en los canales torrent.
+- Añadidos 7 nuevos reproductores, 5 Add-Ons: Quasar, p2p-streams, Plexus, Torrenter y YATP y 2 App: mTorrent (GP) y mTorrent (MDC),
+   (con estos ya tenemos 18 reproductores en total).
+- Ahora la información del torrent pasa a ser el primer elemento del menú de reproductores, y picando en el sale en ventana la
+   información (antes no hacia nada) y pregunta si se quiere reproducir.
+-  Nuevo apartado en Configuración/Reproductores para seleccionar los reproductores que tenemos instalados y que queremos que
+   nos aparezcan en el menú de selección, al cerrar la configuración se chequea si tienes activado algún add-on que no este instalado.
+- Desaparece la opción en Configuración/General de seleccionar forks de Ad-Ons pues ya no es necesaria.
+- Añadido Gestores de descarga de torrent, ahora se puede mandar el torrent/magnet a un gestor de descargas para bajarlo y su posterior
+   visonado, solo se puede añadir uno al menú, pre-configurado con los mas famosos (uTorrent, uTorrent Pro, tTorrent, tTorrent Pro,
+   BitTorrent, Flud, Vuze, aTorrent) o también definido por el usuario (Custom) que si deja vacío mostrará el menú del sistema,
+   este nuevo ajuste solo está disponible para Android.
+- Añadidos algunos cambios como ventana de progreso de descarga del torrent, opciones auto-ocultables en configuración, etc.
+- Añadida opción parchear pelis si no lo esta al guardar torrent o magnet ya que si no lo esta se guardaran sin carátula.
+- Actualizado parche plexus a 0.1.4
+- Añadida opción en configuración para seleccionar directorio donde se guardarán los torrents o magnets (Principal o Secundario)
+   con el botón Guardar del final del menú y opcion para que re-abra o no el menu de reproductores tras guardarlo.
+- Arreglado error al guardar torrent desde reproducir ultimo torrent.
+- Añadido nuevo reproductor [add-on]  Yet Another Torrent Player  en la rc3 (ver arriba), muy bueno basado en libtorrent permite
+   visionado y descarga de torrents (no me funciona en SPMC isengard pero si en kodi jarvis).
+- Añadido, Ahora se pueden guardar también los magnets en ambos directorios y se podrán explorar reproducir o borrar posteriormente
+   igual que si fueran torrents, si puede obtener el nombre del video del magnet lo grabará con el (no todos los magnets lo llevan), si no
+   presentara el teclado para que se lo pongas.
+- Arreglado el problema con los nombres de fichero y directorios no-ascii (ñ,á,é,+, etc).
+- Añadida opción para borrar todas las listas M3U. (se recuerda que la opción del menú principal de cargar y lanzar enlaces AceLive 
+   contenidos en listas M3U solo aparece si tenemos listas en el directorio principal), esta opción es útil pues los enlaces AceLive
+   suelen caducar a los pocos días.
+- Solucionado error al cargar torrents sin enlace de caratula (pelisalacarta sin parchear), gracias P0wer_
+- Solucionado error de torrents con formato no standard del canal bithyouth (no se muestra información de los mismos pero se pueden
+   mandar a los reproductores sin que salte error.
+- Cambiado el codigo para lanzar el torrent con los Add-Ons y forks de Steeve. (xbmctorrent,stream,kmediatorrent,Pulsar,Quasar)
+  debido al problema anterior de torrents no standard (se les pasa el enlace http del torrent en vez de el descargado por torrentin).
+- Incluido chequeo si están instalados juntos Pulsar y Quasar al salvar la configuración ya que hay conflictos entre ellos.
+- Da información del nombre del vídeo en los enlaces magnet.
+- Añadida opción en el menú principal para ir a pelisalacarta (si esta instalado).
+- Solucionado error de reproducción de torrents con YATP si el directorio Principal del Torrentin esta en FAT32, gracias P0wer_
+
+IMPORTANTE: Después de instalar esta nueva versión sobre otro Torrentin mas antiguo abrir la configuración y configurar el reproductor
+por defecto, al haber modificado profundamente las listas de reproductores y añadido nuevos, si lo tenias configurado en "Preguntar" 
+habrá cambiado ese ajuste y tendrás que volver a configurarlo. (Ahora se llama Mostrar menú de selección) y ya de paso revisa las
+nuevas opciones.
+
+-------------------------------------------------------------------------------
+Version 0.4.4
+-------------------------------------------------------------------------------
+- Arreglado el parcheador del KmediaTorrent, ahora parchea también las nuevas 2.3.7 instaladas desde SuperRepo y github
+   asi como las antiguas 2.3.7
+- Actualizado el parche para el pelisalacarta a la versión 4.0.6
+
+-------------------------------------------------------------------------------
+Version 0.4.3
+-------------------------------------------------------------------------------
+- Añadido parche alternativo (No automático) para el pelisalacarta con el que no abre directamente el Torrentin y muestra
+  el menú de selección del pelisalacarta (añadir a biblioteca, etc.).
+- Modificado el parche del kmediatorrent (sustituido el del desaparecido 2.3.8 por el del 2.3.7).
+- Actualizado el parche para el pelisalacarta a la versión 4.0.5
+
+-------------------------------------------------------------------------------
+Version 0.4.2
+-------------------------------------------------------------------------------
+- Corrección para descargar torrents con enlace https://
+- Guarda en una lista M3U todos los enlaces aceLive que reproduzca (configurable en opciones de AceStream).
+- Arreglado saltaba error al darle a Guardar el torrent desde el menú de reproducir ultimo torrent.
+- Modificada rutina de chequeo de directorio de descarga de torrents en android, si no esta configurado el mismo
+   usara el directorio Torrents de la tarjeta interna (/mnt/sdcard/Torrents), si no existe el directorio lo creará, en windows
+   o linux seguirá sacando la configuración en bucle hasta que se le configure un directorio.
+- Nuevo icono del plugin.
+- Inclusión de los parches publicados para pelisalacarta, LatinoTotal, p2p-Streams, Plexus y KmediaTorrent, se accede
+  a ellos desde la configuración/Parches, así es mas fácil parchear los Ad-Ons y no hay que andar manipulando los zips,
+  los parches no tienen vuelta atrás, una vez parcheado un plugin para volverle a su estado original re-instalar encima el
+  plugin parcheado. 
+  Para usar las nuevas funciones en los plugins p2p-streams, Plexus y KmediaTorrent es necesario entrar en la configuración
+  de los mismos para activarlas.
+- Para evitar errores, añadido chequeo de la versión del Ad-On a parchear, si no es la misma que la del parche no lo parchea.
+
+-------------------------------------------------------------------------------
+Version 0.3
+-------------------------------------------------------------------------------
+- Si se tiene activado Guardar el video en disco/tarjeta en Acestream ahora guarda tambien la caratula junto al video.
+- Al guardar el torrent temporal (torrentin.torrent) se guarda tambien la caratula para que la opcion reproducir ultimo torrent
+   la obtenga.
+- Añadida opción en Ajustes/AceStream para activar/desactivar guardado de la carátula junto al video.
+- Mejora en la presentacion de estadisticas de AceStream, configurable en ajustes del plugin para que las muestre
+   una vez al pausar, continuo al pausar, continuo al mover el raton (en el OSD) o ambos.
+- Posibilidad de usar los Add-Ons antecesores del KmediaTorrent (XBMCtorrent y Stream) en vez del Kmedia, configurable
+  en opciones.
+
+-------------------------------------------------------------------------------
+Version 0.2
+-------------------------------------------------------------------------------
+- Añadida posibilidad de mandar como argumento una url y se encarga de bajar el torrent de la web y reproducirlo.
+- Añadido menu con varias opciones para futuros usos.
+- Añadida posibilidad de reproducir el torrent con AceStream (interno) sin necesidad de lanzar ninguna App Externa.
+- Ya que Acestream funciona tambien en windows se cambia el status del Add-On de android a all, chequeando SO's.
+- Añadida opcion para reproducir enlaces acestream: (live), naturalmente solo con las apk que van por
+   acestream (AceStream o externos TSC y Aceplayer), pelisalacarta no lo usa pero por si otros Add-ons quieren usar el torrentin.
+- Añadida opcion para autocargar listas m3u de enlaces acestream:// (contenidas en el directorio de descargas).
+   y reproducirlos (Si no hay listas no muestra la opcion en el menu).
+- Añadida Comprobacion de reproductor adecuado y opcion para cambiarlo en magnets y acestream.
+- Añadida opcion en el menu para reproducir el ultimo torrent (torrentin.torrent del directorio de descargas).
+- Añadida opcion en el menu para seleccionar un torrent local de cualquier directorio y reproducirlo.
+- Añadida opcion en el menu para explorar el directorio de torrents descargados y reproducirlos.
+- Añadido directorio de descargas del TVP para cargar rapidamente torrent transformados de magnet por el
+   TVP. (cambiado nombre a directorio alternativo)
+- Cambiada visualizacion de listas m3u (un directorio por cada lista)..
+- Añadido, todas las listas de torrents y enlaces m3u salen ordenadas alfabeticamente.
+- Añadida posibilidad de mandar el torrent/magnet a otros plugins (KmediaTorrent y Pulsar).
+- Añadida informacion del torrent en el menu de reproductores (tipo de video, tamaño, nombre y tipo de torrent).
+- Cambiado formato menu de reproductores y añadidos colores para recomendar/prohibir segun enlace.
+- Añadida rutina en el menu de reproductores para guardar el torrent y caratula (se guardan en el directorio de descargas).
+- Si se guarda el torrent vuelve al menu de reproductores en vez de desaparecer el mismo.
+- Eliminado el aviso de video superior a 2Gb en torrent multifichero en plataformas no android.
+- Sl el tamaño del video supera al Giga se expresa en Gigas en vez de Megas.
+- Añadida opcion para borrar el torrent (y caratula) en el menu de reproductores para los torrent de los directorios de descarga.
+- Modificado lectura de listas m3u acestream, no hace falta que lleve el acestream:// delante del enlace, si no lo lleva se le añade.
+- Mejora en la visualizacion de estadisticas del AceStream, se actualizan en tiempo real, no desaparecen durante la pausa y ahora
+   tambien aparecen durante el OSD, (se puede seguir picando en los botones de subtitulos, video, audio, etc. aunque se queden
+   debajo de la ventana de estadisticas).
+
+-------------------------------------------------------------------------------
+Version 0.1
+inicial release
+-------------------------------------------------------------------------------
+- Primera prueba para lanzar Torrent video Player (TVP) desde pelisalacarta (asi nacio el chiquitin).
+- Dado que no es capaz de reproducir torrent de directorio oculto se añade directorio de descarga en la
+   configuracion donde se copia el torrent antes de arrancar el reproductor.
+- Añadida configuracion para incluir mas reproductores (actualmente 6)
+- Re-estructuracion del codigo y primera publicacion beta.
+
+- Añadida posibilidad de mandar como argumento enlaces magnet.
+
+- Descubierto y arreglado ejecucion de TSC y AcePlayer
+- Añadido (Preguntar) en players para cambiar de uno al otro al vuelo sin tener que ir a la configuracion.
+
+
+
+En Proyecto:
+Añadir mas formatos de listas a parte de m3u y acestream://
+multilingue ingles/español
+Añadir auto-updater
+
+ciberus
+Julio. 2016
+
+
+
+
+
+

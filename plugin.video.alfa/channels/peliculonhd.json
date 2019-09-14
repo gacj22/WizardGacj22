@@ -1,0 +1,88 @@
+{
+"id": "peliculonhd",
+  "name": "PeliculonHD",
+  "active": true,
+  "adult": false,
+  "language": ["lat", "cast"],
+  "thumbnail": "https://www.peliculonhd.tv/wp-content/uploads/2018/09/peliculonnewlogo3-.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos",
+    "direct"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Latino",
+        "Castellano",
+        "VOSE"
+      ]
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - Terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "comprueba_enlaces",
+      "type": "bool",
+      "label": "Verificar si los enlaces existen",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "comprueba_enlaces_num",
+      "type": "list",
+      "label": "Número de enlaces a verificar",
+      "default": 1,
+      "enabled": true,
+      "visible": "eq(-1,true)",
+      "lvalues": [ "5", "10", "15", "20" ]
+    }
+  ]
+}

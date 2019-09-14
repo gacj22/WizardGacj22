@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "25/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "streamcherry.com/(?:embed|f)/([0-9a-zA-Z-_]+)",
+        "url": "http://streamcherry.com/f/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "streamcherry",
+  "name": "Streamcherry",
+  "settings": [],
+  "version": 2
+}

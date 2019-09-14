@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Settings">
+		<!-- <setting id="autoclean" type="bool" label="Auto Clean Cache at Startup" default="true" /> -->
+		<setting type="lsep" label="Límites de Archivos en Cache" />
+		<setting id="filesize_alert" type="slider" label="Tamaño máximo de archivos totales" default="50" range="25,500" option="int" />
+		<setting type="lsep" label="Límites carpeta Package" />
+		<setting id="packagenumbers_alert" type="slider" label="Número máximo de archivos Zip" default="10" range="5,200" option="int" />
+		<setting type="lsep" label="Límite de Imagenes" />
+		<setting id="filesizethumb_alert" type="slider" label="Tamaño máximo de archivos totales" default="500" range="50,5000" option="int" />
+	</category>
+
+	</settings>
+
+	

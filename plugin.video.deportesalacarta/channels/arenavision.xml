@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>arenavision</id>
+	<name>Arenavision</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail>http://s6.postimg.org/9eln6rd75/arenavisionlogo.png</thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>5</version>
+	<date>05/08/2016</date>
+	<changes>Reparado por cambios en la web</changes>
+
+	<categories>
+		<category>deportes</category>
+		
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+    <settings>
+        <id>include_in_agenda</id>
+        <type>bool</type>
+        <label>Incluir en Agenda Global</label>
+        <default>true</default>
+        <enabled>true</enabled>
+        <visible>true</visible>
+    </settings>
+</channel>

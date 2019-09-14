@@ -1,0 +1,49 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "14/06/2019",
+      "description": "Mejoras en la detección de enlaces Google Cloud Storage"
+    },{
+      "date": "13/04/2019",
+      "description": "Mejoras en la detección del video"
+    },
+    {
+      "date": "05/04/2019",
+      "description": "Añadidos enlaces Google doc"
+    },
+    {
+      "date": "07/03/2019",
+      "description": "Añadidos enlaces originales en Google Drive"
+    },
+    {
+      "date": "15/02/2019",
+      "description": "Añadidos enlaces Google Cloud Storage"
+    },
+    {
+      "date": "29/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https?://(?:drive|docs)\\.google\\.com/(?:file/d/|uc\\?id=|get_video_info\\?docid=)([^/&]+)",
+        "url": "https://drive.google.com/file/d/\\1"
+      },
+      {
+        "pattern": "(https?://(?:storage\\.googleapis\\.com|storage\\.cloud\\.google.com|.*?\\.storage.googleapis.com)/.*?$)",
+        "url": "\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "googledrive",
+  "ids": [
+        "googleapis"
+    ],
+  "name": "GoogleDrive",
+  "settings": [],
+  "version": 6
+}

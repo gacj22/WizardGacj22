@@ -1,0 +1,37 @@
+{
+  "id": "xms",
+  "name": "XMS",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "fanart": "https://raw.githubusercontent.com/Inter95/tvguia/master/thumbnails/adults/xthearebg.jpg",
+  "thumbnail": "https://i.postimg.cc/wB0NsMTX/xms.png",
+  "banner": "https://i.postimg.cc/c6yh5C3K/xmsbn.png",
+   "categories": [
+   "adult"
+ ],
+ "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

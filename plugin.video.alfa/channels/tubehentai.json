@@ -1,0 +1,14 @@
+{
+    "id": "tubehentai",
+    "name": "tubehentai",
+    "active": true,
+    "adult": true,
+    "language": ["*"],
+    "banner": "tubehentai.png",
+    "thumbnail": "tubehentai.png",
+    "categories": [
+        "adult"
+    ],
+    "settings": [
+    ]
+}

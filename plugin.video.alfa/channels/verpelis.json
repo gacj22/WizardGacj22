@@ -1,0 +1,62 @@
+{
+    "id": "verpelis",
+    "name": "Ver-pelis",
+    "active": true,
+    "adult": false,
+    "language": ["cast", "lat"],
+    "thumbnail": "https://ver-pelis.tv/images/logo-50.png",
+    "categories": [
+        "movie",
+        "direct"
+    ],
+    "settings": [
+    {
+        "id": "modo_grafico",
+        "type": "bool",
+        "label": "Buscar información extra",
+        "default": true,
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "id": "include_in_global_search",
+        "type": "bool",
+        "label": "Incluir en busqueda global",
+        "default": false,
+        "enabled": true,
+        "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_castellano",
+      "type": "bool",
+      "label": "Incluir en Novedades - Castellano",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_latino",
+      "type": "bool",
+      "label": "Incluir en Novedades - Latino",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+    ]
+}

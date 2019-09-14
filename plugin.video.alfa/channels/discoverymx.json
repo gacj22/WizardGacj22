@@ -1,0 +1,12 @@
+{
+  "id": "discoverymx",
+  "name": "Discoverymx",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "discoverymx.png",
+  "banner": "discoverymx.png",
+  "categories": [
+    "documentary"
+  ]
+}

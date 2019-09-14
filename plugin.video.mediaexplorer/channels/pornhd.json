@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "adult": true,
+  "categories": ["adult"],
+  "changes": [
+    {
+      "date": "11/02/2019",
+      "description": "Primera versión"
+    }
+  ],
+  "id": "pornhd",
+  "min_version": {
+    "main": null,
+    "python": null
+  },
+  "name": "PornHD",
+  "search": {},
+  "settings": [],
+  "version": 1
+}

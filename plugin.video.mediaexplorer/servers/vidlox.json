@@ -1,0 +1,23 @@
+{
+    "active": true,
+    "changes": [
+        {
+            "date": "03/04/2018",
+            "description": "Primera version"
+        }
+    ],
+    "find_videos": {
+        "ignore_urls": [],
+        "patterns": [
+            {
+                "pattern": "(vidlox.(?:tv|me))/(?:embed-)?([A-z0-9]+)",
+                "url": "http://vidlox.me/embed-\\1.html"
+            }
+        ]
+    },
+    "free": true,
+    "id": "vidlox",
+    "name": "Vidlox",
+    "settings": [],
+    "version": 2
+}

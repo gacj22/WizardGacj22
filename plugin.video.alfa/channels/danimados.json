@@ -1,0 +1,22 @@
+{
+  "id": "danimados",
+  "name": "Danimados",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "https://imgur.com/kU5Lx1S.png",
+  "banner": "https://imgur.com/xG5xqBq.png",
+  "categories": [
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

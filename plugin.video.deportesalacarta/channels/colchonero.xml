@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>colchonero</id>
+	<name>[COLOR red]Co[COLOR white]lc[/COLOR]ho[COLOR white]ne[/COLOR]ro[/COLOR]</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+	<include_in_global_search>false</include_in_global_search>
+	
+	<fanart></fanart>
+	<thumbnail>http://i67.tinypic.com/mlkqqo.jpg</thumbnail>
+	<bannermenu>http://i68.tinypic.com/3zqtv.jpg</bannermenu>
+
+	<version>1</version>
+	<date>13/09/2016</date>
+
+	<categories>
+		<category>deportes</category>
+	</categories>
+</channel>

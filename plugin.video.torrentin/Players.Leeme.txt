@@ -1,0 +1,104 @@
+Enlaces de Aplicaciones externas que reproducen torrents y magnets
+-------------------------------------------------------------------------------------
+
+[engine] Motor AceStream - Para reproductor interno (AceStream + Kodi):
+
+Solamente el motor, si se va a instalar tambien el AcePlayer instar primero este, ya
+que como el AcePlayer incorpora el motor si se instala primero el AcePlayer luego
+no dejará abrir los settings desde este:
+
+version para micros armv7 (la mayoria):
+http://dl.acestream.org/products/acestream-engine/android/armv7/latest
+version para micros armv7 y x86:
+http://dl.acestream.org/products/acestream-engine/android/latest
+
+-------------------------------------------------------------------------------------
+
+Aplicaciones que reproducen torrents independientes de XBMC/Kodi:
+
+-------------------------------------------------------------------------------------
+Con libtorrent incluida:
+-------------------------------------------------------------------------------------
+
+Torrent Video Player (TVP), para mi el mejor, aunque tarda mas en arrancar
+pues hasta que no crea el fichero completo del video no se incia):
+https://play.google.com/store/apps/details?id=com.mobilityflow.tvp
+
+-------------------------------------------------------------------------------------
+
+Torrent Video Player Professional (TVP Pro) (igual que el anterior pero sin publicidad):
+https://play.google.com/store/apps/details?id=com.mobilityflow.tvp.prof
+
+-------------------------------------------------------------------------------------
+
+BitX (ultima version incluye videos publicitarios, buscar versiones anteriores):
+https://play.google.com/store/apps/details?id=tv.bitx.media
+
+-------------------------------------------------------------------------------------
+
+BitFalcon (Creo que es el precursor del anterior, del mismo autor al que supongo le
+quitaron el dominio web BitFalcon y cambio el nombre de la App):
+https://play.google.com/store/apps/details?id=tv.bitfalcon.media
+
+edit: ya no esta disponible en el play, subo a mega la ultima versión (106):
+https://mega.co.nz/#!Lkx3XKRT!pIjQ7qCmhx7mQO_ea2O5TOiqNQyEg4R6NnbdBXBmDzA
+
+------------------------------------------------------------------------------------- Nuevo (Marzo-2016)
+
+mTorrent (Edicion MDC): http://store.mdcgate.com/market/
+Edicion GP (Funciona mucho mejor que la anterior (a mi) aunque sea mas antigua (precursora), ya no
+esta disponible en la web, la subo a MEGA:
+https://mega.co.nz/#!PxR3AYZY!5IgQxVlcZ1IeBhHlfyQLeP2uPJ74zu4RnAPSeGaKzOo
+Funcionan bastante bien, con libtorrent y reproductor incluido, de los autores del Live Stream Player
+
+------------------------------------------------------------------------------------- Nuevo (Marzo-2017)
+
+Xtorrent (Kewlapps)
+https://play.google.com/store/apps/details?id=com.gamemalt.streamtorrentvideos
+Permite seleccionar directorio para cache y reproductor.
+
+Torrent Player (topl)
+https://play.google.com/store/apps/details?id=com.torrent_player
+Permite seleccionar directorio para cache pero no reproductor, lleva uno propio compatible con AC3.
+
+Torrent Video Streaming (Itsasoftware)
+https://play.google.com/store/apps/details?id=org.itsasoftware.torrent.streaming
+Permite seleccionar directorio para cache y reproductor.
+
+Turkey torrent video player (Turkey torrent)
+https://play.google.com/store/apps/details?id=rocks.turkeytorrent.player
+No permite seleccionar directorio para cache (usa la SD interna) pero permite seleccionar reproductor
+y al igual que algunos anteriores recomienda el VLC, mejor usar MXPlayer con codecs AC3
+
+-------------------------------------------------------------------------------------
+Reqieren motor AceStream, el Aceplayer lo lleva incluido, (no aceptan magnets):
+-------------------------------------------------------------------------------------
+
+Torrent Stream Controller (TSC) Solo gestiona la descarga, No lleva reproductor de
+video propio y da a elegir entre los instalados en el dispositivo:
+
+http://www.vidsoftware.ru/
+
+-------------------------------------------------------------------------------------
+
+AcePlayer:
+Incorpora el motor AceStream, por lo que es RECOMENDABLE instalar primero el
+motor solo del primer apartado y despues este, porque si no habra problemas
+para abrir los Settings, asi mismo hay que instalar SIEMPRE la misma version del
+motor suelto y el AcePlayer:
+
+version para micros armv7 (la mayoria):
+http://dl.acestream.org/products/acestream-full/android/armv7/latest
+version para micros armv7 y x86:
+http://dl.acestream.org/products/acestream-full/android/latest
+
+-------------------------------------------------------------------------------------
+
+Para losAdd-Ons de Kodi, buscar en google, algunos son antiguos otros nuevos, mejor
+buscar en Google como instalar SuperRepo e instalarlos desde el repositorio.
+
+ciberus
+Mayo 2015 -> Marzo 2016
+ 
+
+

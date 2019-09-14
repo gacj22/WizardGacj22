@@ -1,0 +1,15 @@
+{
+  "id": "ciberdocumentales",
+  "name": "CiberDocumentales",
+  "thumbnail": "ciberdocumentales.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["documentary"],
+
+  "categories": ["documentary"],
+  "language": ["cast"],
+
+  "notes": "Documentales en castellano, aunque hay bastantes enlaces que han sido retirados."
+}

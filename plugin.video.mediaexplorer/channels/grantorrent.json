@@ -1,0 +1,103 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow"
+    ], 
+    "changes": [
+        {
+            "date": "05/07/2019",
+            "description": "Añadido proxy"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "23/11/2018", 
+            "description": "Fix error http 301 en findvideos"
+        }, 
+        {
+            "date": "13/11/2018", 
+            "description": "Fix enlaces multiepisodios"
+        }, 
+        {
+            "date": "04/11/2018", 
+            "description": "Cambios en la web"
+        }, 
+        {
+            "date": "12/09/2018", 
+            "description": "Fix en novedades globales"
+        }, 
+        {
+            "date": "12/07/2018", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "grantorrent", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": "2.7.9"
+    }, 
+    "name": "Grantorrent", 
+    "newest": {
+        "episode": {
+            "action": "newest_episodes", 
+            "content_type": "episodes"
+        }, 
+        "movie": {
+            "action": "movies", 
+            "content_type": "movies"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "movie_search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies_2", 
+            "url": {
+                "action": "https://grantorrent.net/categoria/accion/", 
+                "adventure": "https://grantorrent.net/categoria/aventura/", 
+                "animation": "https://grantorrent.net/categoria/animacion/", 
+                "comedy": "https://grantorrent.net/categoria/comedia/", 
+                "drama": "https://grantorrent.net/categoria/drama/", 
+                "fantasia": "https://grantorrent.net/categoria/fantasia/", 
+                "intrigue": "https://grantorrent.net/categoria/suspense/", 
+                "musical": "https://grantorrent.net/categoria/musica/", 
+                "romantic": "https://grantorrent.net/categoria/romance/", 
+                "science-fiction": "https://grantorrent.net/categoria/ciencia-ficcion/", 
+                "terror": "https://grantorrent.net/categoria/terror/"
+            }
+        }, 
+        "tvshow": {
+            "action": "tv_search", 
+            "content_type": "tvshows"
+        }
+    }, 
+    "settings": [
+        {
+            "default": "",
+            "id": "label1",
+            "label": "Truco para ocultar boton TODOS/NINGUNO",
+            "type": "text",
+            "visible": false
+        },
+        {
+            "default": false,
+            "id": "use_proxy",
+            "label": "Activar proxy",
+            "type": "bool"
+        },
+        {
+            "id": "label2",
+            "label": "    Puede configurar el proxy en Ajustes / Configuración de Canales",
+            "type": "label",
+            "visible": "eq(-1,true)",
+            "color": "0xFFFFFF00"
+        }
+    ],
+    "version": 7
+}

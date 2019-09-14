@@ -1,0 +1,15 @@
+{
+  "id": "seriesdanko",
+  "name": "SeriesDanko",
+  "thumbnail": "seriesdanko.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "vose"],
+
+  "notes": "Capítulos de estreno en castellano y VOSE, listado alfabético de series. Puede requerir el uso de proxies en función del país/operadora desde el que se accede."
+}

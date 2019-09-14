@@ -1,0 +1,118 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie"
+    ], 
+    "changes": [
+        {
+            "date": "03/07/2019",
+            "description": "Descartar enlaces VIP"
+        },
+        {
+            "date": "17/06/2019",
+            "description": "Añadida opción proxy y varios dominios"
+        },
+        {
+            "date": "15/06/2019",
+            "description": "Corregir patron que hacia que no se mostrasen algunas peliculas"
+        },
+        {
+            "date": "21/05/2019",
+            "description": "Añadidos enlaces Fembed"
+        },
+        {
+            "date": "21/03/2019",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "26/02/2019",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "28/01/2019",
+            "description": "Reparar enlaces"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "26/08/2018", 
+            "description": "Reparar enlaces"
+        }, 
+        {
+            "date": "10/03/2018", 
+            "description": "Reparar enlaces"
+        }, 
+        {
+            "date": "31/01/2018", 
+            "description": "Reparar regex"
+        }, 
+        {
+            "date": "31/08/2017", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "cinecalidad", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": null
+    }, 
+    "name": "CineCalidad", 
+    "newest": {
+        "movie": {
+            "action": "movies", 
+            "content_type": "movies", 
+            "url": "/espana/"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies", 
+            "url": {
+                "action": "/espana/genero-peliculas/accion/",
+                "adventure": "/espana/genero-peliculas/aventura/",
+                "animation": "/espana/genero-peliculas/animacion/",
+                "children": "/espana/genero-peliculas/infantil/",
+                "comedy": "/espana/genero-peliculas/comedia/",
+                "drama": "/espana/genero-peliculas/drama/",
+                "fantasia": "/espana/genero-peliculas/fantasia/",
+                "intrigue": "/espana/genero-peliculas/suspenso/",
+                "romantic": "/espana/genero-peliculas/romance/",
+                "science-fiction": "/espana/genero-peliculas/ciencia-ficcion/",
+                "terror": "/espana/genero-peliculas/terror/"
+            }
+        }
+    }, 
+    "settings": [
+        {
+            "default": 0,
+            "id": "host",
+            "label": "Usar el siguiente dominio",
+            "lvalues": [
+                "https://www.cinecalidad.is",
+                "https://www.cinecalidad.to"
+            ],
+            "type": "list"
+        },
+        {
+            "default": false,
+            "id": "use_proxy",
+            "label": "Activar proxy",
+            "type": "bool"
+        },
+        {
+            "id": "label2",
+            "label": "    Puede configurar el proxy en Ajustes / Configuración de Canales",
+            "type": "label",
+            "visible": "eq(-1,true)",
+            "color": "0xFFFFFF00"
+        }
+    ],
+    "version": 12
+}

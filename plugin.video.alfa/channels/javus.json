@@ -1,0 +1,14 @@
+{
+  "id": "javus",
+  "name": "javus.net",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://s15.postimg.cc/pzd3h4vy3/javus.png",
+  "banner": "https://s21.postimg.cc/5pqzedp2f/javus_banner.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

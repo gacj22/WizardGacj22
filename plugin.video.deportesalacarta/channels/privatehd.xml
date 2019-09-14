@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>privatehd</id>
+	<name>PrivateHD</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail>http://i.imgur.com/k6qjA0W.png</thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>1</version>
+	<date>24/08/2016</date>
+	<changes>Primera version</changes>
+
+	<categories>
+		<category>deportes</category>
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+</channel>

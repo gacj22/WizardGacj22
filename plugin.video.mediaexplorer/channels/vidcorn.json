@@ -1,0 +1,126 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow"
+    ], 
+    "changes": [
+        {
+            "date": "21/03/2019",
+            "description": "Cambio de dominio"
+        },
+        {
+            "date": "11/03/2019", 
+            "description": "Cambio de dominio"
+        }, 
+		{
+            "date": "22/02/2019",
+            "description": "Desactivar secciones 'Añadidas recientemente' por falta de enlaces"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "27/10/2018", 
+            "description": "Recaptcha Forzado: No es necesaria cuenta de Anti-Captcha"
+        }, 
+        {
+            "date": "12/07/2018", 
+            "description": "Captcha"
+        }, 
+        {
+            "date": "13/06/2018", 
+            "description": "Cambios en la web"
+        }, 
+        {
+            "date": "28/04/2018", 
+            "description": "Normalizar url servidores"
+        }, 
+        {
+            "date": "11/03/2018", 
+            "description": "Enlaces reparados"
+        }, 
+        {
+            "date": "08/02/2018", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "vidcorn", 
+    "min_version": {
+        "main": "1.1.2", 
+        "python": "2.7.9"
+    }, 
+    "name": "Vidcorn", 
+    "newest": {
+        "movie": {
+            "action": "listado", 
+            "content_type": "movies", 
+            "order_by": 8, 
+            "page": 0
+        }, 
+        "tvshow": {
+            "action": "listado", 
+            "content_type": "tvshows", 
+            "order_by": 8, 
+            "page": 0
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "listado", 
+            "content_type": "movies", 
+            "order_by": 8, 
+            "page": 0
+        }, 
+        "movie_gender": {
+            "action_gender": "listado", 
+            "content_type": "movies", 
+            "movie_gender": true, 
+            "order_by": 8, 
+            "page": 0, 
+            "url": {
+                "Western": "37", 
+                "action": "28", 
+                "adventure": "12", 
+                "animation": "16", 
+                "comedy": "35", 
+                "drama": "18", 
+                "fantasia": "14", 
+                "intrigue": "53", 
+                "musical": "10402", 
+                "romantic": "10749", 
+                "science-fiction": "878", 
+                "terror": "27", 
+                "war": "10752"
+            }
+        }, 
+        "tvshow": {
+            "action": "listado", 
+            "content_type": "tvshows", 
+            "order_by": 8, 
+            "page": 0
+        }
+    }, 
+    "settings": [
+		{
+            "default": "", 
+            "enabled": true, 
+            "id": "user", 
+            "label": "Usuario:", 
+            "type": "text", 
+            "visible": true
+        }, 
+        {
+            "default": "", 
+            "enabled": true, 
+            "hidden": true, 
+            "id": "password", 
+            "label": "Contraseña:", 
+            "type": "text", 
+            "visible": true
+        }
+    ], 
+    "version": 10
+}

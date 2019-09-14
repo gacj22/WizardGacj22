@@ -1,0 +1,46 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "24/08/2007",
+      "description": "Primera version"
+    }
+  ],
+  "id": "alldebrid",
+  "name": "ALLDebrid",
+  "settings": [
+    {
+      "label": "Activar cuenta premium:",
+      "type": "bool",
+      "id": "account",
+      "default": false
+    },
+    {
+      "label": "Usuario:",
+      "type": "text",
+      "id": "user",
+      "default": "",
+      "enabled": "eq(-1,true)"
+    },
+    {
+      "label": "Contraseña:",
+      "type": "text",
+      "hidden": true,
+      "id": "password",
+      "default": "",
+      "enabled": "eq(-2,true)"
+    }
+  ],
+  "servers":[
+    "filefactory",
+    "rapidgator",
+    "turbobit",
+    "uploadedto",
+    "uptobox",
+    "mega",
+    "mediafire",
+    "1fichier",
+    "katfile"
+  ],
+  "version": 2
+}

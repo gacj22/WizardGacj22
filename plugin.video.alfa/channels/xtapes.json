@@ -1,0 +1,16 @@
+{
+  "id": "xtapes",
+  "name": "xtapes",
+  "active": false,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://hd.xtapes.to/wp-content/uploads/xtapes.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

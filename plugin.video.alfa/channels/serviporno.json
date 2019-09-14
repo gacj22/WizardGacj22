@@ -1,0 +1,14 @@
+{
+  "id": "serviporno",
+  "name": "Serviporno",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "serviporno.png",
+  "banner": "serviporno.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "29/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "vimple.ru/iframe/([a-f0-9]+)",
+        "url": "http://player.vimple.ru/iframe/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "vimple",
+  "name": "Vimple.ru",
+  "settings": [],
+  "version": 2
+}

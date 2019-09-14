@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.as" name="[COLOR aqua]Merlin Auto Cleaner[/COLOR]" version="1.0.0" provider-name="Merlin Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Auto Cleaner By Merlin!</summary>
+    <description lang="en">DO NOT LAUNCH/RUN FROM MY ADD-ONS (This Will Auto Launch At Startup)</description>
+	<disclaimer lang="en">You May Disable! Configure From Within Add-On Settings</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

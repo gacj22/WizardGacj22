@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "29/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https://1fichier.com/\\?([a-z0-9]+)",
+        "url": "https://1fichier.com/?\\1"
+      }
+    ]
+  },
+  "free": false,
+  "id": "1fichier",
+  "name": "1fichier",
+  "settings": [],
+  "version": 2
+}

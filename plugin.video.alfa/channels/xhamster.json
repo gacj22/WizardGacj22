@@ -1,0 +1,22 @@
+{
+  "id": "xhamster",
+  "name": "xhamster",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "banner": "xhamster.png",
+  "thumbnail": "xhamster.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ver-peliculas",
+  "thumbnail":"https://s14.postimg.cc/98ulljwhd/ver-peliculas.png",
+  "banner":"https://s2.postimg.cc/4k1ivod2h/ver-peliculas-banner.png",
+  "name": "Ver-peliculas",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "version": 1,
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Cast",
+        "Lat",
+        "VOSE"
+      ]
+    }
+  ]
+
+}

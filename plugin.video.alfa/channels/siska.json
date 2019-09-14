@@ -1,0 +1,15 @@
+{
+  "id": "siska",
+  "name": "siska",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://www.siska.tv/images/siska.png?50",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}
+

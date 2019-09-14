@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+    <category label="Arenavision">
+        <setting id="arena_url" type="labelenum" values="http://arenavision.us|http://arenavision.biz|http://arenavision.in|http://arenavision.cc"
+                 label="Agenda Arenavision:" default="http://arenavision.us"/>
+        <setting id="get_categorias" type="bool" label="Clasificar por deportes" default="true"/>
+        <setting id="arena_hide" type="bool" label="Ocultar eventos finalizados" default="false"/>
+        <setting id="arena_visor" type="bool" label="Usar ShowPicture para ver la agenda" default="false" visible="false"/>
+    </category>
+
+    <category label="Sport365">
+        <setting id="sport_url" type="labelenum" values="http://www.sport365.live|http://www.sport365.sx"
+                 label="Agenda Sport365:" default="http://www.sport365.live"/>
+        <setting id="sport_tipo" type="labelenum" values="InputStream|Streamlink|Directo|F4mtester"
+                 label="VideoPlayer:" default="InputStream"/>
+
+    </category>
+</settings>

@@ -1,0 +1,51 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "21/05/2019",
+            "description": "Corregido por cambios en la web"
+        },
+        {
+            "date": "27/04/2019",
+            "description": "Corregido por cambios en la web"
+        },
+        {
+            "date": "01/09/2018",
+            "description": "Incluido soporte js"
+        },
+        {
+            "date": "28/08/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "08/06/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "14/04/2018",
+            "description": "Corregido gracias a Alfa Team"
+        },
+        {
+            "date": "19/01/2018",
+            "description": "Corregido algoritmo"
+        },
+        {
+            "date": "18/08/2017", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "streamplay.to/(?:embed-|player-|)([a-z0-9]+)(?:.html|)", 
+                "url": "https://streamplay.me/player-\\1-920x360.html"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "streamplay", 
+    "name": "Streamplay",
+    "settings": [],
+    "version": 8
+}

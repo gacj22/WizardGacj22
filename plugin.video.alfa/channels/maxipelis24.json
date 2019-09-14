@@ -1,0 +1,27 @@
+{
+  "id": "maxipelis24",
+  "name": "Maxipelis24",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat", "vose"],
+  "thumbnail": "maxipelis24.png",
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Latino",
+        "CAST",
+        "VOSE"
+      ]
+    }
+  ]
+}

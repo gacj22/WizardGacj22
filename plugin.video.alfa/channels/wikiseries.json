@@ -1,0 +1,38 @@
+{
+  "id": "wikiseries",
+  "name": "WikiSeries",
+  "active": true,
+  "adult": false,
+  "language": ["lat", "cast"],
+  "thumbnail": "https://s31.postimg.cc/tnmcrytnv/16142379_1847422438815031_3788419094563167644_n.jpg",
+  "banner": "",
+  "categories": [
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+		"Latino",
+		"Español",
+        "VOSE",
+        "VO"
+      ]
+    }
+  ]
+}

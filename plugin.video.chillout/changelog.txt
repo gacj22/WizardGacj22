@@ -1,0 +1,6 @@
+07.08.2018 - Created by Kodiman
+
+1.0.0 - Erste Version 
+1.0.6 - Channels hinzugefügt
+1.0.8 - Channels hinzugefügt
+1.0.9 - Channels hinzugefügt

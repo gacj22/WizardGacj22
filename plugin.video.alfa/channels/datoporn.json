@@ -1,0 +1,12 @@
+{
+  "id": "datoporn",
+  "name": "DatoPorn",
+  "language": ["*"],
+  "active": true,
+  "adult": true,
+  "thumbnail": "http://i.imgur.com/tBSWudd.png?1",
+  "banner": "datoporn.png",
+  "categories": [
+    "adult"
+  ]
+}

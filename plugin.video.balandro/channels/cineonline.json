@@ -1,0 +1,15 @@
+{
+  "id": "cineonline",
+  "name": "CineOnline",
+  "thumbnail": "cineonline.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas por idiomas, calidades, géneros, años. Series ..."
+}

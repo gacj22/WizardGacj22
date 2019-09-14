@@ -1,0 +1,64 @@
+{
+  "id": "pelishd24",
+  "name": "PelisHD24",
+  "active": true,
+  "adult": false,
+  "language": ["lat", "cast", "eng"],
+  "fanart": "https://pelishd24.com/wp-content/uploads/2018/11/background.png",
+  "thumbnail": "https://pelishd24.com/wp-content/uploads/2018/07/pelishd24.2.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos",
+    "direct"
+  ],
+  "settings": [
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Latino",
+        "Castellano",
+        "English"
+      ]
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 5",
+        "Perfil 4",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "orden_episodios",
+      "type": "bool",
+      "label": "Mostrar los episodios de las series en orden descendente",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>allsportstv</id>
+	<name>Allsports-Tv</name>
+
+	<active>false</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail></thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>1</version>
+	<date>11/03/2017</date>
+	<changes>Primera version</changes>
+
+	<categories>
+		<category>deportes</category>
+		
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+	<settings>
+		<id>userallsportstv</id>
+		<type>text</type>
+		<label>Usuario</label>
+		<color>0xFFd50b0b</color>
+		<default></default>
+		<enabled>true</enabled>
+		<visible>true</visible>
+	</settings>
+	<settings>
+		<id>passwordallsportstv</id>
+		<type>text</type>
+		<label>Contraseña</label>
+		<color>0xFFd50b0b</color>
+		<default></default>
+		<enabled>true</enabled>
+		<visible>true</visible>
+		<hidden>True</hidden>
+	</settings>
+</channel>

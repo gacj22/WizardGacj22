@@ -1,0 +1,12 @@
+{
+  "id": "qserie",
+  "name": "QSerie",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://s31.postimg.cc/dousrbu9n/qserie.png",
+  "banner": "https://s32.postimg.cc/nk1quq1wl/qserie_banner.png",
+  "categories": [
+    "tvshow"
+  ]
+}

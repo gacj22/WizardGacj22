@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>motogpennegro</id>
+	<name>MotoGPEnNegro</name>
+	<language>es</language>
+	<update_url></update_url>
+	<active>true</active>
+	<include_in_global_search>false</include_in_global_search>
+	<adult>false</adult>
+	<version>2</version>
+	<date>08/07/2016</date>
+	<changes>Modificado nueva version pelisalacarta</changes>
+	<fanart></fanart>
+	<thumbnail>http://i.imgur.com/LjJu39J.png?1</thumbnail>
+	<categories>
+		<category>deportes</category>
+	</categories>
+</channel>

@@ -1,0 +1,58 @@
+{
+  "id": "cliver",
+  "name": "Cliver",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://www.cliver.to/img/logo.png",
+  "banner": "",
+  "version": 1,
+  "categories": [
+    "movie",
+    "tvshow"  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "CAST",
+        "LAT",
+        "VOSE",
+        "VOS"
+      ]
+    },
+    {
+      "id": "default_content",
+      "type": "list",
+      "label": "¿Qué tipo de contenido quieres ver?",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Películas",
+        "Series"
+      ]
+    },
+    {
+      "id": "direct_play",
+      "type": "bool",
+      "label": "Reproducción directa (Series)",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

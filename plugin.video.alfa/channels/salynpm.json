@@ -1,0 +1,16 @@
+{
+  "id": "salynpm",
+  "name": "SalynPM",
+  "active": true,
+  "adult": false,
+  "language": ["VOSE","LAT"],
+  "thumbnail": "SalynPM.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "vos"
+  ],
+  "settings": [
+  ]
+}
+

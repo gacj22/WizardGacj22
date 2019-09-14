@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>gooool</id>
+	<name>Gooool</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail>http://i.imgur.com/xfZ3TS4.png</thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>1</version>
+	<date>01/09/2016</date>
+	<changes>Primera version</changes>
+
+	<categories>
+		<category>deportes</category>
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+	<settings>
+		<id>include_in_agenda</id>
+		<type>bool</type>
+		<label>Incluir en Agenda Global</label>
+		<default>true</default>
+		<enabled>true</enabled>
+		<visible>true</visible>
+	</settings>
+</channel>

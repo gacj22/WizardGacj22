@@ -1,0 +1,12 @@
+{
+  "id": "eporner",
+  "name": "Eporner",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "eporner.png",
+  "banner": "eporner.png",
+  "categories": [
+    "adult"
+  ]
+}

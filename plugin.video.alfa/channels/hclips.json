@@ -1,0 +1,16 @@
+{
+  "id": "hclips",
+  "name": "hclips",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://www.hclips.com/apple-touch-icon-152x152.png?v=3",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

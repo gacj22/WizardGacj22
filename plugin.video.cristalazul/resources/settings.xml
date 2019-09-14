@@ -1,0 +1,42 @@
+﻿<settings>
+  <category label="General">
+  
+    
+	<setting id="add_playlist" type="bool" label="                                                     [COLOR red]¿Arreglar Error De Registro?[/COLOR]" default="false" />
+	<setting id="come_cristal" type="text" label="por defecto" default="0o1Ooo101l0oOO"  enable="!eq(-1,false)" visible="false"/>
+	<setting id="save_location" type="folder"  label="Select a download location." default="" visible="false"/>
+    <setting id="use_thumb" type="bool" label="Use Thumbnails as Fanart" default="false" visible="false"/>
+    <setting id="logo-folderPath" type="folder"  label="Select Directory for logo." default="" visible="false"/>
+    <setting id="ask_playlist" type="bool" label="Activar Turbo " default="true" />
+    <setting id="ask_playlist_items" type="bool" label="Ask playlist items to choose from dialog" default="false" visible="false"/>
+    <setting id="debug" type="bool" label="Enable Add-on Debugging" default="false" visible="false"/>
+    <setting id="1080pquality" label="Mejorar calidad 1080p y 4k" type="bool" default="true" />
+    <setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid with:" default="Genesis" visible="false"/>
+    <setting id="donotshowbychannels" label="Do Not show items under channel name" type="bool" default="false" visible="false"/>
+    
+	<setting id="parentalblockedpin" label="Codigo parental Pin" type="text"  option="hidden"  default=""/>
+    <setting id="parentalblocked" label="activar codigo parental?" type="bool" default="false" enable="true"/>
+	
+    <setting id="choose_source" type="enum" values="Choose File|Enter URL" label="Choose Source Type" default="" visible="false"/>
+    <setting id="new_file_source" type="file" source="files" label="Choose File" default="" visible="false"/>
+    <setting id="new_url_source" type="text" label="Add URL" default="" visible="false"/>
+    <setting type="action" label="Add Source" option="close" action="RunPlugin(plugin://plugin.video.cristalazul/?mode=7)" visible="false"/>
+    <setting id="searchotherplugins" label="Search Other plugins" type="bool" default="false" visible="false"/>
+
+    <setting id="browse_xml_database" type="bool" label="Browse and play from .xml Database" default="false" visible="false"/>
+    <setting type="action" label="Add .xml Database Sources" option="close" action="Container.Update(plugin://plugin.video.cristalazul/?mode=14)" visible="false"/>
+
+    <setting id="browse_community" type="bool" label="Browse and play from Community Files" default="false" visible="false"/>
+    <setting type="action" label="Add Community File URL as Source" option="close" action="Container.Update(plugin://plugin.video.cristalazul/?mode=10)" visible="false"/>
+  
+  </category>
+   <category label="Añadir addon">
+    <setting id="choose_source" type="enum" values="Archivo xml local|URL remota" label="Archivo local o remoto" default=""/>
+    <setting id="new_file_source" type="file" source="files" label="Busca xml (local)" default="" visible="eq(-1,0)"/>
+	<setting id="new_url_source" type="text" label="Escribe url (remota)" default="" visible="eq(-2,1)"/>
+    <setting type="sep" />
+    <setting type="action" label="Añadir fuente" option="close" action="RunPlugin(plugin://plugin.video.cristalazul/?mode=7)" />
+    <setting type="sep" />
+    <setting id="searchotherplugins" label="Buscar otros plugins" type="bool" default="false"/>
+  </category>
+</settings>

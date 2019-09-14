@@ -1,0 +1,15 @@
+{
+  "id": "pelisipad",
+  "name": "PelisIpad",
+  "thumbnail": "pelisipad.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas y series por temas, con servidores propios (en algunos casos requiere configurar un proxy)."
+}

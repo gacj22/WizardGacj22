@@ -1,0 +1,26 @@
+{
+  "id": "seodiv",
+  "name": "Seodiv",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "https://s32.postimg.cc/gh8lhbkb9/seodiv.png",
+  "banner": "https://s31.postimg.cc/klwjzp7t7/seodiv_banner.png",
+  "categories": [
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Latino"
+      ]
+    }
+  ]
+}

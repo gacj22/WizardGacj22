@@ -1,0 +1,16 @@
+{
+  "id": "xozilla",
+  "name": "xozilla",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://www.xozilla.com/images/logo.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "id": "vidtodo",
+  "name": "Vidtodo",
+ 
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(vidtodoo|vidtodo).com/(?:embed-|)([A-z0-9]+)",
+        "url": "https://\\1.com/\\2"
+      }
+    ]
+  }
+
+}

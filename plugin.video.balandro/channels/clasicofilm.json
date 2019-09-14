@@ -1,0 +1,15 @@
+{
+  "id": "clasicofilm",
+  "name": "ClasicoFilm",
+  "thumbnail": "clasicofilm.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast", "vose"],
+
+  "notes": "Películas clásicas en castellano principalmente, por géneros y por años."
+}

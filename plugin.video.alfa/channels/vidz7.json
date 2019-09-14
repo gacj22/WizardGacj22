@@ -1,0 +1,22 @@
+{
+  "id": "vidz7",
+  "name": "Vidz7",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "banner": "https://www.dropbox.com/s/182r0wby3ohnxkc/bannermenu.jpg?dl=1",
+  "thumbnail": "https://www.dropbox.com/s/7z31b4ixve2ge0l/thumbnail.png?dl=1",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

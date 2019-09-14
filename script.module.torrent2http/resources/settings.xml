@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Основные">
+        <setting label="Роль" type="select" id="role" values="local|server|client" default="local"/>
+		<setting label="Путь для сохранения видео файлов"	type="folder" id="storage_path"	visible="eq(-1,server)" />
+
+		<setting label="Хост" type="text"   id="remote_host"	visible="!eq(-2,local)" default="192.168.1.10"/>		
+		<setting label="Порт" type="text"   id="remote_port" 	visible="!eq(-3,local)" default="2829"/>		
+    </category>
+</settings>

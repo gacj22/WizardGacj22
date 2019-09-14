@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>agendaglobal</id>
+	<name>Agenda Global</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail>https://s6.postimg.org/i6xu0i70x/agendaglogo.png</thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>1</version>
+	<date>01/09/2016</date>
+	<changes>Primera version</changes>
+
+	<categories>
+		<category>deportes</category>	
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+	<settings>
+		<id>canales_incluidos</id>
+		<type>text</type>
+		<default></default>
+		<enabled>true</enabled>
+		<visible>false</visible>
+	</settings>
+	<settings>
+		<id>last_search_equipo</id>
+		<type>text</type>
+ 		<default></default>
+ 		<enabled>false</enabled>
+ 		<visible>false</visible>
+ 	</settings>
+	<settings>
+		<id>last_search_deporte</id>
+		<type>text</type>
+ 		<default></default>
+ 		<enabled>false</enabled>
+ 		<visible>false</visible>
+ 	</settings>
+</channel>

@@ -1,0 +1,25 @@
+{
+  "settings": [
+    {
+        "default": "",
+        "enabled": true,
+        "id": "snipt_username",
+        "label": "Usuario:",
+        "type": "text"
+    },
+    {
+        "default": "",
+        "enabled": true,
+        "id": "snipt_password",
+        "label": "Contraseña:",
+        "type": "text"
+    },
+    {
+        "default": "",
+        "enabled": true,
+        "id": "snipt_id",
+        "label": "ID:",
+        "type": "text"
+    }
+  ]
+}

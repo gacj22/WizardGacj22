@@ -1,0 +1,74 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "06/06/2019",
+            "description": "Activar películas"
+        },
+        {
+            "date": "11/03/2019",
+            "description": "Reparar error"
+        },
+		{
+            "date": "28/02/2019",
+            "description": "Cambio de dominio"
+        },
+        {
+            "date": "13/08/2018",
+            "description": "Desactivar canal: web caida"
+        },
+        {
+            "date": "10/07/2018",
+            "description": "Cambio de dominio"
+        },
+        {
+            "date": "28/04/2018",
+            "description": "Normalizar url servidores"
+        },
+        {
+            "date": "10/04/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "28/10/2017",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "seriesblanco",
+    "min_version": {
+        "main": "1.1.1",
+        "python": "2.7.9"
+    },
+    "name": "SeriesBlanco",
+    "search": {
+        "movie": {
+            "action": "search",
+            "content_type": "movies"
+        },
+        "tvshow":{
+            "action": "search",
+            "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "episode":{
+          "action": "newest_episodes",
+          "content_type": "episodes"
+        },
+        "movie": {
+            "action": "content",
+            "content_type": "movies"
+        },
+        "tvshow": {
+            "action": "content",
+            "content_type": "tvshows"
+        }
+    },
+    "settings": [],
+    "version": 8
+}

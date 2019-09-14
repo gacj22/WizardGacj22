@@ -1,0 +1,12 @@
+{
+  "id": "abtoon",
+  "name": "abtoon",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "http://i.imgur.com/EpNUqsD.png",
+  "banner": "http://i.imgur.com/c1YTgNT.png",
+  "categories": [
+    "tvshow"
+  ]
+}

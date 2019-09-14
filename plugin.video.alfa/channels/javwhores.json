@@ -1,0 +1,15 @@
+{
+  "id": "javwhores",
+  "name": "javwhores",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://www.javwhores.com/images/logo.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}
+

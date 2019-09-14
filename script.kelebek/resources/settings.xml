@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+ <category label="Options">
+  <setting default="" id="basesource" type="text" visible="false">
+  </setting>
+  <setting default="" id="URL_Base Source" label="URL Base Source: " type="text" visible="true">
+  </setting>
+  <setting default="true" id="Play_Media_Initial" label="Play Media Inicial" type="bool" visible="true">
+  </setting>
+  <setting default="true" id="Play_Media" label="Play Media" type="bool" visible="true">
+  </setting>
+ </category>
+ <category label="Automatic_Update">
+  <setting default="false" id="Kelebek" label="Kelebek" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="OVNI" label="OVNI" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="ALMA" label="ALMA" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="MUNDOOSCURO" label="MUNDO OSCURO" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="1X2" label="1X2" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Sports365" label="Sports 365" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="VideoFootbal" label="Video Footbal" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="LaOla" label="La Ola" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Avezy" label="Avezy" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="NBAonDemand" label="NBA on Demand" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="DeportesalaCarta" label="Deportes a la Carta" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="RedBull" label="RedBull" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="SportsExtreme" label="Sports Extreme" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="SportsWA" label="Sports WA" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Pequelandia" label="Pequelandia" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="TvChopoKids" label="TvChopoKids" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="MundoInfantil" label="Mundo Infantil" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="YouKids" label="YouKids" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="SrRegio" label="Sr Regio" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Fusion" label="Fusion" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="BrazucaPlay" label="Brazuca Play" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="ColombiaTV" label="Colombia TV" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="DiscoKelebek" label="Disco Kelebek" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Music" label="Music" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="YouMusic" label="YouMusic" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="YoutubeMusic" label="Youtube Music" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Dance" label="Dance" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Musicando" label="Musicando" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="MyHR" label="MyHR" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="HouseMixes" label="House Mixes" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="NowMusic" label="Now Music" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Chillout" label="Chillout" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Palantir" label="Palantir" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Alfa" label="Alfa" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="MediaExplorer" label="MediaExplorer" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="MundoCine" label="MundoCine" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Agora" label="Agora" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Tesla" label="Tesla" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="TempTV" label="Temp TV" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="CCloudTV" label="CCloudTV" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Magellan" label="Magellan" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Iberika" label="Iberika" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="ElementumU" label="Elementum Universal" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="tvchopo" label="TvChopo" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Magyck" label="Magyc" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="cristalazul" label="Cristal Azul" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="mundrone" label="Mundrone" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Alma" label="Alma" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="ccloudtv" label="CCloudTV" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="festa" label="Festa" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="tvalacarta" label="Tvalacarta" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="F4MTester" label="F4M Tester" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="F4MProxy" label="F4M Proxy" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="uwc" label="Ultimate WhiteCream" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="CatchUpTVK" label="CatchUp TV Krypton" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Motor99" label="Motor99" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Noise" label="Noise" type="bool" visible="true">
+  </setting>
+  <setting default="false" id="Armageddon" label="Armageddon" type="bool" visible="true">
+  </setting>
+ </category>
+</settings>

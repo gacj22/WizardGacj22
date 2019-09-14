@@ -1,0 +1,27 @@
+{
+    "active": true,
+    "changes": [
+      {
+        "date": "06/06/2019",
+        "description": "Corrección del patrón"
+      },
+      {
+        "date": "29/05/2019",
+        "description": "Primera version"
+      }
+    ],
+    "find_videos": {
+      "ignore_urls": [],
+      "patterns": [
+        {
+          "pattern": "verystream.com/(?:stream|e)/([A-z0-9]+)",
+          "url": "https://verystream.com/e/\\1/"
+        }
+      ]
+    },
+    "free": true,
+    "id": "verystream",
+    "name": "Verystream",
+    "settings": [],
+    "version": 2
+}

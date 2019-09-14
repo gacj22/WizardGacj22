@@ -1,0 +1,48 @@
+{
+  "id": "erairaws",
+  "name": "Erai-Raws",
+  "active": true,
+  "adult": false,
+  "language": [],
+  "thumbnail": "https://i.imgur.com/GvLkFFO.png",
+  "banner": "",
+  "fanart": "https://i.imgur.com/56ya0TT.png",
+  "categories": [
+    "anime",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_subs",
+      "type": "list",
+      "label": "Mostrar solo animes que contengan subtitulos en",
+      "default": 5,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Francés",
+        "Alemán",
+        "Italiano",
+        "Inglés",
+        "Portugués",
+        "Español"
+      ]
+    },
+    {
+      "id": "include_in_newest_anime",
+      "type": "bool",
+      "label": "Incluir en Novedades - Episodios de anime",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    }
+  ]
+}

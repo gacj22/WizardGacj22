@@ -1,0 +1,12 @@
+{
+  "id": "peliculashindu",
+  "name": "PeliculasHindu",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "peliculashindu.png",
+  "banner": "peliculashindu.png",
+  "categories": [
+    "movie"
+  ]
+}

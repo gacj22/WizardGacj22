@@ -1,0 +1,23 @@
+{
+    "active": false,
+    "changes": [
+        {
+            "date": "12/09/2018",
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "nitroflare.com/view/([0-9A-Z]+)",
+                "url": "http://nitroflare.com/view/\\1"
+            }
+        ]
+    }, 
+    "free": false,
+    "id": "nitroflare",
+    "name": "Nitroflare",
+    "settings": [],
+    "version": 1
+}

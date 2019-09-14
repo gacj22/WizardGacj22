@@ -1,0 +1,17 @@
+{
+  "id": "uploadmp4",
+  "name": "UploadMp4",
+
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+		"pattern": "uploadmp4.com/embed/([a-zA-Z0-9]+)",
+		"url": "https://www.uploadmp4.com/embed/\\1/"
+      }
+    ]
+  }
+
+}

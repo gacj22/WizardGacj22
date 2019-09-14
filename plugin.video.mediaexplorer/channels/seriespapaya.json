@@ -1,0 +1,61 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "05/07/2019",
+            "description": "Eliminado dominio alternativo"
+        },
+        {
+            "date": "10/06/2019",
+            "description": "Fix en busquedas y novedades"
+        },
+        {
+            "date": "25/05/2019",
+            "description": "Fix en Episodios de estreno..."
+        },
+        {
+            "date": "21/05/2019",
+            "description": "Añadida opcion proxy"
+        },
+        {
+            "date": "14/05/2018",
+            "description": "Añadida sección Nuevas Series"
+        },
+		{
+            "date": "07/05/2018",
+            "description": "Corregir títulos en Episodios de estreno..."
+        },
+        {
+            "date": "26/04/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "seriespapaya",
+    "min_version": {
+        "main": "1.1.3",
+        "python": null
+    },
+    "name": "SeriesPapaya",
+    "search": {
+        "tvshow": {
+          "action": "search",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "tvshow": {
+          "action": "newest_tvshows",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 7
+}

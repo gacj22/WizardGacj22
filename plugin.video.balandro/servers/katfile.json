@@ -1,0 +1,18 @@
+{
+  "id": "katfile",
+  "name": "KatFile",
+ 
+  "active": false,
+  "notes": "Debrider required",
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "katfile.com/([a-zA-Z0-9]+)",
+        "url": "https://katfile.com/\\1"
+      }
+    ]
+  }
+
+}

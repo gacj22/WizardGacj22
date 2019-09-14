@@ -1,0 +1,23 @@
+{
+    "active": false,
+    "changes": [
+        {
+            "date": "24/08/2007", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "userscloud.com/(?:embed-|)([A-z0-9]+)",
+                "url": "http://userscloud.com/\\1"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "userscloud",
+    "name": "UsersCloud",
+    "settings": [],
+    "version": 2
+}

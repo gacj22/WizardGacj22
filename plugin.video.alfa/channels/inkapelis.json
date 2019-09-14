@@ -1,0 +1,114 @@
+{
+  "id": "inkapelis",
+  "name": "Inkapelis",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://www.inkapelis.tv/wp-content/uploads/2016/07/logitoinkapelis-min.png",
+  "banner": "inkapelis.png",
+  "categories": [
+    "movie",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Películas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_castellano",
+      "type": "bool",
+      "label": "Incluir en Novedades - castellano",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_latino",
+      "type": "bool",
+      "label": "Incluir en Novedades - latino",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "LAT",
+        "CAST",
+        "VOSE"
+      ]
+    },
+    {
+      "id": "filtro_defecto_peliculas",
+      "type": "label",
+      "enabled": true,
+      "visible": false
+    },
+    {
+      "id": "pers_peliculas1",
+      "type": "label",
+      "enabled": true,
+      "visible": false
+    },
+    {
+      "id": "pers_peliculas2",
+      "type": "label",
+      "enabled": true,
+      "visible": false
+    },
+    {
+      "id": "pers_peliculas3",
+      "type": "label",
+      "enabled": true,
+      "visible": false
+    }
+  ]
+}

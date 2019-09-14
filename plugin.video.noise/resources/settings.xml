@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Database">
+        <setting id="db_dir" type="folder" label="Database Location" default="" />
+    </category>
+</settings>

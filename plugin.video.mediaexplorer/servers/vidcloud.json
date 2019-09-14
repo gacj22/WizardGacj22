@@ -1,0 +1,23 @@
+{
+    "active": true,
+    "changes": [
+        {
+            "date": "27/10/2018",
+            "description": "Primera version"
+        }
+    ],
+    "find_videos": {
+        "ignore_urls": [],
+        "patterns": [
+            {
+                "pattern": "https://(?:vidcloud.co|vcstream.to)/v/([a-z0-9]+)",
+                "url": "https://vidcloud.co/player?fid=\\1&page=embed"
+            }
+        ]
+    },
+    "free": true,
+    "id": "vidcloud",
+    "name": "Vidcloud",
+    "settings": [],
+    "version": 2
+}

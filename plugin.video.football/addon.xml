@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.football"
+	name="[COLOR skyblue]NCAA Football[/COLOR]"
+	version="2.8.0"
+	provider-name="JAR">
+  <requires>
+    <import addon="xbmc.python" version="2.3.2"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">NCAA y SPAIN</summary>
+    <description lang="es">Football NCAA Y ESPAÑA</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>

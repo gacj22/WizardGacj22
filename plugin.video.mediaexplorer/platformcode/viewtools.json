@@ -1,0 +1,78 @@
+{
+  "settings": [
+    {
+      "default": 0,
+      "id": "color_profile",
+      "label": "Perfil de color",
+      "type": "list",
+      "lvalues": "eval([p[1] for p in platformtools.get_profile_list()])",
+      "values": "eval([p[0] for p in platformtools.get_profile_list()])",
+      "mode": "label"
+    },
+    {
+      "default": false,
+      "id": "short_labels",
+      "label": "Mostrar etiquetas de Calidad e Idioma en formato corto",
+      "type": "bool"
+    },
+    {
+      "default": true,
+      "id": "hide_unique_season",
+      "label": "Mostrar episodios directamente cuando la serie solo tenga una temporada",
+      "type": "bool"
+    },
+    {
+      "label": "Información de medios:",
+      "type": "label"
+    },
+    {
+      "default": 0,
+      "id": "movie_scrapper",
+      "label": "Proveedor de información para peliculas",
+      "type": "list",
+      "lvalues": "eval(MediaInfo.movie_services)"
+
+    },
+    {
+      "default": 0,
+      "id": "tvshow_scrapper",
+      "label": "Proveedor de información para series",
+      "type": "list",
+      "lvalues": "eval(MediaInfo.tvshow_services)"
+
+    },
+    {
+      "default": true,
+      "id": "itemlist_info",
+      "label": "Buscar información para peliculas y series en el listado",
+      "type": "bool"
+    },
+    {
+      "default": 1,
+      "id": "max_size_list_info",
+      "label": "   - Número máximo de elementos sobre los que buscar",
+      "type": "list",
+      "lvalues": ["100","200","300","500","Sin límites"],
+      "enabled": "eq(-1,true)"
+    },
+    {
+      "default": false,
+      "id": "extended_info",
+      "label": "   - Mostar información detallada (mas lento)",
+      "type": "bool",
+      "enabled": "eq(-2,true)"
+    },
+    {
+      "default": false,
+      "id": "media_info",
+      "label": "Buscar información para peliculas y series al abrirla",
+      "type": "bool"
+    },
+    {
+      "default": true,
+      "id": "play_info",
+      "label": "Buscar información para peliculas y series al reproducir",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "tvshow",
+        "movie"
+    ],
+    "changes": [
+        {
+            "date": "26/06/2019",
+            "description": "Fijar calidades e idiomas"
+        },
+        {
+            "date": "28/03/2019",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "15/01/2019",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "02/01/2019",
+            "description": "Añadida sección Películas de Inkapelis"
+        },
+        {
+            "date": "18/04/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "inkaseries",
+    "min_version": {
+        "main": "1.0.4.201812220000",
+        "python": "2.7.9"
+    },
+    "name": "Inkaseries",
+    "search": {
+        "tvshow": {
+          "action": "search",
+          "content_type": "tvshows"
+        },
+        "movie": {
+          "action": "search",
+          "content_type": "movies"
+        },
+        "movie_gender": {
+          "action_gender": "movies",
+          "url": {
+            "action": "https://www.inkapelis.com/genero/accion/",
+            "adventure": "https://www.inkapelis.com/genero/aventura/",
+            "animation": "https://www.inkapelis.com/genero/animacion/",
+            "children": "https://www.inkapelis.com/genero/peliculas-para-ninos/",
+            "comedy": "https://www.inkapelis.com/genero/comedia/",
+            "drama": "https://www.inkapelis.com/genero/drama/",
+            "fantasia": "https://www.inkapelis.com/genero/fantasia/",
+            "intrigue": "https://www.inkapelis.com/genero/suspense/",
+            "musical": "https://www.inkapelis.com/genero/musica/",
+            "romantic": "https://www.inkapelis.com/genero/romance/",
+            "science-fiction": "https://www.inkapelis.com/genero/ciencia-ficcion/",
+            "terror": "https://www.inkapelis.com/genero/terror/",
+            "war": "https://www.inkapelis.com/genero/guerra/",
+            "western": "https://www.inkapelis.com/genero/western/"
+          }
+        }
+    },
+    "newest": {
+        "tvshow": {
+          "action": "tvshows",
+          "url": "https://www.inkaseries.net/ultimas-series-agregadas/",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "url": "https://www.inkaseries.net/ultimos-capitulos-agregados/",
+          "content_type": "episodes"
+        },
+        "movie": {
+          "action": "movies",
+          "url": "https://www.inkapelis.com",
+          "content_type": "movies"
+        }
+    },
+    "settings": [],
+    "version": 5
+}

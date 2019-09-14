@@ -1,0 +1,14 @@
+{
+  "id": "beeg",
+  "name": "Beeg",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "beeg.png",
+  "banner": "beeg.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "thevid",
+  "name": "TheVid",
+
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(thevid.net/e/\\w+)",
+        "url": "https://\\1"
+      }
+    ]
+  }
+
+}

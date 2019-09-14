@@ -1,0 +1,23 @@
+{
+  "id": "uptobox",
+  "more_ids": ["uptostream"],
+  "name": "Uptobox",
+
+  "active": false,
+  "notes": "TODO no resuelve correctamente",
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "uptobox.com/([a-z0-9]+)",
+        "url": "http://uptobox.com/\\1"
+      },
+      {
+        "pattern": "uptostream.com/iframe/([a-z0-9]+)",
+        "url": "http://uptostream.com/iframe/\\1"
+      }
+    ]
+  }
+
+}

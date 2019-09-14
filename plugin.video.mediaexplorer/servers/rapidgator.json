@@ -1,0 +1,23 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "24/08/2007", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "(rapidgator.net/file/.*?(?:\\.html)?)", 
+                "url": "http://\\1"
+            }
+        ]
+    }, 
+    "free": false, 
+    "id": "rapidgator", 
+    "name": "Rapidgator", 
+    "settings": [],
+    "version": 2
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tvvip",
+  "name": "TV-VIP",
+  "active": false,
+  "adult": false,
+  "language": ["cast"],
+  "thumbnail": "http://i.imgur.com/gNHVlI4.png",
+  "banner": "http://i.imgur.com/wyRk5AG.png",
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": "!eq(-1,'') + !eq(-2,'')",
+      "visible": true
+    }
+  ]
+}

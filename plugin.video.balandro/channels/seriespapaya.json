@@ -1,0 +1,15 @@
+{
+  "id": "seriespapaya",
+  "name": "SeriesPapaya",
+  "thumbnail": "seriespapaya.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Muchas series, con capítulos de estreno en castellano, latino y VOSE, y listado alfabético."
+}

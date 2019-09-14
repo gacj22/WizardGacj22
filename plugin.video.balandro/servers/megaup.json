@@ -1,0 +1,17 @@
+{
+  "id": "megaup",
+  "name": "MegaUp",
+ 
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": ["http://soon.megaup.net/"],
+    "patterns": [
+      {
+        "pattern": "(megaup.net/[A-z0-9]+/.*?.(?:mp4|avi))",
+        "url": "https://\\1"
+      }
+    ]
+  }
+
+}

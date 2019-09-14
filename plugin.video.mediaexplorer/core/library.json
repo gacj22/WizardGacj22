@@ -1,0 +1,35 @@
+{
+    "settings": [
+		{
+            "default": 1,
+            "id": "library_update", 
+            "label": "Buscar nuevos capitulos para series:", 
+            "type": "list",
+			"lvalues": ["Manualmente", "Al iniciar", "Una vez al día"]
+        },
+        {
+            "default": "eval(os.path.join(sysinfo.data_path, 'library'))",
+            "id": "library_path", 
+            "label": "Ruta de la biblioteca", 
+            "type": "folder"
+        },
+		{
+            "default": "movies",
+            "id": "library_movies_folder", 
+            "label": "Nombre de la carpeta 'Películas'", 
+            "type": "text"
+        },
+		{
+            "default": "tvshows",
+            "id": "library_tvshows_folder", 
+            "label": "Nombre de la carpeta 'Series'", 
+            "type": "text"
+        },
+		{
+            "default": "videos",
+            "id": "library_videos_folder", 
+            "label": "Nombre de la carpeta 'Vídeos'", 
+            "type": "text"
+        }
+    ]
+}

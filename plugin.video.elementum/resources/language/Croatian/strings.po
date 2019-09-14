@@ -1,0 +1,2044 @@
+# Kodi Media Center language file
+# Addon Name: Elementum
+# Addon id: plugin.video.elementum
+# Addon Provider: elgatito
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-27 19:53+0200\n"
+"PO-Revision-Date: 2019-06-07 19:23+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Settings
+msgctxt "#30000"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "#30001"
+msgid "Download path"
+msgstr "Putanja preuzimanja"
+
+msgctxt "#30002"
+msgid "Keep files after playback/download stops"
+msgstr "Zadrži datoteke nakon gledanja/preuzimanja"
+
+msgctxt "#30003"
+msgid "Buffer size (MB)"
+msgstr "Veličina međuspremnika (MB)"
+
+msgctxt "#30004"
+msgid "Max upload rate (kB/s)"
+msgstr "Najveća brzina slanja (kB/s)"
+
+msgctxt "#30005"
+msgid "Max download rate (kB/s)"
+msgstr "Najveća brzina preuzimanja (kB/s)"
+
+msgctxt "#30006"
+msgid "Listen port min"
+msgstr "Najmanji ulaz osluškivanja"
+
+msgctxt "#30007"
+msgid "Listen port max"
+msgstr "Najveći ulaz osluškivanja"
+
+msgctxt "#30008"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "#30009"
+msgid "SOCKS v5 Configuration"
+msgstr "SOCKS v5 podešavanje"
+
+msgctxt "#30010"
+msgid "Enabled"
+msgstr "Omogućeno"
+
+msgctxt "#30011"
+msgid "Host"
+msgstr "Računalo"
+
+msgctxt "#30012"
+msgid "Port"
+msgstr "Ulaz"
+
+msgctxt "#30013"
+msgid "Login"
+msgstr "Prijava"
+
+msgctxt "#30014"
+msgid "Password"
+msgstr "Lozinka"
+
+msgctxt "#30015"
+msgid "Advanced"
+msgstr "Napredno"
+
+msgctxt "#30016"
+msgid "Custom provider timeout"
+msgstr "Prilagođeno vrijeme čekanja pružatelja usluge"
+
+msgctxt "#30017"
+msgid "Enabled (use at your own risk)"
+msgstr "Omogućeno (koristite na vlastiti rizik)"
+
+msgctxt "#30018"
+msgid "Timeout in seconds"
+msgstr "Vrijeme čekanja u sekundama"
+
+msgctxt "#30019"
+msgid "Maintenance"
+msgstr "Održavanje"
+
+msgctxt "#30020"
+msgid "Clear cache"
+msgstr "Obriši predmemoriju"
+
+msgctxt "#30021"
+msgid "Results per page"
+msgstr "Rezultata po stranici"
+
+msgctxt "#30022"
+msgid "Enable overlay status"
+msgstr "Omogući stanje presvlake"
+
+msgctxt "#30023"
+msgid "Choose stream automatically"
+msgstr "Automatski odaberi strujanje"
+
+msgctxt "#30024"
+msgid "Get updates for pre-releases"
+msgstr "Preuzmi nadopune za predizdanja"
+
+msgctxt "#30025"
+msgid "Limit rates after initial buffering only"
+msgstr "Ograniči brzinu samo nakon početnog međuspremanja"
+
+msgctxt "#30026"
+msgid "Library path"
+msgstr "Putanja videoteke"
+
+msgctxt "#30027"
+msgid "Connections limit"
+msgstr "Ograničenje povezivanja"
+
+msgctxt "#30028"
+msgid "Download after play was stopped"
+msgstr "Preuzmi nakon što je reprodukcija zaustavljena"
+
+msgctxt "#30029"
+msgid "Session saving frequency (seconds)"
+msgstr "Učestalost spremanja sesije (sekunde)"
+
+msgctxt "#30030"
+msgid "Overlay status vertical offset"
+msgstr "Vertikalni pomak stanja presvlake"
+
+msgctxt "#30031"
+msgid "Disable providers failing health check"
+msgstr "Onemogući pružatelje usluge koji nisu prošli test zdravlja"
+
+msgctxt "#30032"
+msgid "Allowed failures before provider is disabled"
+msgstr "Dopusti greške prije nego se pružatelj usluge onemogući"
+
+msgctxt "#30033"
+msgid "Appearance"
+msgstr "Izgled"
+
+msgctxt "#30034"
+msgid "Default view for Movies"
+msgstr "Zadani prikaz za filmove"
+
+msgctxt "#30035"
+msgid "Default view for TV Shows"
+msgstr "Zadani prikaz za TV serije"
+
+msgctxt "#30036"
+msgid "Default view for Seasons"
+msgstr "Zadani prikaz za sezone"
+
+msgctxt "#30037"
+msgid "Default view for Episodes"
+msgstr "Zadani prikaz za epizode"
+
+msgctxt "#30038"
+msgid "Prefer use of original title"
+msgstr "Preferiraj korištenje izvornog naziva"
+
+msgctxt "#30039"
+msgid "TheMovieDB"
+msgstr "TheMovieDB"
+
+msgctxt "#30040"
+msgid "API key"
+msgstr "API ključ"
+
+msgctxt "#30041"
+msgid "Stream sorting"
+msgstr "Razvrstavanje strujanja"
+
+msgctxt "#30042"
+msgid "Sorting mode for Movies"
+msgstr "Način razvrstavanja filmova"
+
+msgctxt "#30043"
+msgid "Sorting mode for TV Shows"
+msgstr "Način razvrstavanja TV serija"
+
+msgctxt "#30044"
+msgid "By seeders"
+msgstr "Po dijeliteljima"
+
+msgctxt "#30045"
+msgid "By resolution"
+msgstr "Po razlučivosti"
+
+msgctxt "#30046"
+msgid "Balanced"
+msgstr "Uravnoteženo"
+
+msgctxt "#30047"
+msgid "Resolution preference for Movies"
+msgstr "Poredak razlučivosti filmova"
+
+msgctxt "#30048"
+msgid "Resolution preference for TV Shows"
+msgstr "Poredak razlučivosti TV serija"
+
+msgctxt "#30049"
+msgid ""
+"Percentage of additional seeders required before choosing next resolution"
+msgstr ""
+"Potreban postotak dodatnih dijelitelja prije odabira sljedeće razlučivosti"
+
+msgctxt "#30050"
+msgid "Disable DHT"
+msgstr "Onemogući DHT"
+
+msgctxt "#30051"
+msgid "Share ratio limit (percent)"
+msgstr "Ograničenje omjera dijeljenja (postoci)"
+
+msgctxt "#30052"
+msgid "Seed time ratio limit (percent)"
+msgstr "Ograničenje vremena dijeljenja (postotak)"
+
+msgctxt "#30053"
+msgid "Seed time limit (hours)"
+msgstr "Ograničenje vremena dijeljenja (sati)"
+
+msgctxt "#30054"
+msgid "Update library"
+msgstr "Osvježi videoteku"
+
+msgctxt "#30055"
+msgid "Add Specials to library"
+msgstr "Dodaj specijalna izdanja u videoteku"
+
+msgctxt "#30056"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#30057"
+msgid "Username"
+msgstr "Korisničko ime"
+
+msgctxt "#30058"
+msgid "Authorize Elementum"
+msgstr "Ovjeri Elementum"
+
+msgctxt "#30059"
+msgid "Library update delay on startup (seconds)"
+msgstr "Odgoda nadopune videoteke pri pokretanju (sekunde)"
+
+msgctxt "#30060"
+msgid "Library update frequency (hours)"
+msgstr "Učestalost nadopune videoteke (sati)"
+
+msgctxt "#30061"
+msgid "Sync frequency of Trakt lists to library (hours)"
+msgstr "Učestalost usklađivanja Trakt popisa s videotekom (sati)"
+
+msgctxt "#30062"
+msgid "Ask to keep the files after streaming"
+msgstr "Upitaj za zadržavanje datoteka nakon strujanja"
+
+msgctxt "#30063"
+msgid "Disable UPNP & NATPMP"
+msgstr "Onemogući UPNP & NATPMP"
+
+msgctxt "#30064"
+msgid "Encryption policy"
+msgstr "Pravilo šifriranja"
+
+msgctxt "#30065"
+msgid "Disabled"
+msgstr "Omogućeno"
+
+msgctxt "#30066"
+msgid "Forced"
+msgstr "Forsirano"
+
+msgctxt "#30067"
+msgid "Proxy type"
+msgstr "Vrsta proxyja"
+
+msgctxt "#30068"
+msgid "SOCKS4"
+msgstr "SOCKS4"
+
+msgctxt "#30069"
+msgid "SOCKS5"
+msgstr "SOCKS5"
+
+msgctxt "#30070"
+msgid "SOCKS5 password"
+msgstr "SOCKS5 lozinka"
+
+msgctxt "#30071"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "#30072"
+msgid "HTTP password"
+msgstr "HTTP lozinka"
+
+msgctxt "#30073"
+msgid "i2p"
+msgstr "i2p"
+
+msgctxt "#30074"
+msgid "Spoof user agent (highly inadvisable)"
+msgstr "Lažiraj korisničkog agenta (vrlo nepreporučljivo)"
+
+msgctxt "#30075"
+msgid "Default advisable (acceptable)"
+msgstr "Zadano preporučljivo (prihvatljivo)"
+
+msgctxt "#30076"
+msgid "libtorrent (Rasterbar) 1.1.0"
+msgstr "libtorrent (Rasterbar) 1.1.0"
+
+msgctxt "#30077"
+msgid "BitTorrent 7.5.0"
+msgstr "BitTorrent 7.5.0"
+
+msgctxt "#30078"
+msgid "BitTorrent 7.4.3"
+msgstr "BitTorrent 7.4.3"
+
+msgctxt "#30079"
+msgid "µTorrent 3.4.9"
+msgstr "µTorrent 3.4.9"
+
+msgctxt "#30080"
+msgid "µTorrent 3.2.0"
+msgstr "µTorrent 3.2.0"
+
+msgctxt "#30081"
+msgid "µTorrent 2.2.1"
+msgstr "µTorrent 2.2.1"
+
+msgctxt "#30082"
+msgid "Transmission 2.92"
+msgstr "Transmission 2.92"
+
+msgctxt "#30083"
+msgid "Deluge 1.3.6.0"
+msgstr "Deluge 1.3.6.0"
+
+msgctxt "#30084"
+msgid "Deluge 1.3.12.0"
+msgstr "Deluge 1.3.12.0"
+
+msgctxt "#30085"
+msgid "Vuze 5.7.3.0"
+msgstr "Vuze 5.7.3.0"
+
+msgctxt "#30086"
+msgid "Enable tuned storage settings"
+msgstr "Omogući podešene postavke pohrane"
+
+msgctxt "#30087"
+msgid "Ask to delete the files after streaming"
+msgstr "Upitaj za brisanje datoteke nakon strujanja"
+
+msgctxt "#30088"
+msgid "Initial buffering timeout (seconds)"
+msgstr "Vrijeme čekanja pokretanja međuspremnika (sekunde)"
+
+msgctxt "#30089"
+msgid "Automatically re-scan Kodi library after updates"
+msgstr "Automatski ponovno pretraži Kodi videoteku nakon nadopuna"
+
+msgctxt "#30090"
+msgid "Listen interfaces"
+msgstr "Sučelja osluškivanja"
+
+msgctxt "#30091"
+msgid "Outgoing interfaces"
+msgstr "Odlazna sučelja"
+
+msgctxt "#30092"
+msgid "Use default fanart"
+msgstr "Koristi zadane postere obožavatelja"
+
+msgctxt "#30093"
+msgid "Disable notification sound"
+msgstr "Onemogući zvuk obavijesti"
+
+msgctxt "#30094"
+msgid "Disable background progress dialog"
+msgstr "Onemogući pozadinski dijalog napredka"
+
+msgctxt "#30095"
+msgid "Sync watched progress with Kodi"
+msgstr "Uskladi napredak gledanja s Kodijem"
+
+msgctxt "#30096"
+msgid "Never"
+msgstr "Nikada"
+
+msgctxt "#30097"
+msgid "Always"
+msgstr "Uvijek"
+
+msgctxt "#30098"
+msgid "Active torrents only"
+msgstr "Samo aktivni torrenti"
+
+# Interface
+msgctxt "#30100"
+msgid "Elementum has crashed, restarting..."
+msgstr "Elementum se srušio, ponovno pokretanje..."
+
+msgctxt "#30101"
+msgid "You must restart Kodi before using Elementum"
+msgstr "Morate ponovno pokrenuti Kodi prije korištenja Elementuma"
+
+msgctxt "#30102"
+msgid "This add-on can only be run from within Elementum"
+msgstr "Ovaj dodatak se može pokrenuti samo iz Elementuma"
+
+msgctxt "#30103"
+msgid "Unable to find Elementum binary[CR]Required platform:"
+msgstr "Nemoguć pronalazak Elementum binarne datoteke[CR]Potrebna platforma:"
+
+msgctxt "#30104"
+msgid "Insert file or URL"
+msgstr "Umetni datoteku ili URL"
+
+msgctxt "#30105"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "#30106"
+msgid "File"
+msgstr "Datoteka"
+
+msgctxt "#30107"
+msgid "Insert URL"
+msgstr "Umetni URL"
+
+msgctxt "#30108"
+msgid "File path"
+msgstr "Putanja datoteke"
+
+msgctxt "#30109"
+msgid "OK"
+msgstr "U redu"
+
+msgctxt "#30110"
+msgid "Crashed too many times, aborting..."
+msgstr "Srušio se previše puta, prekidam..."
+
+msgctxt "#30111"
+msgid "Provider failed too many times, disabling..."
+msgstr "Pružatelj usluge nije uspio previše puta, onemogućavanje..."
+
+msgctxt "#30112"
+msgid "Unable to disable provider"
+msgstr "Nemoguće onemogućavanje pružatelja usluge"
+
+msgctxt "#30113"
+msgid "Download path not set, check your settings"
+msgstr "Lokacija preuzimanja nije postavljena, provjerite svoje postavke"
+
+msgctxt "#30114"
+msgid "TheTVDB"
+msgstr "TheTVDB"
+
+msgctxt "#30115"
+msgid "TV show scraper used by Kodi library"
+msgstr "Sakupljač TV serija koje koristi Kodi videoteka"
+
+msgctxt "#30116"
+msgid "Looks like Elementum is still starting up, give it a few seconds..."
+msgstr ""
+"Izgleda da se Elementum još uvijek pokreće, pričekajte nekoliko sekundi..."
+
+msgctxt "#30117"
+msgid "Resolving torrent files..."
+msgstr "Razrješavanje datoteka torrenta..."
+
+msgctxt "#30118"
+msgid "Scraping trackers..."
+msgstr "Sakupljanje pratitelja..."
+
+msgctxt "#30141"
+msgid ""
+"Please support Elementum development by visiting[CR]https://elementum.surge."
+"sh/donate"
+msgstr "Podržite razvoj Elementuma posjetom https://elementum.surge.sh/donate"
+
+msgctxt "#30142"
+msgid "Default view for menus in Movies"
+msgstr "Zadani prikaz izbornika u filmovima"
+
+msgctxt "#30143"
+msgid "Default view for menus in TV Shows"
+msgstr "Zadani prikaz izbornika u TV serijama"
+
+msgctxt "#30144"
+msgid "Default view for movie genres"
+msgstr "Zadani prikaz žanrova filmova"
+
+msgctxt "#30145"
+msgid "Default view for TV show genres"
+msgstr "Zadani prikaz žanrova TV serija"
+
+msgctxt "#30146"
+msgid "Keep downloading?"
+msgstr "Nastavi preuzimanje?"
+
+msgctxt "#30147"
+msgid "Caches are still warming up, give it a minute or two..."
+msgstr "Predmemorije se još uvijek pripremaju, pričekajte minutu ili dvije..."
+
+msgctxt "#30148"
+msgid "Caches warmed up"
+msgstr "Predmemorije se pripremaju"
+
+msgctxt "#30149"
+msgid "Trakt username not set, check your settings"
+msgstr "Trakt korisničko ime nije postavljeno, provjerite svoje postavke"
+
+msgctxt "#30199"
+msgid ""
+"No available JSON-RPC connection to Kodi.[CR]Enable both Application control "
+"options in Service settings / Control and restart Kodi."
+msgstr ""
+"Nema dostupnog JSON-RPC povezivanja za Kodi.[CR]Omogući obje mogućnosti "
+"upravljanja aplikacijom u postavkama Usluge / Upravljanje i ponovno "
+"pokrenite Kodi."
+
+# Elementum daemon
+msgctxt "#30200"
+msgid "Cache cleared"
+msgstr "Predmemorija obrisana"
+
+msgctxt "#30201"
+msgid "Search TV Shows"
+msgstr "Pretraži TV serije"
+
+msgctxt "#30202"
+msgid "Choose stream..."
+msgstr "Odaberi strujanje..."
+
+msgctxt "#30203"
+msgid "Show information"
+msgstr "Prikaži informacije"
+
+msgctxt "#30204"
+msgid "Unable to find any providers"
+msgstr "Nemoguć pronalazak bilo kojeg pružatelja usluge"
+
+msgctxt "#30205"
+msgid "No links were found"
+msgstr "Nema pronađene niti jedne poveznice"
+
+msgctxt "#30206"
+msgid "Search Movies"
+msgstr "Pretraži filmove"
+
+msgctxt "#30207"
+msgid "Not enough space available on the download path."
+msgstr "Nema dovoljno dostupnog slobodnog prostora na lokaciji preuzimanja."
+
+msgctxt "#30208"
+msgid "Elementum daemon has started"
+msgstr "Elementum pozadinski program je pokrenut"
+
+msgctxt "#30209"
+msgid "Search"
+msgstr "Pretraživanje"
+
+msgctxt "#30210"
+msgid "Most Popular"
+msgstr "Najpopularnije"
+
+msgctxt "#30211"
+msgid "Top Rated"
+msgstr "Najocjenjenije"
+
+msgctxt "#30212"
+msgid "Most Voted"
+msgstr "Najviše glasova"
+
+msgctxt "#30213"
+msgid "IMDB Top 250"
+msgstr "IMDB Top 250"
+
+msgctxt "#30214"
+msgid "Movies"
+msgstr "Filmovi"
+
+msgctxt "#30215"
+msgid "TV Shows"
+msgstr "TV serije"
+
+msgctxt "#30216"
+msgid "Add Torrent"
+msgstr "Dodaj torrent"
+
+msgctxt "#30217"
+msgid "Paste Magnet or URL"
+msgstr "Zalijepi Magnet ili URL"
+
+msgctxt "#30218"
+msgid "Next page"
+msgstr "Sljedeća stranica"
+
+msgctxt "#30219"
+msgid "Add / Remove from library"
+msgstr "Dodaj / Ukloni iz videoteke"
+
+msgctxt "#30220"
+msgid "Library path not set"
+msgstr "Putanja videoteke nije postavljena"
+
+msgctxt "#30221"
+msgid "Item successfully added to library"
+msgstr "Stavka uspješno dodana u videoteku"
+
+msgctxt "#30222"
+msgid "Item removed from library"
+msgstr "Stavka uklonjena iz videoteke"
+
+msgctxt "#30223"
+msgid "Files"
+msgstr "Datoteke"
+
+msgctxt "#30224"
+msgid "Provider error"
+msgstr "Greška pružatelja usluge"
+
+msgctxt "#30225"
+msgid "Navigation error"
+msgstr "Greška u navigaciji"
+
+msgctxt "#30226"
+msgid "Daemon error"
+msgstr "Greška pozadinskog programa"
+
+msgctxt "#30227"
+msgid "Error updating Elementum daemon"
+msgstr "Greška pri nadopuni pozadinskog programa Elementuma"
+
+msgctxt "#30228"
+msgid "Available streams for"
+msgstr "Dostupna strujanja za"
+
+msgctxt "#30229"
+msgid "Torrents"
+msgstr "Torrenti"
+
+msgctxt "#30230"
+msgid "Play / resume torrent"
+msgstr "Reproduciraj / Nastavi torrent"
+
+msgctxt "#30231"
+msgid "Pause torrent"
+msgstr "Pauziraj torrent"
+
+msgctxt "#30232"
+msgid "Delete torrent"
+msgstr "Obriši torrent"
+
+msgctxt "#30233"
+msgid "Pause session"
+msgstr "Pauziraj sesiju"
+
+msgctxt "#30234"
+msgid "Resume session"
+msgstr "Nastavi sesiju"
+
+msgctxt "#30235"
+msgid "Resume torrent"
+msgstr "Nastavi torrent"
+
+msgctxt "#30236"
+msgid "Recently Released"
+msgstr "Nedavno objavljeno"
+
+msgctxt "#30237"
+msgid "Recent Shows"
+msgstr "Nedavne TV serije"
+
+msgctxt "#30238"
+msgid "Recent Episodes"
+msgstr "Nedavne epizode"
+
+msgctxt "#30239"
+msgid "Providers"
+msgstr "Pružatelj usluge"
+
+msgctxt "#30240"
+msgid "Enable"
+msgstr "Omogući"
+
+msgctxt "#30241"
+msgid "Disable"
+msgstr "Onemogući"
+
+msgctxt "#30242"
+msgid "Check"
+msgstr "Provjera"
+
+msgctxt "#30243"
+msgid "Provider failures"
+msgstr "Greške pružatelja usluge"
+
+msgctxt "#30244"
+msgid "Provider settings"
+msgstr "Postavke pružatelja usluge"
+
+msgctxt "#30245"
+msgid "Popular on Trakt"
+msgstr "Popularno na Traktu"
+
+msgctxt "#30246"
+msgid "Trending"
+msgstr "U trendu"
+
+msgctxt "#30247"
+msgid "Most Played"
+msgstr "Najčešće reproducirano"
+
+msgctxt "#30248"
+msgid "Most Watched"
+msgstr "Najgledanije"
+
+msgctxt "#30249"
+msgid "Most Collected"
+msgstr "Najviše prikupljeno"
+
+msgctxt "#30250"
+msgid "Most Anticipated"
+msgstr "Najiščekivanje"
+
+msgctxt "#30251"
+msgid "Box Office"
+msgstr "Najveća zarada"
+
+msgctxt "#30252"
+msgid "Add to library"
+msgstr "Dodaj u videoteku"
+
+msgctxt "#30253"
+msgid "Remove from library"
+msgstr "Ukloni iz videoteke"
+
+msgctxt "#30254"
+msgid "My Watchlist"
+msgstr "Popis gledanja"
+
+msgctxt "#30255"
+msgid "Add to watchlist"
+msgstr "Dodaj u popis gledanja"
+
+msgctxt "#30256"
+msgid "Remove from watchlist"
+msgstr "Ukloni iz popisa gledanja"
+
+msgctxt "#30257"
+msgid "My Collection"
+msgstr "Kolekcija"
+
+msgctxt "#30258"
+msgid "Add to collection"
+msgstr "Dodaj u kolekciju"
+
+msgctxt "#30259"
+msgid "Remove from collection"
+msgstr "Ukloni iz kolekcije"
+
+msgctxt "#30260"
+msgid "A torrent was previously chosen, use it?[CR]%s"
+msgstr "Torrent je već odabran, upotrijebiti ga?[CR]%s"
+
+msgctxt "#30261"
+msgid "Search history"
+msgstr "Povijest pretrage"
+
+msgctxt "#30262"
+msgid "Use search history?"
+msgstr "Koristiti povijest pretrage?"
+
+msgctxt "#30263"
+msgid "My Lists"
+msgstr "Popisi"
+
+msgctxt "#30264"
+msgid "Reset clearances"
+msgstr "Poništi dopuštenja"
+
+msgctxt "#30265"
+msgid "Item already in library"
+msgstr "Stavka se već nalazi u videoteci"
+
+msgctxt "#30266"
+msgid "Ignore duplicates"
+msgstr "Zanemari duplikate"
+
+msgctxt "#30267"
+msgid "Keep downloaded files?"
+msgstr "Zadrži preuzete datoteke?"
+
+msgctxt "#30268"
+msgid "Toggle watched"
+msgstr "Uklj/Isklj gledane"
+
+msgctxt "#30269"
+msgid "Delete downloaded files?"
+msgstr "Obriši preuzete datoteke?"
+
+msgctxt "#30270"
+msgid "Match found in your active torrents, play it?"
+msgstr ""
+"Podudaranje je već pronađeno u vašim aktivnim torrentima, reproducirati ga?"
+
+msgctxt "#30271"
+msgid ""
+"There is now an official multi-provider for Elementum called [COLOR "
+"FFFF6B00]Burst[/COLOR], would you like to install it now?"
+msgstr ""
+"Sada postoji višestruki pružatelj usluge za Elementum nazvan [COLOR "
+"FFFF6B00]Burst[/COLOR], želite li ga instalirati?"
+
+msgctxt "#30272"
+msgid "Installation successful, enjoy Elementum [COLOR FFFF6B00]Burst[/COLOR]!"
+msgstr ""
+"Instalacija je uspješna, uživajte u Elementum [COLOR FFFF6B00]Burstu[/COLOR]!"
+
+msgctxt "#30273"
+msgid ""
+"Shoot... It looks like we couldn't install [COLOR FFFF6B00]Burst[/COLOR] "
+"automatically, head over to the Elementum Repository, then under the Program "
+"add-ons section to install it."
+msgstr ""
+"Nažalost... Izgleda da nismo uspjeli instalirati [COLOR FFFF6B00]Burst[/"
+"COLOR] automatski, idite u Elementum repozitorij, zatim pod Program dodaci "
+"odjeljkom ga instalirajte."
+
+msgctxt "#30274"
+msgid "Enable all"
+msgstr "Omogući sve"
+
+msgctxt "#30275"
+msgid "Disable all"
+msgstr "Onemogući sve"
+
+msgctxt "#30276"
+msgid "Delete torrent and files"
+msgstr "Obriši torrente i datoteke"
+
+msgctxt "#30277"
+msgid ""
+"%s added to library, do you want to rescan it?[CR]You can later use Kodi's "
+"'Update library' feature instead."
+msgstr ""
+"%s je dodan u videoteku, želite li ju ponovno pretražiti?[CR]Umjesto možete "
+"kasnije koristiti Kodijevu 'Nadopuni zbirku' značajku."
+
+msgctxt "#30278"
+msgid ""
+"%s removed from library, do you want to clean it?[CR]You can later use "
+"Kodi's 'Clean library' feature instead."
+msgstr ""
+"%s je uklonjen iz videoteke, želite li ju obrisati?[CR]Umjesto možete "
+"kasnije koristiti Kodijevu 'Obriši zbirku' značajku."
+
+msgctxt "#30279"
+msgid "Watchlist added to library"
+msgstr "Popis gledanja dodan u videoteku"
+
+msgctxt "#30280"
+msgid "Collection added to library"
+msgstr "Kolekcija dodana u videoteku"
+
+msgctxt "#30281"
+msgid "List added to library"
+msgstr "Popis dodan u videoteku"
+
+msgctxt "#30282"
+msgid "Nothing left to remove from Elementum"
+msgstr "Nije preostalo ništa za uklanjanje iz Elementuma"
+
+msgctxt "#30283"
+msgid "Merge to library"
+msgstr "Spoji u videoteku"
+
+msgctxt "#30284"
+msgid "Show unaired seasons"
+msgstr "Prikaži neemitirane sezone"
+
+msgctxt "#30285"
+msgid "Show unaired episodes"
+msgstr "Prikaži neemitirane epizode"
+
+msgctxt "#30286"
+msgid ""
+"%s merged to library, do you want to rescan it?[CR]You can later use Kodi's "
+"'Update library' feature instead."
+msgstr ""
+"%s je spojen u videoteku, želite li ju ponovno pretražiti?[CR]Umjesto možete "
+"kasnije koristiti Kodijevu 'Nadopuni zbirku' značajku."
+
+msgctxt "#30287"
+msgid "%s already in library"
+msgstr "%s se već nalazi u videoteci"
+
+msgctxt "#30288"
+msgid ""
+"Library updated, do you want to rescan it?[CR]You can later use Kodi's "
+"'Update library' feature instead."
+msgstr ""
+"Videoteka je nadopunjena?[CR]Umjesto možete kasnije koristiti Kodijevu "
+"'Nadopuni zbirku' značajku."
+
+msgctxt "#30289"
+msgid "Genres"
+msgstr "Žanrovi"
+
+msgctxt "#30290"
+msgid "Calendars"
+msgstr "Kalendari"
+
+msgctxt "#30291"
+msgid "My Movies"
+msgstr "Moji filmovi"
+
+msgctxt "#30292"
+msgid "My Releases"
+msgstr "Moja izdanja"
+
+msgctxt "#30293"
+msgid "All Movies"
+msgstr "Svi filmovi"
+
+msgctxt "#30294"
+msgid "All Releases"
+msgstr "Sva izdanja"
+
+msgctxt "#30295"
+msgid "My Shows"
+msgstr "Moje TV serije"
+
+msgctxt "#30296"
+msgid "My New Shows"
+msgstr "Moje nove TV serije"
+
+msgctxt "#30297"
+msgid "My Premieres"
+msgstr "Moje premijere"
+
+msgctxt "#30298"
+msgid "All Shows"
+msgstr "Sve TV serije"
+
+msgctxt "#30299"
+msgid "All New Shows"
+msgstr "Sve nove TV serije"
+
+msgctxt "#30300"
+msgid "All Premieres"
+msgstr "Sve premijere"
+
+msgctxt "#30301"
+msgid "Move finished downloads to separate folders"
+msgstr "Premjesti završena preuzimanja u zasebne mape"
+
+msgctxt "#30302"
+msgid ""
+"Files will only be moved after seeding is finished (see[CR]- BitTorrent "
+"settings), and will wait if currently playing"
+msgstr ""
+"Datoteke će biti sam premještene nakon što dijeljenje završi "
+"(pogledajte[CR]- BitTorrent postavke), i čekajte da se nastavi trenutna "
+"repodukcija"
+
+msgctxt "#30303"
+msgid ""
+"RAR archive detected. Download will need to be completed before playback can "
+"start and will require around twice the amount of space, continue?"
+msgstr ""
+"RAR arhiva je otkrivena. Preuzimanje treba biti završeno prije nego što se "
+"reprodukcija pokrene i biti će potrebno dva puta više prostora, nastavi?"
+
+msgctxt "#30304"
+msgid "Error creating output pipe for 'unrar' command"
+msgstr "Greška stvaranja izlaznog slivnika za 'unrar' naredbu"
+
+msgctxt "#30305"
+msgid "Error starting 'unrar' command"
+msgstr "Greška pokretanja 'unrar' naredbe"
+
+msgctxt "#30306"
+msgid "Error waiting for 'unrar' command"
+msgstr "Greška čekanja 'unrar' naredbe"
+
+msgctxt "#30307"
+msgid "Error reading from destination folder"
+msgstr "Greška čitanja odredišne mape"
+
+msgctxt "#30308"
+msgid "Move completed"
+msgstr "Premještanje završeno"
+
+msgctxt "#30309"
+msgid "Keep"
+msgstr "Zadrži"
+
+msgctxt "#30310"
+msgid "Ask to delete"
+msgstr "Upitaj za brisanje"
+
+msgctxt "#30311"
+msgid "Delete"
+msgstr "Obriši"
+
+msgctxt "#30312"
+msgid "Keep files for not finished video"
+msgstr "Zadrži datoteke nepreuzete video snimke"
+
+msgctxt "#30313"
+msgid "Keep files for watched/downloaded video"
+msgstr "Zadrži datoteke odgledane/preuzete video snimke"
+
+msgctxt "#30314"
+msgid ""
+"Settings were not initialized.[CR]Save addon settings, then restart Kodi."
+msgstr ""
+"Postavke nisu pokrenute.[CR]Spremi postavke dodatka, zatim ponovno pokreni "
+"Kodi."
+
+msgctxt "#30315"
+msgid "Download storage type"
+msgstr "Vrsta pohrane preuzimanja"
+
+msgctxt "#30316"
+msgid "Use files"
+msgstr "Koristi datoteke"
+
+msgctxt "#30317"
+msgid "Use memory"
+msgstr "Koristi memoriju"
+
+msgctxt "#30318"
+msgid "Memory size to use for each torrent (Mb)"
+msgstr "Veličina memorije za korištenje svakog torrenta (Mb)"
+
+msgctxt "#30319"
+msgid "Continue"
+msgstr "Nastavi"
+
+msgctxt "#30320"
+msgid "Ask to stop"
+msgstr "Upitaj za zaustavljanje"
+
+msgctxt "#30321"
+msgid "Stop"
+msgstr "Zaustavi"
+
+msgctxt "#30322"
+msgid "Use Fat32 files"
+msgstr "Koristi Fat32 datoteke"
+
+msgctxt "#30323"
+msgid "New search"
+msgstr "Nova pretraga"
+
+msgctxt "#30324"
+msgid "Force stream auto-selection from settings"
+msgstr "Prisili automatski odabir strujanja iz postavki"
+
+msgctxt "#30325"
+msgid "Download"
+msgstr "Preuzimanje"
+
+msgctxt "#30326"
+msgid "Kodi library"
+msgstr "Kodi videoteka"
+
+msgctxt "#30327"
+msgid "Storage"
+msgstr "Pohrana"
+
+msgctxt "#30328"
+msgid "Disable TCP"
+msgstr "Onemogući TCP"
+
+msgctxt "#30329"
+msgid "Disable UTP"
+msgstr "Onemogući UTP"
+
+msgctxt "#30330"
+msgid "Update Trakt"
+msgstr "Nadopuni Trakt"
+
+msgctxt "#30331"
+msgid "MMap File"
+msgstr "MMap datoteka"
+
+msgctxt "#30332"
+msgid "Reloading configuration..."
+msgstr "Ponovno učitavanje podašavanja..."
+
+msgctxt "#30333"
+msgid "Try to find other episodes in the torrent"
+msgstr "Pokušaj pronaći ostale epizode u torrentu"
+
+msgctxt "#30334"
+msgid "Migration"
+msgstr "Migracija"
+
+msgctxt "#30335"
+msgid "Quasar"
+msgstr "Quasar"
+
+msgctxt "#30336"
+msgid "Run migration"
+msgstr "Pokreni migraciju"
+
+msgctxt "#30337"
+msgid ""
+"This operation will change strm files and cleanup Quasar library![CR]Are you "
+"sure you want to do it?"
+msgstr ""
+"Ova radnja će promijeniti strm datoteke i obrisati Quasar videoteku!"
+"[CR]Sigurno to želite učiniti?"
+
+msgctxt "#30338"
+msgid "Looking for Quasar database"
+msgstr "Pretraživanje Quasar baze podataka"
+
+msgctxt "#30339"
+msgid "Searching strm files"
+msgstr "Pretraživanje strm datoteka"
+
+msgctxt "#30340"
+msgid "Performing strm migration"
+msgstr "Obavljanje strm migracije"
+
+msgctxt "#30341"
+msgid "Performing database migration"
+msgstr "Obavljanje migracije baze podataka"
+
+msgctxt "#30342"
+msgid "Cannot find Quasar userdata directory"
+msgstr "Nemoguć pronalazak Quasar mape korisničkih podataka"
+
+msgctxt "#30343"
+msgid "Cannot find Quasar settings.xml path"
+msgstr "Nemoguć pronalazak Quasar settings.xml putanje"
+
+msgctxt "#30344"
+msgid "Cannot find Quasar library path"
+msgstr "Nemoguć pronalazak Quasar putanje videoteke"
+
+msgctxt "#30345"
+msgid "Successfully migrated items: %s"
+msgstr "Uspješno migrirane stavke: %s"
+
+msgctxt "#30346"
+msgid "Could not migrate any item"
+msgstr "Nemoguća migracija bilo koje stavke"
+
+msgctxt "#30347"
+msgid ""
+"Could not find binary for architecture '%s'![CR]Try to uninstall this addon, "
+"re-download and re-install it from the biggest zip."
+msgstr ""
+"Nemoguć pronalazak binarne datoteke za arhitekturu '%s'![CR]Pokušajte "
+"ukloniti ovaj dodatak, ponovno ga preuzmite i instalirajte iz najvećeg zipa."
+
+msgctxt "#30348"
+msgid ""
+"Create usual files on the file system and write to them.[CR]Needs selected "
+"file's full size to be available on the disk!"
+msgstr ""
+"Stvara uobičajene datoteke na datotečnom sustavu i zapisuje u njih."
+"[CR]Zahtjeva odabrane datoteke pune veličine dostupne na disku!"
+
+msgctxt "#30349"
+msgid ""
+"Using device's memory to download parts of the torrent.[CR]Disk is used only "
+"to download and save .torrent file,"
+msgstr ""
+"Korištenje memorije uređaja za preuzimanje dijelova torrenta.[CR]Disk se "
+"koristi samo za preuzimanje i spremanje .torrent datoteke,"
+
+msgctxt "#30350"
+msgid ""
+"so can be any storage. For 1gb memory devices[CR]100mb is enough for memory "
+"storage, 200-250mb for bigger devices."
+msgstr ""
+"stoga može biti bilo koja pohrana. Za uređaje od 1gb memorije[CR]100mb je "
+"dosta za pohranu memorije, 200-250mb za veće uređaje."
+
+msgctxt "#30351"
+msgid ""
+"Same as for usual file storage, but splits file into many small files."
+"[CR]Should be used on FAT-32 file-systems."
+msgstr ""
+"Isto kao i za uobičajenu pohranu datoteke, ali dijeli datoteku u mnogo "
+"manjih datoteka.[CR]Treba se koristiti na FAT-32 datotečnim sustavima."
+
+msgctxt "#30352"
+msgid ""
+"Same as for usual file storage, but using memory[CR]to lower filesystem "
+"operations. Experimental storage!"
+msgstr ""
+"Isto kao i za uobičajenu pohranu datoteke, ali koristi memoriju[CR]za niže "
+"radnje datotečnog sustava. Eksperimentalna pohrana!"
+
+msgctxt "#30353"
+msgid "Auto-assign network ports"
+msgstr "Automatski dodjeli mrežne ulaze"
+
+msgctxt "#30354"
+msgid ""
+"Could not start Torrent client. Please report to github with the Kodi log "
+"file!"
+msgstr ""
+"Nemoguće pokretanje torrent klijenta. Ovo prijavite na github s datotekom "
+"Kodi zapisa!"
+
+msgctxt "#30355"
+msgid "Changelog"
+msgstr "Zapis promjena"
+
+msgctxt "#30356"
+msgid "Not enough free memory!"
+msgstr "Nema dovoljno slobodne memorije!"
+
+msgctxt "#30357"
+msgid "Use Trakt information in Trakt lists"
+msgstr "Koristi Trakt informacije ako su dostupne"
+
+msgctxt "#30358"
+msgid "Trakt update started"
+msgstr "Trakt nadopuna pokrenuta"
+
+msgctxt "#30359"
+msgid "Do not ask questions before playback"
+msgstr "Ne postavljaj upit prije reprodukcije"
+
+msgctxt "#30360"
+msgid "My Progress"
+msgstr "Napredak"
+
+msgctxt "#30361"
+msgid "My History"
+msgstr "Povijest"
+
+msgctxt "#30362"
+msgid "Synchronization"
+msgstr "Usklađivanje"
+
+msgctxt "#30363"
+msgid "Sync items from collections into Kodi library"
+msgstr "Uskladi stavke iz kolekcije Тrаkta u videoteku"
+
+msgctxt "#30364"
+msgid "Sync items from watchlist into Kodi library"
+msgstr "Uskladi stavke iz popisa gledanja Тrаkta u videoteku"
+
+msgctxt "#30365"
+msgid "Sync items from user lists into Kodi library"
+msgstr "Uskladi stavke iz popisa korisnika Тrаkta u videoteku"
+
+msgctxt "#30366"
+msgid "Sync watched states from Trakt into Kodi library"
+msgstr "Uskladi odgledana stanja iz Trakta u videoteku"
+
+msgctxt "#30367"
+msgid "Sync back Kodi watched states into Trakt"
+msgstr "Uskladi odgledana stanja iz Kodija na Trakt"
+
+msgctxt "#30368"
+msgid "Use Public DNS (Google, Quad9, Opennic)"
+msgstr "Koristi javni DNS (Google, Quad9, Opennic)"
+
+msgctxt "#30369"
+msgid "Disable Upload"
+msgstr "Onemogući slanje"
+
+msgctxt "#30370"
+msgid "Auto-assign network IP"
+msgstr "Automatski dodijeli mrežnu IP adresu"
+
+msgctxt "#30371"
+msgid "Auto-assign network ports"
+msgstr "Automatski dodjeli mrežne ulaze"
+
+msgctxt "#30372"
+msgid "Force resume playback"
+msgstr "Prisili nastavak reprodukcije"
+
+msgctxt "#30373"
+msgid "Languages"
+msgstr "Jezici"
+
+msgctxt "#30374"
+msgid "Countries"
+msgstr "Zemlje"
+
+msgctxt "#30375"
+msgid "By size"
+msgstr "Prema veličini"
+
+msgctxt "#30376"
+msgid "Choose memory size automatically"
+msgstr "Automatski odaberi veličinu memorije"
+
+msgctxt "#30377"
+msgid "Size is chosen automatically, based on[CR]physical amount of memory"
+msgstr ""
+"Veličina se odabire automatski, temeljeno na[CR]fizičkoj veličini memorije"
+
+msgctxt "#30378"
+msgid "Allow memory usage"
+msgstr "Dopušteno korištenje memorije"
+
+msgctxt "#30379"
+msgid "Minimum - 40MB, Default - 8%, Maximum - 15%"
+msgstr "Najmanje - 40MB, Zadano - 8%, Najviše - 15%"
+
+msgctxt "#30380"
+msgid "Minimum"
+msgstr "Najviše"
+
+msgctxt "#30381"
+msgid "Default"
+msgstr "Zadano"
+
+msgctxt "#30382"
+msgid "Maximum"
+msgstr "Najmanje"
+
+msgctxt "#30383"
+msgid "Use Kodi language for subtitles search"
+msgstr "Koristi jezik Kodija za pretragu podnaslova"
+
+msgctxt "#30384"
+msgid "Language code for subtitles (example: en, it, es)"
+msgstr "Jezični kôd za podnaslove (primjer: bs, hr, sr)"
+
+msgctxt "#30385"
+msgid "HTTPS"
+msgstr "HTTPS"
+
+msgctxt "#30386"
+msgid "Disable background progress dialog on playback"
+msgstr "Onemogući pozadinski dijalog napretka pri reprodukciji"
+
+msgctxt "#30387"
+msgid "Caching"
+msgstr "Predmemorija"
+
+msgctxt "#30388"
+msgid "Cache selected streams"
+msgstr "Stvori predmemoriju odabranih strujanja"
+
+msgctxt "#30389"
+msgid "Cache stream search results"
+msgstr "Stvori predmemoriju rezultata pretrage strujanja"
+
+msgctxt "#30390"
+msgid "Cache search results duration, seconds"
+msgstr "Stvori predmemoriju trajanja rezultata pretrage strujanja (sekunde)"
+
+msgctxt "#30391"
+msgid "List of public DNS IPs"
+msgstr "Popis javnih DNS IP adresa"
+
+msgctxt "#30392"
+msgid "List of Opennic DNS IPs"
+msgstr "Popis Opennic DNS IP adresa"
+
+msgctxt "#30393"
+msgid "Status"
+msgstr "Stanje"
+
+msgctxt "#30394"
+msgid "Version"
+msgstr "Inačica"
+
+msgctxt "#30395"
+msgid "IP address"
+msgstr "IP adresa"
+
+msgctxt "#30396"
+msgid "Port"
+msgstr "Ulaz"
+
+msgctxt "#30397"
+msgid "Web UI"
+msgstr "Web sučelje"
+
+msgctxt "#30398"
+msgid "Debug information (with kodi.log)"
+msgstr "Informacije otklanjanja greške (sa kodi.log)"
+
+msgctxt "#30399"
+msgid "Addresses"
+msgstr "Adrese"
+
+msgctxt "#30400"
+msgid "Statistics"
+msgstr "Statistika"
+
+msgctxt "#30401"
+msgid "Torrent library status"
+msgstr "Stanje biblioteke torrenta"
+
+msgctxt "#30402"
+msgid "Size of cache.db"
+msgstr "Veličina cache.db"
+
+msgctxt "#30403"
+msgid "Size of app.db"
+msgstr "Veličina app.db"
+
+msgctxt "#30404"
+msgid "Assigned torrent files"
+msgstr "Dodijeljene torrent datoteke"
+
+msgctxt "#30405"
+msgid "Search queries"
+msgstr "Zahtjevi pretrage"
+
+msgctxt "#30406"
+msgid "Remove from history"
+msgstr "Ukloni iz povijesti"
+
+msgctxt "#30407"
+msgid "Print only Error messages in the Kodi log"
+msgstr "Ispisuj samo poruke greške u Kodi zapis"
+
+msgctxt "#30408"
+msgid "Plugin Connectivity"
+msgstr "Povezivanje priključka"
+
+msgctxt "#30409"
+msgid "Local port"
+msgstr "Lokalni ulaz"
+
+msgctxt "#30410"
+msgid "Remote port"
+msgstr "Udaljeni ulaz"
+
+msgctxt "#30411"
+msgid "Remote host"
+msgstr "Udaljeno računalo"
+
+msgctxt "#30412"
+msgid "Do not start binary"
+msgstr "Ne pokreći kao binarnu datoteku"
+
+msgctxt "#30413"
+msgid "Yes"
+msgstr "Da"
+
+msgctxt "#30414"
+msgid "No"
+msgstr "Ne"
+
+msgctxt "#30415"
+msgid "Next page (%s)"
+msgstr "Sljedeća stranica (%s)"
+
+msgctxt "#30416"
+msgid "Percents of playback to mark as watched"
+msgstr "Postotak reprodukcije za označavanje kao odgledanog"
+
+msgctxt "#30417"
+msgid "Add to Trakt, when movie/show is added to Kodi library"
+msgstr "Dodaj u Trakt, kada je Film/TV serija dodana u Kodi videoteku"
+
+msgctxt "#30418"
+msgid "Add to ..."
+msgstr "Dodaj u ..."
+
+msgctxt "#30419"
+msgid "Remove from Trakt, when movie/show is deleted from Kodi library"
+msgstr "Ukloni iz Trakta, kada je Film/TV serija obrisana iz Kodi videoteke"
+
+msgctxt "#30420"
+msgid "Remove from ..."
+msgstr "Ukloni iz ..."
+
+msgctxt "#30421"
+msgid "Load torrents from torrents folder on startup"
+msgstr "Učitaj torrente iz mape torrenta pri pokretanju"
+
+msgctxt "#30422"
+msgid "Popular lists"
+msgstr "Popularni popisi"
+
+msgctxt "#30423"
+msgid "Recommendations"
+msgstr "Preporuke"
+
+msgctxt "#30424"
+msgid "Progress"
+msgstr "Napredak"
+
+msgctxt "#30425"
+msgid "Color of an air date"
+msgstr "Boja datuma emitiranja"
+
+msgctxt "#30426"
+msgid "Color of a show name"
+msgstr "Boja naziva TV serije"
+
+msgctxt "#30427"
+msgid "Color of an episode name"
+msgstr "Boja naziva epizode TV serije"
+
+msgctxt "#30428"
+msgid "Hide unaired episodes"
+msgstr "Sakrij neemitirane epizode"
+
+msgctxt "#30429"
+msgid "Sort shows in the list"
+msgstr "Poredaj TV serije u popisu"
+
+msgctxt "#30430"
+msgid "By latest watched"
+msgstr "Prema nedavno gledanom"
+
+msgctxt "#30431"
+msgid "By show name"
+msgstr "Prema nazivu TV serije"
+
+msgctxt "#30432"
+msgid "By air date (newer)"
+msgstr "Prema datumu emitiranja"
+
+msgctxt "#30433"
+msgid "By air date (older)"
+msgstr "Prema datumu emitiranja (počevši od starijeg)"
+
+msgctxt "#30434"
+msgid "Date format"
+msgstr "Format datuma"
+
+msgctxt "#30435"
+msgid "Select userlist"
+msgstr "Odaberi korisnikov popis"
+
+msgctxt "#30436"
+msgid "Userlist"
+msgstr "Korisnikov popis"
+
+msgctxt "#30437"
+msgid "Selected userlist"
+msgstr "Odabrani korisnikov popis"
+
+msgctxt "#30438"
+msgid "Userlists"
+msgstr "Korisnikovi popisi"
+
+msgctxt "#30439"
+msgid "Debug information (without kodi.log)"
+msgstr "Informacije otklanjanja greške (bez kodi.log)"
+
+msgctxt "#30440"
+msgid "Color of an unaired episode name"
+msgstr "Boja naziva neemitiranih epizoda"
+
+msgctxt "#30441"
+msgid "Select userlist for movies"
+msgstr "Odaberi korisnikov popis za filmove"
+
+msgctxt "#30442"
+msgid "Userlist for movies"
+msgstr "Korisnikov popis za filmove"
+
+msgctxt "#30443"
+msgid "Selected userlist for movies"
+msgstr "Odabrani korisnikov popis za filmove"
+
+msgctxt "#30444"
+msgid "Select userlist for shows"
+msgstr "Odaberi korisnikov popis za TV serije"
+
+msgctxt "#30445"
+msgid "Userlist for shows"
+msgstr "Korisnikov popis za TV serije"
+
+msgctxt "#30446"
+msgid "Selected userlist for shows"
+msgstr "Odabrani korisnikov popis za TV serije"
+
+msgctxt "#30447"
+msgid "Add to Trakt, when movie is added to Kodi library"
+msgstr "Dodaj u Trakt, kada je film dodan u Kodi videoteku"
+
+msgctxt "#30448"
+msgid "Add to Trakt, when show is added to Kodi library"
+msgstr "Dodaj u Trakt, kada je TV serija dodana u Kodi videoteku"
+
+msgctxt "#30449"
+msgid "Remove from Trakt, when movie is deleted from Kodi library"
+msgstr "Ukloni iz Trakta, kada je film obrisan iz Kodi videoteke"
+
+msgctxt "#30450"
+msgid "Remove from Trakt, when show is deleted from Kodi library"
+msgstr "Ukloni iz Trakta, kada je TV serija obrisana iz Kodi videoteke"
+
+msgctxt "#30451"
+msgid "Torrent files path"
+msgstr "Putanja torrent datoteka"
+
+msgctxt "#30452"
+msgid "Reset all paths"
+msgstr "Vrati sve izvorne putanje"
+
+msgctxt "#30453"
+msgid "Upload /debug/bundle (with kodi.log) to pastebin"
+msgstr "Pošalji /debug/bundle (sa kodi.log zapisom) na pastebin"
+
+msgctxt "#30454"
+msgid "Paste url:[CR]%s"
+msgstr "Zalijepi url:[CR]%s"
+
+msgctxt "#30455"
+msgid "Logging"
+msgstr "Prijavljivanje"
+
+msgctxt "#30456"
+msgid "Upload /debug/all (no kodi.log) to pastebin"
+msgstr "Pošalji /debug/all (bez kodi.log zapisa) na pastebin"
+
+msgctxt "#30457"
+msgid "Uploading file to pastebin"
+msgstr "Slanje datoteke na pastebin"
+
+msgctxt "#30458"
+msgid "Deleted movies"
+msgstr "Obrisani filmovi"
+
+msgctxt "#30459"
+msgid "Deleted shows"
+msgstr "Obrisane TV serije"
+
+msgctxt "#30460"
+msgid "Database"
+msgstr "Baza podataka"
+
+msgctxt "#30461"
+msgid "Show information"
+msgstr "Prikaži informacije"
+
+msgctxt "#30462"
+msgid "Clear deleted movies"
+msgstr "Ukloni obrisane filmove"
+
+msgctxt "#30463"
+msgid "Clear deleted shows"
+msgstr "Ukloni obrisane TV serije"
+
+msgctxt "#30464"
+msgid "Clear torrents history"
+msgstr "Ukloni povijest torrenta"
+
+msgctxt "#30465"
+msgid "Clear search history"
+msgstr "Ukloni povijest pretrage"
+
+msgctxt "#30466"
+msgid "Clear the database"
+msgstr "Ukloni bazu podataka"
+
+msgctxt "#30467"
+msgid "Cache"
+msgstr "Predmemorija"
+
+msgctxt "#30468"
+msgid "Clear TMDB cache"
+msgstr "Ukloni TMDB predmemoriju"
+
+msgctxt "#30469"
+msgid "Clear Trakt cache"
+msgstr "Ukloni Trakt predmemoriju"
+
+msgctxt "#30470"
+msgid "Clear the cache"
+msgstr "Ukloni predmemoriju"
+
+msgctxt "#30471"
+msgid "Are you sure you want to do it?"
+msgstr "Sigurno to želite učiniti?"
+
+msgctxt "#30472"
+msgid "Database cleared"
+msgstr "Baza podataka uklonjena"
+
+msgctxt "#30473"
+msgid "Select network interface"
+msgstr "Odaberi mrežno sučelje"
+
+msgctxt "#30474"
+msgid "Network interfaces"
+msgstr "Mrežna sučelja"
+
+msgctxt "#30475"
+msgid "Strm files language"
+msgstr "Jezik strm datoteka"
+
+msgctxt "#30476"
+msgid "Select language"
+msgstr "Odaberi jezik"
+
+msgctxt "#30477"
+msgid "Original"
+msgstr "Izvorni"
+
+msgctxt "#30478"
+msgid "Searching"
+msgstr "Pretraživanje"
+
+msgctxt "#30479"
+msgid "Automatically run Kodi library update after add/delete"
+msgstr "Automatski pokreni nadopunu Kodi videoteke nakon dodavanja/brisanja"
+
+msgctxt "#30480"
+msgid "Run Kodi library update after add/delete"
+msgstr "Pokreni nadopunu Kodi videoteke nakon dodavanja/brisanja"
+
+msgctxt "#30481"
+msgid "Automatically"
+msgstr "Automatski"
+
+msgctxt "#30482"
+msgid "Ask"
+msgstr "Upitaj"
+
+msgctxt "#30483"
+msgid "Create NFO files for Movie scrapers"
+msgstr "Stvori NFO datoteke za sakupljače informacija filmova"
+
+msgctxt "#30484"
+msgid "Create NFO files for TV Show scrapers"
+msgstr "Stvori NFO datoteke za sakupljače informacija TV serija"
+
+msgctxt "#30485"
+msgid "Concurrent connections limit"
+msgstr "Ograničenje istovremenih povezivanja"
+
+msgctxt "#30486"
+msgid "Automatic concurrent connections limit"
+msgstr "Automatsko ograničenje istovremenih povezivanja"
+
+msgctxt "#30487"
+msgid "Enable built-in HTTP proxy"
+msgstr "Omogući ugrađeni HTTP proxy"
+
+msgctxt "#30488"
+msgid "Internal Proxy Port"
+msgstr "Unutrašnji proxy ulaz"
+
+msgctxt "#30489"
+msgid "Log Internal proxy requests"
+msgstr "Zapisuj unutrašnje proxy zahtjeve"
+
+msgctxt "#30490"
+msgid "Internal HTTP proxy"
+msgstr "Unurašnji HTTP proxy"
+
+msgctxt "#30491"
+msgid "Use Fanart.tv for posters/images"
+msgstr "Koristi Fanart.tv za postere/slike"
+
+msgctxt "#30492"
+msgid "Use Proxy for downloading .torrent files"
+msgstr "Koristi proxy za preuzimanje .torrent datoteka"
+
+msgctxt "#30493"
+msgid "Use Proxy for trackers"
+msgstr "Koristi proxy za pratitelje"
+
+msgctxt "#30494"
+msgid "Use Proxy for torrent downloading"
+msgstr "Koristi proxy za preuzimanje torrenta"
+
+msgctxt "#30495"
+msgid "Use internal DNS resolver"
+msgstr "Koristi unutrašnjeg DNS razrješitelja"
+
+msgctxt "#30496"
+msgid ""
+"Turn off if you use Tor addresses, or you want to pass resolve to local "
+"network settings"
+msgstr ""
+"Isključite ako koristite Tor adrese, ili želite proslijediti rješenje na "
+"postavke lokalne mreže"
+
+msgctxt "#30497"
+msgid "Use antizapret proxy if possible"
+msgstr "Koristi antizapret proxy ako je moguće"
+
+msgctxt "#30498"
+msgid "Reset this path to '/'"
+msgstr "Vrati ovu putanju u '/'"
+
+msgctxt "#30499"
+msgid "Automatically adjust memory size[CR]for heavy torrents, if possible"
+msgstr ""
+"Automatski prilagodi veličinu memorije[CR]za velike torrente, ako je moguće"
+
+msgctxt "#30500"
+msgid "Automatically adjust buffer size[CR]for heavy torrents"
+msgstr "Automatski prilagodi veličinu međuspremnika[CR]za velike torrente"
+
+msgctxt "#30501"
+msgid "Filter files with size less than, MB"
+msgstr "Filtriraj datoteke veličine manje od, MB"
+
+msgctxt "#30502"
+msgid "Adjust buffer according to Kodi advancedsettings, if set"
+msgstr ""
+"Prilagodi međuspremnik prema Kodi naprednim postavkama, ako je postavljeno"
+
+msgctxt "#30503"
+msgid "Use libtorrent.config to override torrent engine settings"
+msgstr "Koristi libtorrent.config za zaobilaženje postavki torrent pogona"
+
+msgctxt "#30504"
+msgid ""
+"Located at USERDATA/plugin.video.elementum/libtorrent.config "
+"file[CR]Settings apply automatically. Visit https://libtorrent.org for info."
+msgstr ""
+"Nalazi se u USERDATA/plugin.video.elementum/libtorrent.config "
+"datoteci[CR]Postavke su primijenjene automatski. Posjetite https://"
+"libtorrent.org za više informacija."
+
+msgctxt "#30505"
+msgid "Add episode number to the title"
+msgstr "Dodaj broj epizode naslovu"
+
+msgctxt "#30506"
+msgid "Enable libtorrent logging"
+msgstr "Omogući libtorrent zapisivanje"
+
+msgctxt "#30507"
+msgid "Magnet trackers"
+msgstr "Magnet pratitelji"
+
+msgctxt "#30508"
+msgid "Leave as is"
+msgstr "Ostavi kako jest"
+
+msgctxt "#30509"
+msgid "Remove all"
+msgstr "Ukloni sve"
+
+msgctxt "#30510"
+msgid "Add retrackers"
+msgstr "Dodaj ponovno pratitelje"
+
+msgctxt "#30511"
+msgid "Libtorrent settings profile"
+msgstr "Libtorrent postavka profila"
+
+msgctxt "#30512"
+msgid "Default"
+msgstr "Zadana"
+
+msgctxt "#30513"
+msgid "Minimal memory"
+msgstr "Najmanja memorija"
+
+msgctxt "#30514"
+msgid "High speed"
+msgstr "Najveća brzina"
+
+msgctxt "#30515"
+msgid "Load torrents from torrents folder paused"
+msgstr "Učitaj torrente iz mape torrenta pauzirane"
+
+msgctxt "#30516"
+msgid "... resume N seconds earlier"
+msgstr "... nastavi N sekundi ranije"
+
+msgctxt "#30517"
+msgid "In Kodi library"
+msgstr "U Kodi videoteci"
+
+msgctxt "#30518"
+msgid "Use libtorrent deadlines"
+msgstr "Koristi libtorrent rokove"
+
+msgctxt "#30519"
+msgid "Use libtorrent pause/resume trick for added torrents"
+msgstr "Koristi libtorrent pauziraj/nastavi trik za dodane torrente"
+
+msgctxt "#30520"
+msgid "Add item to start menu"
+msgstr "Dodaj stavku u početni izbornik"
+
+msgctxt "#30521"
+msgid "Delete item from start menu"
+msgstr "Obriši stavku iz početnog izbornika"
+
+msgctxt "#30522"
+msgid "Minimum file size"
+msgstr "Najmanja veličina datoteke"
+
+msgctxt "#30523"
+msgid "Minimum file size for Movies, MB"
+msgstr "Najmanja veličina datoteke za filmove, MB"
+
+msgctxt "#30524"
+msgid "Minimum file size for Shows, per minute, MB"
+msgstr "Najmanja veličina datoteke za TV serije, MB"
+
+msgctxt "#30525"
+msgid "Automatically start downloading next episode"
+msgstr "Automatski pokreni preuzimanje sljedeće epizode"
+
+msgctxt "#30526"
+msgid "Use english title as 'original' for Anime search"
+msgstr "Koristi engleski naslov kao 'izvorni' za Anime pretragu"
+
+msgctxt "#30527"
+msgid "Donate"
+msgstr "Donirajte"
+
+msgctxt "#30528"
+msgid "Automatically load first found subtitles"
+msgstr "Automatski učitaj prvi pronađeni podnaslov"
+
+msgctxt "#30529"
+msgid "Number of subtitles to load automatically"
+msgstr "Broj podnaslova za automatsko učitavanje"
+
+msgctxt "#30530"
+msgid "Delete autoloaded subtitles on player stop"
+msgstr "Obriši automatski učitani podnaslov nakon prestanka reprodukcije"
+
+msgctxt "#30531"
+msgid "Download all files from torrent"
+msgstr "Preuzmi sve datoteke s torrenta"
+
+msgctxt "#30532"
+msgid "Stop Downloading all files"
+msgstr "Zaustavi preuzimanje svih datoteka"
+
+msgctxt "#30533"
+msgid "Store Resume position for downloaded files"
+msgstr "Spremi položaj nastavljanja za preuzete datoteke"
+
+msgctxt "#30534"
+msgid "Ask to use stored Resume position"
+msgstr "Upitaj za korištenje spremljenog položaja nastavljanja"
+
+msgctxt "#30535"
+msgid "Continue playback from [COLOR gold][B]%s[/B][/COLOR]?"
+msgstr "Nastavi reprodukciju sa [COLOR gold][B]%s[/B][/COLOR]?"
+
+msgctxt "#30536"
+msgid "Skip IPv6 addresses resolving"
+msgstr "Preskoči IPv6 razrješavanje adresa"
+
+msgctxt "#30537"
+msgid "Torrents history"
+msgstr "Povijest torrenta"
+
+msgctxt "#30538"
+msgid "Use torrents history?"
+msgstr "Koristi povijest torrenta?"
+
+msgctxt "#30539"
+msgid "Store N torrents in history"
+msgstr "Spremi N torrenta u povijest"
+
+msgctxt "#30540"
+msgid "Subtitles"
+msgstr "Podnaslovi"
+
+msgctxt "#30541"
+msgid "Automatic Subtitles Search"
+msgstr "Automatsko pretraživanje podnaslova"
+
+msgctxt "#30542"
+msgid "Disabled if subtitles available in player"
+msgstr "Onemogući ako su podnaslovi dostupni u reproduktoru"
+
+msgctxt "#30543"
+msgid "Subtitles included in torrent"
+msgstr "Podnaslovi uključeni u torrentu"
+
+#~ msgctxt "#30398"
+#~ msgid "Debug information"
+#~ msgstr "Informacije otklanjanja greške"
+
+#~ msgctxt "#30001"
+#~ msgid "Download path (not FAT32)"
+#~ msgstr "Lokacija preuzimanja (ne FAT32)"
+
+#~ msgctxt "#30021"
+#~ msgid "Enable pagination"
+#~ msgstr "Omogući pagination"
+
+#~ msgctxt "#30025"
+#~ msgid "Limit rates after buffering only"
+#~ msgstr "Ograniči brzinu nakon završetka međuspremanja"
+
+#~ msgctxt "#30028"
+#~ msgid "Background handling of torrents"
+#~ msgstr "Pozadinsko rukovanje torrentima"
+
+#~ msgctxt "#30115"
+#~ msgid "TV scraper used by library"
+#~ msgstr "TV sakupljač koji koristi videoteka"
+
+#~ msgctxt "#30075"
+#~ msgid "Default from libtorrent (acceptable)"
+#~ msgstr "Zadano iz libtorrenta (preporučljivo)"
+
+#~ msgctxt "#30103"
+#~ msgid "Unable to find Elementum binary"
+#~ msgstr "Nemoguć pronalazak Elementumove binarne datoteke"
+
+#~ msgctxt "#30219"
+#~ msgid "Add/Remove from library"
+#~ msgstr "Dodaj/Ukloni iz videoteke"
+
+#~ msgctxt "#30230"
+#~ msgid "Play/resume torrent"
+#~ msgstr "Gledaj/nastavi torrent"

@@ -1,0 +1,26 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "22/02/2018",
+            "description": "Reparado"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "//(?:www.)?ok.../(?:videoembed|video)/(\\d+)",
+                "url": "http://ok.ru/videoembed/\\1/"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "okru",
+    "ids": [
+        "ok"
+    ],
+    "name": "Ok.ru",
+    "settings": [],
+    "version": 3
+}

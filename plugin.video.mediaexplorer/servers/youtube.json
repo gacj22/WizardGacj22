@@ -1,0 +1,31 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "24/08/2007", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [],
+        "patterns": [
+            {
+                "pattern": "youtube(?:-nocookie)?\\.com/(?:(?:(?:v/|embed/))|(?:(?:watch(?:_popup)?(?:\\.php)?)?(?:\\?|#!?)(?:.+&)?v=))?([0-9A-Za-z_-]{11})",
+                "url": "http://www.youtube.com/watch?v=\\1"
+            },
+            {
+                "pattern": "www.youtube.*?v(?:=|%3D)([0-9A-Za-z_-]{11})",
+                "url": "http://www.youtube.com/watch?v=\\1"
+            },
+            {
+                "pattern": "youtube.com/v/([0-9A-Za-z_-]{11})",
+                "url": "http://www.youtube.com/watch?v=\\1"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "youtube",
+    "name": "YouTube",
+    "settings": [],
+    "version": 1
+}

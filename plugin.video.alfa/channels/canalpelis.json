@@ -1,0 +1,65 @@
+{
+  "id": "canalpelis",
+  "name": "CanalPelis",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat", "vose"],
+  "fanart": "https://raw.githubusercontent.com/Inter95/tvguia/master/thumbnails/canalpelisbg.jpg",
+  "thumbnail": "https://cinexin.net/wp-content/uploads/2019/08/logo_cinexin-1.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "orden_episodios",
+      "type": "bool",
+      "label": "Mostrar los episodios de las series en orden descendente",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

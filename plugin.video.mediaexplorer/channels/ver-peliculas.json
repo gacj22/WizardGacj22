@@ -1,0 +1,84 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie"
+    ], 
+    "changes": [
+        {
+            "date": "29/05/2019",
+            "description": "Añadidos enlaces GoogleDrive"
+        },
+        {
+            "date": "15/02/2019",
+            "description": "Fix función play"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "16/11/2018", 
+            "description": "Web caida"
+        }, 
+        {
+            "date": "14/11/2018", 
+            "description": "Web caida"
+        }, 
+        {
+            "date": "08/08/2018", 
+            "description": "Cambios en la web"
+        }, 
+        {
+            "date": "04/07/2018", 
+            "description": "Cambios en la web"
+        }, 
+        {
+            "date": "12/05/2018", 
+            "description": "Identificar correctamente nuevas calidades e idiomas de la web"
+        }, 
+        {
+            "date": "28/04/2018", 
+            "description": "Normalizar url servidores"
+        }, 
+        {
+            "date": "13/04/2018", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "ver-peliculas", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": "2.7.9"
+    }, 
+    "name": "Ver-Peliculas", 
+    "newest": {
+        "movie": {
+            "action": "movies", 
+            "content_type": "movies", 
+            "url": "http://ver-peliculas.io/peliculas/"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies", 
+            "url": {
+                "action": "https://ver-peliculas.co/categorias/peliculas-de-accion.html", 
+                "animation": "https://ver-peliculas.co/categorias/peliculas-de-animacion.html", 
+                "comedy": "https://ver-peliculas.co/categorias/peliculas-de-comedia.html", 
+                "drama": "https://ver-peliculas.co/categorias/peliculas-de-drama.html", 
+                "fantasia": "https://ver-peliculas.co/categorias/peliculas-de-fantastico.html", 
+                "intrigue": "https://ver-peliculas.co/categorias/peliculas-de-intriga.html", 
+                "science-fiction": "https://ver-peliculas.co/categorias/peliculas-de-ciencia-ficcion.html", 
+                "terror": "https://ver-peliculas.co/categorias/peliculas-de-terror.html", 
+                "western": "https://ver-peliculas.co/categorias/peliculas-de-western.html"
+            }
+        }
+    }, 
+    "settings": [], 
+    "version": 10
+}

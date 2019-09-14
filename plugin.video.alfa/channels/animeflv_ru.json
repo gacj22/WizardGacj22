@@ -1,0 +1,45 @@
+{
+  "id": "animeflv_ru",
+  "name": "AnimeFLV.RU",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "http://i.imgur.com/5nRR9qq.png",
+  "banner": "animeflv_ru.png",
+  "compatible": {
+    "python": "2.7.9"
+  },
+  "categories": [
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_anime",
+      "type": "bool",
+      "label": "Incluir en Novedades - Episodios de anime",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "VOSE"
+      ]
+    }
+  ]
+}

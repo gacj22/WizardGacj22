@@ -1,0 +1,36 @@
+{
+  "id": "inkaseries",
+  "name": "InkaSeries",
+  "active": true,
+  "adult": false,
+  "language": ["lat", "cast"],
+  "thumbnail": "https://www.inkaseries.net/wp-content/uploads/2016/08/logo-inkaseries-chico.png",
+  "banner": "",
+  "categories": [
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "LAT",
+        "CAST",
+        "VOSE"
+      ]
+    }
+  ]
+}

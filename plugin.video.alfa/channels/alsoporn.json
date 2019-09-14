@@ -1,0 +1,14 @@
+{
+  "id": "alsoporn",
+  "name": "alsoporn",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://alsoporn.com/images/alsoporn.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

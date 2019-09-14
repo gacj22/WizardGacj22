@@ -1,0 +1,18 @@
+{
+  "id": "vidxden",
+  "name": "vidxden",
+ 
+  "active": false,
+  "notes": "Servidor ya no existe",
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(vidxden.com/[0-9a-z]+)",
+        "url": "http://\\1.html"
+      }
+    ]
+  }
+
+}

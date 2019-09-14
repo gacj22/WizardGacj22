@@ -1,0 +1,15 @@
+{
+  "id": "gnula_biz",
+  "name": "Gnula.Biz",
+  "thumbnail": "gnula_biz.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas y Series: por idioma, calidad, género, ... (clon de cinefox sin cloudflare)"
+}

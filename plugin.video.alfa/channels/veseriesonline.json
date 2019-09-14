@@ -1,0 +1,37 @@
+{
+  "id": "veseriesonline",
+  "name": "VeSeriesOnline",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "http://www.veseriesonline.com/wp-content/themes/theme-fb4/images/logo.png",
+  "banner": "",
+  "categories": [
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+		"Cast",
+		"Lat",
+        "VOSE",
+        "VO"
+      ]
+    }
+  ]
+}

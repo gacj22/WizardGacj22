@@ -1,0 +1,47 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "03/07/2019",
+      "description": "Corregido pattern"
+    },
+    {
+      "date": "28/02/2019",
+      "description": "Corregido pattern"
+    },
+    {
+      "date": "14/02/2019",
+      "description": "Corregido pattern"
+    },
+    {
+      "date": "29/09/2018",
+      "description": "Corregido pattern"
+    },
+    {
+      "date": "01/09/2018",
+      "description": "Incluido soporte js"
+    },
+    {
+      "date": "29/08/2018",
+      "description": "Corregido algoritmo"
+    },
+    {
+      "date": "22/05/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https?://clipwatching.com/(?:embed-|)([a-z0-9]+)(?:.html|)",
+        "url": "https://clipwatching.com/\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "clipwatching",
+  "name": "Clipwatching",
+  "settings": [],
+  "version": 8
+}

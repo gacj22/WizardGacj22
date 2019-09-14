@@ -1,0 +1,15 @@
+{
+  "id": "inkaseries",
+  "name": "InkaSeries",
+  "thumbnail": "inkaseries.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Series por género, más vistas, ..."
+}

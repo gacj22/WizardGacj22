@@ -1,0 +1,141 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow"
+    ], 
+    "changes": [
+        {
+            "date": "19/02/2019",
+            "description": "Reparado por cambios en la web"
+        },
+        {
+            "date": "28/01/2019",
+            "description": "Corregidas algunas series que no mostraban episodios"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "16/11/2018", 
+            "description": "Reparar error en el login de usuario"
+        }, 
+        {
+            "date": "15/10/2018", 
+            "description": "Hotfix items de usuario vacios"
+        }, 
+        {
+            "date": "25/09/2018", 
+            "description": "Reparación por cambios en la web"
+        }, 
+        {
+            "date": "26/05/2018", 
+            "description": "Reparación por cambios en la web"
+        }, 
+        {
+            "date": "25/04/2018", 
+            "description": "Reparación por cambios en la web"
+        }, 
+        {
+            "date": "29/01/2018", 
+            "description": "Permitir el elegir entre http y https para saltarse el bloque de vodafone"
+        }, 
+        {
+            "date": "19/01/2018", 
+            "description": "Reparación por cambios en la web"
+        }, 
+        {
+            "date": "31/08/2017", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "hdfull", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": null
+    }, 
+    "name": "HDFull", 
+    "newest": {
+        "episode": {
+            "action": "newest_episodes", 
+            "content_type": "episodes", 
+            "url": "http://hdfull.tv/series/episodio"
+        }, 
+        "movie": {
+            "action": "movies", 
+            "content_type": "movies", 
+            "url": "http://hdfull.tv/peliculas-actualizadas"
+        }, 
+        "tvshow": {
+            "action": "tvshows", 
+            "content_type": "tvshows", 
+            "url": "http://hdfull.tv/series"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "movie_search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies", 
+            "url": {
+                "action": "https://hdfull.me/tags-peliculas/action", 
+                "adventure": "https://hdfull.me/tags-peliculas/adventure", 
+                "animation": "https://hdfull.me/tags-peliculas/animation", 
+                "comedy": "https://hdfull.me/tags-peliculas/comedy", 
+                "drama": "https://hdfull.me/tags-peliculas/drama", 
+                "fantasia": "https://hdfull.me/tags-peliculas/fantasy", 
+                "intrigue": "https://hdfull.me/tags-peliculas/thriller", 
+                "musical": "https://hdfull.me/tags-peliculas/musical", 
+                "romantic": "https://hdfull.me/tags-peliculas/romance", 
+                "science-fiction": "https://hdfull.me/tags-peliculas/science-fiction", 
+                "terror": "https://hdfull.me/tags-peliculas/horror", 
+                "war": "https://hdfull.me/tags-peliculas/war", 
+                "western": "https://hdfull.me/tags-peliculas/western"
+            }
+        }, 
+        "tvshow": {
+            "action": "tv_search", 
+            "content_type": "tvshows"
+        }
+    }, 
+    "settings": [
+        {
+            "default": 3, 
+            "id": "host", 
+            "label": "Usar el siguiente dominio", 
+            "lvalues": [
+                "http://hdfull.tv", 
+                "https://hdfull.tv", 
+                "http://hdfull.me", 
+                "https://hdfull.me"
+            ], 
+            "type": "list"
+        }, 
+        {
+            "default": false, 
+            "id": "account", 
+            "label": "Activar cuenta de usuario", 
+            "type": "bool"
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-1,true)", 
+            "id": "user", 
+            "label": "Usuario", 
+            "type": "text"
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-2,true)", 
+            "hidden": true, 
+            "id": "password", 
+            "label": "Contraseña", 
+            "type": "text"
+        }
+    ], 
+    "version": 11
+}

@@ -1,0 +1,72 @@
+{
+    "active": false,
+    "adult": false, 
+    "categories": [
+        "movie"
+    ], 
+    "changes": [
+        {
+            "date": "22/05/2018",
+            "description": "Canal desactivado"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "12/09/2018", 
+            "description": "Nuevas calidades."
+        }, 
+        {
+            "date": "18/08/2018", 
+            "description": "Mejorado filtrado por idiomas."
+        }, 
+        {
+            "date": "17/08/2018", 
+            "description": "Añadido contenido"
+        }, 
+        {
+            "date": "15/08/2018", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "repelis", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": null
+    }, 
+    "name": "Repelis", 
+    "newest": {
+        "movie": {
+            "action": "movies", 
+            "content_type": "movies"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies", 
+            "url": {
+                "Western": "https://repelis.live/category/western/", 
+                "action": "https://repelis.live/category/accion/", 
+                "adventure": "https://repelis.live/category/aventura/", 
+                "animation": "https://repelis.live/category/animacion/", 
+                "children": "https://repelis.live/category/infantil/", 
+                "comedy": "https://repelis.live/category/comedia/", 
+                "drama": "https://repelis.live/category/drama/", 
+                "fantasia": "https://repelis.live/category/fantasia/", 
+                "intrigue": "https://repelis.live/category/suspense/", 
+                "musical": "https://repelis.live/category/musica/", 
+                "romantic": "https://repelis.live/category/romance/", 
+                "science-fiction": "https://repelis.live/category/ciencia-ficcion/", 
+                "terror": "https://repelis.live/category/terror/", 
+                "war": "https://repelis.live/category/belica/"
+            }
+        }
+    }, 
+    "settings": [], 
+    "version": 6
+}

@@ -1,0 +1,22 @@
+{
+  "id": "retroseriestv",
+  "name": "RetroSeriesTV",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "https://retroseriestv.com/wp-content/uploads/2017/04/Logo3-5.png",
+  "banner": "",
+  "categories": [
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    }
+  ]
+}

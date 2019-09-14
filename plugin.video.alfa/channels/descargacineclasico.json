@@ -1,0 +1,22 @@
+{
+  "id": "descargacineclasico",
+  "name": "descargacineclasico",
+  "language": ["cast"],
+  "active": true,
+  "adult": false,
+  "banner": "descargacineclasico2.png",
+  "thumbnail": "descargacineclasico2.png",
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+   {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

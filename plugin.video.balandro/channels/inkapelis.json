@@ -1,0 +1,15 @@
+{
+  "id": "inkapelis",
+  "name": "InkaPelis",
+  "thumbnail": "inkapelis.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas por idioma, calidad, género y año. Estrenos, actualizadas, destacadas, ..."
+}

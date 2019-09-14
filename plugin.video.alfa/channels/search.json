@@ -1,0 +1,56 @@
+{
+  "id": "search",
+  "name": "@60672",
+  "active": false,
+  "adult": false,
+  "language": [
+    "it"
+  ],
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "multithread",
+      "type": "bool",
+      "label": "@60673",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "result_mode",
+      "type": "list",
+      "label": "@60674",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "@60675",
+        "@60676"
+      ]
+    },
+    {
+      "id": "saved_searches_limit",
+      "type": "list",
+      "label": "@60677",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "id": "last_search",
+      "type": "bool",
+      "label": "@60678",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

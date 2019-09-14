@@ -1,0 +1,16 @@
+{
+  "id": "pandamovie",
+  "name": "pandamovie",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://www.pandamovies.com/templates/pandamovies/images/logo.png?v1482157699",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+
+  ]
+}
+

@@ -1,0 +1,24 @@
+{
+  "id": "peliculasgratis",
+  "name": "PeliculasGratis",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "http://imgur.com/ThH8Zmk.png",
+  "banner": "peliculasgratis.png",
+  "categories": [
+    "direct",
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

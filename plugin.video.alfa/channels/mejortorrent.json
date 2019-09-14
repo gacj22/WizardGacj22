@@ -1,0 +1,103 @@
+{
+  "id": "mejortorrent",
+  "name": "MejorTorrent",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "mejortorrent.png",
+  "banner": "mejortorrent.png",
+  "categories": [
+    "torrent",
+    "movie",
+    "tvshow",
+    "documentary",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "domain_name",
+      "type": "text",
+      "label": "URL actual de la Web Mejor Torrent",
+      "default": "http://www.mejortorrent.tv/",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra (TMDB)",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "CAST",
+        "LAT",
+        "VO",
+        "VOS",
+        "VOSE"
+      ]
+    },
+    {
+      "id": "seleccionar_ult_temporadda_activa",
+      "type": "bool",
+      "label": "Seleccionar para Videoteca si estará activa solo la última Temporada",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "timeout_downloadpage",
+      "type": "list",
+      "label": "Timeout (segs.) en descarga de páginas o verificación de servidores",
+      "default": 5,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "None",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ]
+}

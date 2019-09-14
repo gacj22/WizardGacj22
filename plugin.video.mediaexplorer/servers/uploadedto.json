@@ -1,0 +1,58 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "22/08/2017", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "(?:ul|uploaded).(?:net|to)/(?:file/|f/)?([a-zA-Z0-9]+)", 
+                "url": "http://uploaded.net/file/\\1"
+            }, 
+            {
+                "pattern": "(?:ul|uploaded).(?:net|to)/folder/([a-zA-Z0-9]+)", 
+                "url": "http://uploaded.net/folder/\\1"
+            }
+        ]
+    }, 
+    "free": false,
+    "id": "uploadedto",
+    "ids": [
+        "ul",
+        "ul.to", 
+        "uploaded"
+    ], 
+    "name": "Uploaded.net", 
+    "settings": [
+        {
+            "default": false, 
+            "enabled": true, 
+            "id": "premium", 
+            "label": "Activar cuenta premium", 
+            "type": "bool", 
+            "visible": true
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-1,true)", 
+            "id": "user", 
+            "label": "Usuario:", 
+            "type": "text", 
+            "visible": true
+        }, 
+        {
+            "default": "", 
+            "enabled": "eq(-2,true)", 
+            "hidden": true, 
+            "id": "password", 
+            "label": "Contrase\u00f1a:", 
+            "type": "text", 
+            "visible": true
+        }
+    ], 
+    "version": 2
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cinetemagay",
+  "name": "Cinetemagay",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "cinetemagay.png",
+  "banner": "cinetemagay.png",
+  "categories": [
+    "adult"
+  ]
+}

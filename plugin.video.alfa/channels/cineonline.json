@@ -1,0 +1,63 @@
+{
+  "id": "cineonline",
+  "name": "cineonline",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://www.cine-online.eu/wp-content/uploads/2015/04/CINE-logo-bueno.png",
+  "banner": "",
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "LAT",
+        "ESP",
+        "VOSE"
+      ]
+    },
+     {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "comprueba_enlaces",
+      "type": "bool",
+      "label": "Verificar si los enlaces existen",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "comprueba_enlaces_num",
+      "type": "list",
+      "label": "Número de enlaces a verificar",
+      "default": 1,
+      "enabled": true,
+      "visible": "eq(-1,true)",
+      "lvalues": [ "5", "10", "15", "20" ]
+    } 
+  ]
+}
+
+

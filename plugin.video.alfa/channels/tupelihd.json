@@ -1,0 +1,33 @@
+{
+  "id": "tupelihd",
+  "name": "TuPeliHD",
+  "thumbnail":"https://www.tupelihd.com/wp-content/uploads/2018/06/logotupelihdV5.png",
+  "banner":"",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "version": 1,
+  "categories": [
+    "movie",
+    "tvshow",
+    "torrent",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "Cast",
+        "Lat",
+        "VOSE"
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,15 @@
+{
+  "id": "newpct1",
+  "name": "NewPct1",
+  "thumbnail": "newpct1.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow", "torrent"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas y series con enlaces torrent y streaming. Clones de NewPct1: descargas2020, tumejortorrent, torrentrapid, torrentlocura, pctnew, planetatorrent, mispelisyseries, tvsinpagar."
+}

@@ -1,0 +1,49 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "24/08/2007",
+      "description": "Primera version"
+    }
+  ],
+  "free": true,
+  "id": "realdebrid",
+  "name": "Real-Debrid",
+  "settings": [
+    {
+      "label": "Activar cuenta premium:",
+      "type": "bool",
+      "id": "account",
+      "default": false
+    },
+    {
+      "label": "Usuario:",
+      "type": "text",
+      "id": "user",
+      "default": "",
+      "enabled": "eq(-1,true)"
+    },
+    {
+      "label": "Contraseña:",
+      "type": "text",
+      "hidden": true,
+      "id": "password",
+      "default": "",
+      "enabled": "eq(-2,true)"
+    }
+  ],
+  "servers":[
+    "openload",
+    "filefactory",
+    "nowvideo",
+    "rapidgator",
+    "turbobit",
+    "uploadedto",
+    "uptobox",
+    "youwatch",
+    "mega",
+    "mediafire",
+    "1fichier"
+  ],
+  "version": 2
+}

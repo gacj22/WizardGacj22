@@ -1,0 +1,72 @@
+{
+  "id": "allpeliculas",
+  "name": "Allpeliculas",
+  "language": ["lat"],
+  "active": true,
+  "adult": false,
+  "thumbnail": "http://i.imgur.com/aWCDWtn.png",
+  "banner": "allpeliculas.png",
+  "categories": [
+    "movie",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No filtrar",
+        "LAT"
+      ]
+    },
+    {
+      "id": "include_in_newest_latino",
+      "type": "bool",
+      "label": "Incluir en Novedades - Latino",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Películas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "submityouflicks",
+  "name": "Submit Your Flicks",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "banner": "submityouflicks.png",
+  "thumbnail": "submityouflicks.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+    <category label="General">
+
+        <setting label="Opciones para los listados de canales:" type="lsep"/>
+        <setting id="channels_list_status" type="enum" values="Todos|Preferidos y Activos|Sólo Preferidos" label="Canales a mostrar" default="0"/>
+        <setting id="channels_list_order" type="bool" label="Ordenar canales preferidos al principio" default="true"/>
+        <setting id="channels_list_prefe_color" type="labelenum" label="Color canales preferidos"
+                 values="[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR tomato]tomato[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR purple]purple[/COLOR]|[COLOR lime]lime[/COLOR]|[COLOR aqua]aqua[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]"
+                 default="[COLOR gold]gold[/COLOR]"/>
+        <setting id="channels_link_main" type="bool" label="Acceso por canales en menú principal" default="false"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para las búsquedas:" type="lsep"/>
+        <setting id="search_show_last" type="bool" label="Recordar último texto buscado" default="false"/>
+        <setting id="search_multithread" type="bool" label="Activar multithread" default="true"/>
+        <setting id="search_limit_by_channel" type="labelenum" values="1|2|3|4|5|6|7|8|9|10" label="Resultados previsualizados por canal" default="2"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones de depuración:" type="lsep"/>
+        <setting id="debug" type="enum" values="Error|Error+Info|Error+Info+Debug" label="Mensajes en el log:" default="1"/>
+        
+        <setting type="sep"/>
+        <setting label="Opciones para servicios externos:" type="lsep"/>
+        <setting id="cliente_torrent" type="labelenum" values="Ninguno|Quasar|Elementum|Torrenter|Torrentin|Pulsar|Stream|Xbmctorrent" label="Cliente externo para Torrents" default="Ninguno"/>
+
+    </category>
+
+
+    <category label="Reproducción">
+
+        <setting label="Opciones para la reproducción automática:" type="lsep"/>
+        <setting id="autoplay" type="bool" label="Activar AutoPlay" default="false"/>
+        <setting id="autoplay_max_links" type="labelenum" values="3|5|10|15|20|25|30" label="Número máximo de enlaces a intentar" default="10" visible="eq(-1,true)"/>
+        <setting id="autoplay_channels_discarded" label="Canales sin autoplay (separados por comas)" type="text" default="" visible="eq(-2,true)"/>
+        <setting id="autoplay_one_link" type="bool" label="Activar AutoPlay cuando solamente hay un enlace" default="true" visible="eq(-3,false)"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para ordenar/filtrar los enlaces por idioma:" type="lsep"/>
+        <setting id="preferencia_idioma_esp" type="enum" values="Descartar|Primero|Segundo|Tercero" label="Idioma Esp (castellano de España)" default="1"/>
+        <setting id="preferencia_idioma_lat" type="enum" values="Descartar|Primero|Segundo|Tercero" label="Idioma Lat (castellano de América)" default="2"/>
+        <setting id="preferencia_idioma_vos" type="enum" values="Descartar|Primero|Segundo|Tercero" label="Idioma VO (versión original y/o subtitulada)" default="3"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para ordenar los enlaces por calidad:" type="lsep"/>
+        <setting id="servers_sort_quality" type="enum" values="Orden de la Web|Calidad Desc|Calidad Asc" label="En cada idioma ordenar enlaces según" default="0"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para ordenar/filtrar los enlaces por servidores:" type="lsep"/>
+        <setting id="servers_preferred" label="Servidores preferentes (separados por comas)" type="text" default=""/>
+        <setting id="servers_unfavored" label="Servidores última opción (separados por comas)" type="text" default=""/>
+        <setting id="servers_discarded" label="Servidores descartados (separados por comas)" type="text" default=""/>
+
+    </category>
+
+
+    <category label="Enlaces guardados">
+        <setting label="Tracking DB active" type="text" id="tracking_current_dbname" default="default" visible="false"/>
+
+        <setting label="Opciones al guardar los enlaces:" type="lsep"/>
+        <setting id="tracking_confirm_tmdbid" type="bool" label="Confirmar siempre la identificación de la película/serie" default="false"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para el listado de películas:" type="lsep"/>
+        <setting id="tracking_order_movies" type="enum" values="Actualización|Título|Fecha de estreno" label="Ordenar por" default="0"/>
+        <setting id="tracking_perpage_movies" type="labelenum" values="5|10|15|20|25|30" label="Número de películas por página" default="10"/>
+
+        <setting label="Opciones para el listado de series:" type="lsep"/>
+        <setting id="tracking_order_tvshows" type="enum" values="Actualización|Título|Fecha de estreno" label="Ordenar por" default="0"/>
+        <setting id="tracking_perpage_tvshows" type="labelenum" values="5|10|15|20|25|30" label="Número de series por página" default="10"/>
+
+        <setting label="Opciones para el listado de episodios recientes:" type="lsep"/>
+        <setting id="tracking_order_episodes" type="enum" values="Actualización|Fecha de emisión" label="Ordenar por" default="1"/>
+        <setting id="tracking_perpage_episodes" type="labelenum" values="5|10|15|20|25|30" label="Número de episodios por página" default="10"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones para fijar el tipo de vista por defecto:" type="lsep"/>
+        <setting id="tracking_viewmode_movies" type="enum" values="No fijar|Lista|Cartel|Mays.|Muro de información|Lista amplia|Muro|Fanart" label="Películas" default="0"/>
+        <setting id="tracking_viewmode_tvshows" type="enum" values="No fijar|Lista|Cartel|Mays.|Muro de información|Lista amplia|Muro|Fanart" label="Series" default="0"/>
+        <setting id="tracking_viewmode_seasons" type="enum" values="No fijar|Lista|Cartel|Mays.|Muro de información|Lista amplia|Muro|Fanart" label="Temporadas" default="0"/>
+        <setting id="tracking_viewmode_episodes" type="enum" values="No fijar|Lista|Cartel|Mays.|Muro de información|Lista amplia|Muro|Fanart" label="Episodios" default="0"/>
+
+        <setting type="sep"/>
+        <setting label="Opciones al reproducir los enlaces:" type="lsep"/>
+        <setting id="tracking_weberror_dialog" type="bool" label="Si la web da error, ¿ mostrar diálogo para búsqueda alternativa ?" default="true"/>
+
+    </category>
+
+
+    <category label="Opciones visuales">
+
+        <setting label="Para los títulos de películas/series en los listados de canales:" type="lsep"/>
+
+        <setting id="list_show_year" type="enum" values="No|En películas|En series|En películas y series" label="Mostrar el año" default="3"/>
+        <setting id="list_info_order" type="enum" values="Ninguno|Idiomas|Calidades|Idiomas y calidades|Calidades e idiomas" label="Mostrar idiomas y calidades" default="3"/>
+
+        <setting id="list_movie_color" type="labelenum" label="Color Películas"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR gray]gray[/COLOR]"
+                 default="[COLOR white]white[/COLOR]"/>
+
+        <setting id="list_tvshow_color" type="labelenum" label="Color Series"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR gray]gray[/COLOR]"
+                 default="[COLOR white]white[/COLOR]"/>
+
+        <setting id="list_year_color" type="labelenum" label="Color Año"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR gray]gray[/COLOR]"
+                 default="[COLOR gray]gray[/COLOR]"/>
+
+        <setting id="list_languages_color" type="labelenum" label="Color Idiomas"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR gray]gray[/COLOR]"
+                 default="[COLOR red]red[/COLOR]"/>
+
+        <setting id="list_qualities_color" type="labelenum" label="Color Calidades"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR gray]gray[/COLOR]"
+                 default="[COLOR limegreen]limegreen[/COLOR]"/>
+
+
+        <setting type="sep"/>
+        <setting label="Para los enlaces al seleccionar servidor:" type="lsep"/>
+        <setting id="colorear_enlaces_play" type="bool" label="Colorear los enlaces a servidores" default="true"/>
+
+        <setting id="play_server_color" type="labelenum" label="Color Servidor"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]"
+                 default="[COLOR gold]gold[/COLOR]" visible="eq(-1,true)"/>
+
+        <setting id="play_quality_color" type="labelenum" label="Color Calidad"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]"
+                 default="[COLOR limegreen]limegreen[/COLOR]" visible="eq(-2,true)"/>
+
+        <setting id="play_language_color" type="labelenum" label="Color Idioma"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]"
+                 default="[COLOR red]red[/COLOR]" visible="eq(-3,true)"/>
+
+        <setting id="play_age_color" type="labelenum" label="Color Antiguedad/fecha"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]"
+                 default="[COLOR deepskyblue]deepskyblue[/COLOR]" visible="eq(-4,true)"/>
+
+        <setting id="play_other_color" type="labelenum" label="Color Otros datos"
+                 values="[COLOR white]white[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR deepskyblue]deepskyblue[/COLOR]|[COLOR firebrick]firebrick[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR goldenrod]goldenrod[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR limegreen]limegreen[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR orchid]orchid[/COLOR]|[COLOR red]red[/COLOR]|[COLOR salmon]salmon[/COLOR]|[COLOR yellow]yellow[/COLOR]"
+                 default="[COLOR white]white[/COLOR]" visible="eq(-5,true)"/>
+
+        <setting type="sep"/>
+        <setting label="Para las acciones en los menús contextuales:" type="lsep"/>
+
+        <setting id="context_tracking_color" type="labelenum" label="Color Guardar enlaces"
+                 values="[COLOR blue]blue[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR pink]pink[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR red]red[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR green]green[/COLOR]|[COLOR gray]gray[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR teal]teal[/COLOR]"
+                 default="[COLOR blue]blue[/COLOR]"/>
+
+        <setting id="context_search_exact_color" type="labelenum" label="Color Buscar exacto"
+                 values="[COLOR blue]blue[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR pink]pink[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR red]red[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR green]green[/COLOR]|[COLOR gray]gray[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR teal]teal[/COLOR]"
+                 default="[COLOR gold]gold[/COLOR]"/>
+
+        <setting id="context_search_similar_color" type="labelenum" label="Color Buscar parecido"
+                 values="[COLOR blue]blue[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR pink]pink[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR red]red[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR green]green[/COLOR]|[COLOR gray]gray[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR teal]teal[/COLOR]"
+                 default="[COLOR yellow]yellow[/COLOR]"/>
+
+        <setting id="context_download_color" type="labelenum" label="Color Descargar vídeo"
+                 values="[COLOR blue]blue[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR pink]pink[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR red]red[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR green]green[/COLOR]|[COLOR gray]gray[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR teal]teal[/COLOR]"
+                 default="[COLOR orange]orange[/COLOR]"/>
+
+        <setting id="context_trailer_color" type="labelenum" label="Color Buscar tráiler"
+                 values="[COLOR blue]blue[/COLOR]|[COLOR gold]gold[/COLOR]|[COLOR orange]orange[/COLOR]|[COLOR pink]pink[/COLOR]|[COLOR hotpink]hotpink[/COLOR]|[COLOR red]red[/COLOR]|[COLOR yellow]yellow[/COLOR]|[COLOR green]green[/COLOR]|[COLOR gray]gray[/COLOR]|[COLOR cyan]cyan[/COLOR]|[COLOR violet]violet[/COLOR]|[COLOR teal]teal[/COLOR]"
+                 default="[COLOR pink]pink[/COLOR]"/>
+
+    </category>
+
+
+    <category label="Actualizaciones">
+        <setting label="Opciones para buscar nuevos episodios:" type="lsep"/>
+        <setting id="addon_tracking_atstart" type="bool" label="Activar servicio al iniciar Kodi (requiere reinicio si se cambia)" default="false"/>
+        <setting id="addon_tracking_interval" type="labelenum" values="6|8|12|24" label="Ejecutar el servicio cada n horas" default="12" visible="eq(-1,true)"/>
+        <setting id="addon_tracking_verbose" type="bool" label="Mostrar aviso del resultado final de la búsqueda" default="false" visible="eq(-2,true)"/>
+        <setting id="addon_tracking_doit" type="action" label="Pulse para 'Comprobar nuevos episodios' ahora" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=comprobar_nuevos_episodios)" />
+        <setting id="addon_tracking_lastscrap" label="Last scrap" type="text" default="" visible="false"/>
+
+        <setting label="Opciones para las actualizaciones del addon:" type="lsep"/>
+        <setting id="addon_update_atstart" type="bool" label="Comprobar actualizaciones al iniciar Kodi" default="true"/>
+        <setting id="addon_update_verbose" type="bool" label="Mostrar aviso del resultado de la actualización" default="false" visible="eq(-1,true)"/>
+        <setting id="addon_update_doit" type="action" label="Pulse para 'Comprobar actualizaciones' ahora" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=check_addon_updates)" />
+    </category>
+
+
+    <category label="Otros">
+        <setting id="notification_beep" type="bool" label="Emitir un pitido al mostrar notificaciones" default="true"/>
+
+        <setting label="Parámetros para las descargas:" type="lsep"/>
+        <setting id="downloadpath" type="folder" label="Directorio de descargas:" default=""/>
+        <setting id="block_size" type="enum" values="128 KB|256 KB|512 KB|1024 KB|2048 KB" label="Tamaño por bloque" default="1"/>
+        <setting id="part_size" type="enum" values="1 MB|2 MB|4 MB|8 MB|16 MB|32 MB" label="Tamaño por parte" default="1"/>
+        <setting id="max_connections" type="enum" values="1|2|3|4|5|6|7|8|9|10" label="Número máximo de conexiones simultáneas" default="4"/>
+        <setting id="max_buffer" type="enum" values="0|2|4|6|8|10|12|14|16|18|20" label="Número máximo de partes en memoria" default="5"/>
+
+        <setting type="sep"/>
+        <setting label="TMDB para obtener datos de las películas y series con TheMovieDB" type="lsep"/>
+        <setting id="tmdb_disabled" type="bool" label="Desactivar llamadas a Tmdb en listados" default="false"/>
+        <setting id="tmdb_threads" type="labelenum" values="5|10|15|20|25|30" label="Búsquedas simultáneas (puede causar inestabilidad)" default="20"/>
+        <setting id="tmdb_plus_info" type="bool" label="Buscar información extendida (duración, actores, ...)" default="false"/>
+        <setting id="tmdb_cache" type="bool" label="Usar caché (mejora las búsquedas recurrentes)" default="true"/>
+        <setting id="tmdb_cache_expire" type="enum" values="cada 1 día|cada 7 días|cada 15 días|cada 30 días|No" label="¿Renovar caché?" enable="eq(-1,true)" default="4"/>
+        <setting id="tmdb_clean_db_cache" type="action" label="Pulse para 'Limpiar caché' guardada" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=clean_db_cache)" />
+        <setting id="tmdb_drop_db_cache" type="action" label="Pulse para 'Borrar caché' guardada" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=drop_db_cache)" />
+
+        <setting type="sep"/>
+        <setting label="Para evitar esperar demasiado cuando un servidor no responde:" type="lsep"/>
+        <setting id="httptools_timeout" type="labelenum" values="0|5|10|15|20|25|30" label="Timeout (tiempo de espera máximo)" default="15"/>
+    </category>
+
+
+    <category label="Ayuda">
+
+        <setting label="Visita www.balandro.tk para novedades, sugerencias, ayuda, ..." type="lsep"/>
+        <setting type="sep"/>
+
+        <setting id="show_help_tips" type="action" label="Truquillos y consejos varios" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_tips)" />
+
+        <setting id="show_help_use" type="action" label="Ejemplos de uso de Balandro" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_use&title=Ayuda)" />
+
+        <setting id="show_help_faq" type="action" label="FAQ - Preguntas y respuestas" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_faq)" />
+
+        <setting id="show_help_settings" type="action" label="Notas sobre algunos parámetros de configuración" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_settings)" />
+
+        <setting id="show_help_tracking" type="action" label="Funcionamiento de los enlaces guardados (videoteca)" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_tracking)" />
+
+        <setting id="show_help_tracking_update" type="action" label="Búsqueda automática de nuevos episodios" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_help_tracking_update)" />
+
+        <setting id="show_changelog" type="action" label="Historial de cambios" action="RunPlugin(plugin://plugin.video.balandro/?channel=actions&action=show_changelog)" />
+
+    </category>
+
+</settings>

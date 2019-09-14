@@ -1,0 +1,39 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "12/11/2018",
+      "description": "Añadida detección error 404"
+    },
+    {
+      "date": "29/08/2018",
+      "description": "Cambios en html"
+    },
+    {
+      "date": "09/06/2018",
+      "description": "Cambios en html"
+    },
+    {
+      "date": "22/02/2018",
+      "description": "Muestra mensaje si el archivo no existe"
+    },
+    {
+      "date": "25/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "vidoza.net/(?:embed-|)([A-z0-9]+)",
+        "url": "http://vidoza.net/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "vidoza",
+  "name": "Vidoza",
+  "settings": [],
+  "version": 6
+}

@@ -1,0 +1,60 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "27/06/2019",
+      "description": "Reparado fallo"
+    },
+    {
+      "date": "07/06/2019",
+      "description": "Reparado por cambios internos"
+    },
+    {
+      "date": "17/04/2019",
+      "description": "Reparado por cambios internos"
+    },
+    {
+      "date": "07/04/2019",
+      "description": "Desactivado por cambios internos"
+    },
+    {
+      "date": "04/03/2019",
+      "description": "Reparado por cambios internos"
+    },
+    {
+      "date": "07/01/2019",
+      "description": "Reparado por cambios internos"
+    },
+    {
+      "date": "09/11/2018",
+      "description": "Desactivado por cambios internos"
+    },
+    {
+      "date": "07/06/2018",
+      "description": "Cambios internos"
+    },
+    {
+      "date": "23/08/2017",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(?:hqq|waaw|netu)(?:\\.tv\\/|\\.watch\\/|\\.php\\?).*?(?:v=|vid=|hash=)([A-z0-9]+)",
+        "url": "http://hqq.tv/player/embed_player.php?vid=\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "netutv",
+  "ids": [
+    "netu",
+    "waaw",
+    "hqq"
+  ],
+  "name": "Netu.tv",
+  "settings": [],
+  "version": 9
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jkanime",
+  "name": "JKanime",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "jkanime.png",
+  "banner": "jkanime.png",
+  "categories": [
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

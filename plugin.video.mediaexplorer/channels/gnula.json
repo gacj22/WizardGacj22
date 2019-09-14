@@ -1,0 +1,114 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow"
+    ], 
+    "changes": [
+        {
+            "date": "14/06/2019",
+            "description": "Cambios internos en el canal"
+        },
+        {
+            "date": "17/03/2019",
+            "description": "Añadida opcion proxy"
+        },
+        {
+            "date": "25/01/2019",
+            "description": "Reparado por cambios en la web"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "12/09/2018", 
+            "description": "Nuevas calidades."
+        }, 
+        {
+            "date": "05/09/2018", 
+            "description": "Filtrados enlaces no válidos"
+        }, 
+        {
+            "date": "12/07/2018", 
+            "description": "Añadida la sección de Series"
+        }, 
+        {
+            "date": "10/04/2018", 
+            "description": "Descartada la sección de Series"
+        }, 
+        {
+            "date": "13/11/2017", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "gnula", 
+    "min_version": {
+        "main": "1.1.3",
+        "python": "2.7.9"
+    }, 
+    "name": "GNula", 
+    "newest": {
+        "episode": {
+            "action": "newest_episodes", 
+            "content_type": "episodes"
+        }, 
+        "movie": {
+            "action": "newest", 
+            "content_type": "movies"
+        }
+    }, 
+    "search": {
+        "movie": {
+            "action": "movie_search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "movies", 
+            "url": {
+                "action": "http://gnula.nu/generos/lista-de-peliculas-del-genero-accion/", 
+                "adventure": "http://gnula.nu/generos/lista-de-peliculas-del-genero-aventuras/", 
+                "animation": "http://gnula.nu/generos/lista-de-peliculas-del-genero-animacion/", 
+                "children": "http://gnula.nu/generos/lista-de-peliculas-del-genero-infantil/", 
+                "comedy": "http://gnula.nu/generos/lista-de-peliculas-del-genero-comedia/", 
+                "drama": "http://gnula.nu/generos/lista-de-peliculas-del-genero-drama/", 
+                "fantasia": "http://gnula.nu/generos/lista-de-peliculas-del-genero-fantasia/", 
+                "intrigue": "http://gnula.nu/generos/lista-de-peliculas-del-genero-intriga/", 
+                "musical": "http://gnula.nu/generos/lista-de-peliculas-del-genero-musical/", 
+                "romantic": "http://gnula.nu/generos/lista-de-peliculas-del-genero-romantica/", 
+                "science-fiction": "http://gnula.nu/generos/lista-de-peliculas-del-genero-sci-fi/", 
+                "terror": "http://gnula.nu/generos/lista-de-peliculas-del-genero-terror/", 
+                "war": "http://gnula.nu/generos/lista-de-peliculas-del-genero-belica/", 
+                "western": "http://gnula.nu/generos/lista-de-peliculas-del-genero-western/"
+            }
+        }, 
+        "tvshow": {
+            "action": "tv_search", 
+            "content_type": "tvshows"
+        }
+    }, 
+    "settings": [
+        {
+            "default": "",
+            "id": "label1",
+            "label": "Truco para ocultar boton TODOS/NINGUNO",
+            "type": "text",
+            "visible": false
+        },
+        {
+            "default": false,
+            "id": "use_proxy",
+            "label": "Activar proxy",
+            "type": "bool"
+        },
+        {
+            "id": "label2",
+            "label": "    Puede configurar el proxy en Ajustes / Configuración de Canales",
+            "type": "label",
+            "visible": "eq(-1,true)",
+            "color": "0xFFFFFF00"
+        }
+    ],
+    "version": 9
+}

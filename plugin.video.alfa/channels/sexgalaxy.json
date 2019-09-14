@@ -1,0 +1,16 @@
+{
+  "id": "sexgalaxy",
+  "name": "sexgalaxy",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://sexgalaxy.net/wp-content/themes/redwaves-lite/images/logo.png",
+  "banner": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  
+  ]
+}
+

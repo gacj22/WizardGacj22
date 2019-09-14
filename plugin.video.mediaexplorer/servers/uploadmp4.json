@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "25/02/2019",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https://uploadmp4.com/embed/([A-z0-9]+)",
+        "url": "https://uploadmp4.com/embed/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "uploadmp4",
+  "name": "UploadMp4",
+  "settings": [],
+  "version": 1
+}

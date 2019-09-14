@@ -1,0 +1,38 @@
+{
+  "id": "vepelis",
+  "name": "VePelis",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "banner": "vepelis.png",
+  "thumbnail": "vepelis.png",
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "include_in_global_search",
+      "label": "Incluir en busqueda global",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

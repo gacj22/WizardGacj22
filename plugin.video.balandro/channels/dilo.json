@@ -1,0 +1,15 @@
+{
+  "id": "dilo",
+  "name": "Dilo",
+  "thumbnail": "dilo.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Series por género, año, país, en emisión o finalizadas, populares."
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>livefootballol</id>
+	<name>Livefootballol</name>
+
+	<active>true</active>
+	<adult>false</adult>
+	<language>es</language>
+
+	<fanart></fanart>
+	<thumbnail>http://s6.postimg.org/c5x7330r5/livefootballollogo.png</thumbnail>
+	<bannermenu></bannermenu>
+
+	<update_url></update_url>
+	<version>3</version>
+	<date>08/07/2016</date>
+	<changes>Modificado nueva version pelisalacarta</changes>
+
+	<categories>
+		<category>deportes</category>
+		
+	</categories>
+
+	<settings>
+		<include_in_global_search>false</include_in_global_search>
+	</settings>
+    <settings>
+        <id>include_in_agenda</id>
+        <type>bool</type>
+        <label>Incluir en Agenda Global</label>
+        <default>true</default>
+        <enabled>true</enabled>
+        <visible>true</visible>
+    </settings>
+</channel>

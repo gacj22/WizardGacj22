@@ -1,0 +1,48 @@
+{
+  "settings": [
+    {
+        "default": true,
+        "enabled": true,
+        "id": "multithread",
+        "label": "Buscar en MultiThread",
+        "type": "bool",
+        "visible": true
+    },
+    {
+      "id": "group_result",
+      "label": "Agrupar resultados:",
+      "type": "list",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "No agrupar (mas rápido)",
+        "Por canales",
+        "Por el titulo (menos preciso)",
+        "Por el codigo IMDB (mas lento, mas preciso)"
+      ]
+    },
+    {
+      "id": "max_result",
+      "label": "Máximo numero de resultados por canal:",
+      "type": "list",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin limite",
+        "10",
+        "20",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "id": "sort_result",
+      "label": "Ordenar resultados (excepto 'Episodios')",
+      "type": "bool",
+      "default": false,
+      "visible": true
+    }
+  ]
+}

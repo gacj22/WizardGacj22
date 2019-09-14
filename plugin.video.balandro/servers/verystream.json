@@ -1,0 +1,17 @@
+{
+  "id": "verystream",
+  "name": "VeryStream",
+
+  "active": true,
+
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https://verystream.com/(?:stream|e)/([A-z0-9]+)",
+        "url": "https://verystream.com/e/\\1/"
+      }
+    ]
+  }
+
+}

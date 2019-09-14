@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.noise" name="Noise" version="1.0.4" provider-name="Alex303 - Hiraya Software">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="plugin.video.youtube" version="5.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+		<provides>music</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
+		<info>http://hirayasoftware.com/repo/addons.xml</info>
+		<checksum>http://hirayasoftware.com/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://hirayasoftware.com/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Noise</summary>
+		<description lang="en">Addon with millions of music albums to listen!</description>
+		<disclaimer lang="en">This addon does not store any content. All images and videos are from the internet.</disclaimer>
+		<summary lang="es">Noise</summary>
+		<description lang="es">Addon con millones de albumes de música para escuchar!</description>
+		<disclaimer lang="es">Este addon no almacena ningun contenido. Todas las imágenes y videos son de internet.</disclaimer>
+		<platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+	</extension>
+</addon>

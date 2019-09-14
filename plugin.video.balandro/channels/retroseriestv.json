@@ -1,0 +1,15 @@
+{
+  "id": "retroseriestv",
+  "name": "RetroSeriesTv",
+  "thumbnail": "retroseriestv.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "lat"],
+
+  "notes": "Series retro, por género y año de lanzamiento."
+}

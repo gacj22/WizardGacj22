@@ -1,0 +1,142 @@
+{
+  "settings": [
+    {
+      "label": "Depuración:",
+      "type": "label"
+    },
+    {
+      "default": 0,
+      "id": "debug",
+      "label": "Nivel de log:",
+      "type": "list",
+      "lvalues": [
+        "Nada",
+        "Errores",
+        "Básico",
+        "Detallado",
+        "Reporte"
+      ]
+    },
+    {
+      "label": "¡La configuración puede reducir el rendimiento, usar solo para depuración!",
+      "type": "label",
+      "visible": "eq(-1,2)",
+      "color": "0xFFFFFF00"
+    },
+    {
+      "label": "¡La configuración actual reduce el rendimiento, usar solo para depuración!",
+      "type": "label",
+      "visible": "gt(-2,2)",
+      "color": "0xFFFF0000"
+    },
+    {
+      "id": "debug_time_Report",
+      "default": [0.0, 0],
+      "type": "text",
+      "visible": false
+    },
+    {
+      "label": "Actualizaciones:",
+      "type": "label"
+    },
+    {
+      "default": 2,
+      "id": "update_interval",
+      "label": "Comprobar actualizaciones:",
+      "type": "list",
+      "lvalues": [
+        "Solo manualmente",
+        "Automáticamente al iniciar",
+        "Automáticamente cada 12 horas",
+        "Automáticamente una vez al dia"
+      ]
+    },
+    {
+      "default": true,
+      "id": "update_auto",
+      "label": "Instalar actualizaciones automáticamente:",
+      "type": "bool"
+    },
+    {
+      "default": 0,
+      "id": "update_channel",
+      "label": "Tipo de actualizaciones:",
+      "type": "list",
+      "lvalues": [
+        "Estables",
+        "Beta"
+      ]
+    },
+    {
+      "default": false,
+      "id": "update_hide_incompatible",
+      "label": "Ocultar actualizaciones no compatibles:",
+      "type": "bool"
+    },
+    {
+      "label": "Autoplay:",
+      "type": "label"
+    },
+    {
+      "default": false,
+      "id": "autoplay",
+      "label": "Autoplay:",
+      "type": "bool"
+    },
+    {
+      "default": 1,
+      "enabled": "eq(-1,true)",
+      "visible": "eq(-1,true)",
+      "id": "autoplay_lang_fav",
+      "label": "Idioma preferido de reproducción:",
+      "type": "list",
+      "lvalues": "eval(sorted([v.label for v in Languages().all]))"
+    },
+    {
+      "default": 1,
+      "enabled": "eq(-2,true)",
+      "visible": "eq(-2,true)",
+      "id": "autoplay_max_intentos",
+      "label": "Número máximo de intentos por servidor:",
+      "type": "list",
+      "lvalues": ["2","3","4","5","6"]
+    },
+    {
+      "label": "Contenido para adultos:",
+      "type": "label"
+    },
+    {
+      "default": "",
+      "label": "Introduzca la contraseña (por defecto 0000):",
+      "type": "text",
+      "hidden": true
+    },
+    {
+      "default": 0,
+      "enabled": "set(-1,'adult_password')",
+      "id": "adult_mode",
+      "label": "Mostrar contenido para adultos:",
+      "type": "list",
+      "lvalues": [
+        "No mostrar",
+        "eval(('Hasta salir', 'Sólo para esta sesión')[sysinfo.platform_name == 'mediaserver'])",
+        "Siempre"
+      ]
+    },
+    {
+      "default": false,
+      "enabled": "set(-2,'adult_password')+!eq(-1,0)",
+      "id": "adult_pin",
+      "label": "Pedir contraseña para abrir contenido para adultos:",
+      "type": "bool"
+    },
+    {
+      "default": "0000",
+      "enabled": "set(-3,'adult_password')",
+      "id": "adult_password",
+      "label": "Nueva contraseña para canales adultos:",
+      "type": "text",
+      "hidden": true
+    }
+  ]
+}

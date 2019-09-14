@@ -1,0 +1,57 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie"
+    ],
+    "changes": [
+        {
+          "date": "20/03/2019",
+          "description": "Añadido Qualities.scr por cambios en la web."
+        },
+        {
+          "date": "12/03/2019",
+          "description": "Función findvideos optimizada. Función tags_qlt reordena por quality.level y corrección de bugs."
+        },
+        {
+          "date": "04/03/2019",
+          "description": "Código del canal reescrito completamente optimizando el rendimiento."
+        },
+        {
+          "date": "27/01/2019",
+          "description": "Reparado cambios en la web referentes a next_page y la obtención del torrent."
+        },
+        {
+          "date": "24/01/2019",
+          "description": "Secciones rediseñadas al mostrar los Torrent. Mejoras en etiquetas de idioma y calidad en los listados y corrección de bugs."
+        },
+        {
+          "date": "29/12/2018",
+          "description": "Renovación profunda con varias mejoras en listados, etiquetas de idioma y calidad, recuperación de torrents y corrección de bugs."
+        },
+        {
+          "date": "14/12/2018",
+          "description": "Primera versión"
+        }
+    ],
+    "id": "hdtorrents",
+    "min_version": {
+        "main": null,
+        "python": "2.7.9"
+    },
+    "name": "HDTorrents",
+    "search": {
+        "movie": {
+          "action": "search",
+          "content_type": "movies"
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "movies",
+          "content_type": "movies"
+        }
+     },
+    "settings": [],
+    "version": 7
+}

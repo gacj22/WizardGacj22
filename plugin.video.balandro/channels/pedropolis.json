@@ -1,0 +1,15 @@
+{
+  "id": "pedropolis",
+  "name": "PedroPolis",
+  "thumbnail": "pedropolis.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": [ "movie", "tvshow" ],
+  "language": ["lat", "cast", "vose"],
+
+  "notes": "En películas mayoría latino, en series enlaces en lat, esp, vos. Películas: más vistas, mejor valoradas, por género, por año. Series: más vistas, mejor valoradas"
+}

@@ -1,0 +1,23 @@
+{
+    "active": true, 
+    "changes": [
+        {
+            "date": "23/08/2017", 
+            "description": "Primera version"
+        }
+    ], 
+    "find_videos": {
+        "ignore_urls": [], 
+        "patterns": [
+            {
+                "pattern": "http://www.owndrives.com/([a-z0-9]+)", 
+                "url": "http://www.owndrives.com/\\1"
+            }
+        ]
+    }, 
+    "free": true, 
+    "id": "owndrives", 
+    "name": "Owndrives", 
+    "settings": [],
+    "version": 2
+}

@@ -1,0 +1,24 @@
+{
+"id": "verystreamtv",
+  "name": "VeryStream Movies",
+  "active": true,
+  "adult": false,
+  "language": [],
+  "thumbnail": "https://verystreamtv.com/wp-content/uploads/2019/06/logo.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

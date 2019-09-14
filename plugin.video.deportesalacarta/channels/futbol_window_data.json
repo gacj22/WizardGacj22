@@ -1,0 +1,1066 @@
+{
+    "1860 munchen": {
+        "tf": "tsv 1860 münchen", 
+        "tsdb": "munich 1860"
+    }, 
+    "1860 münchen": {
+        "tf": "tsv 1860 münchen", 
+        "tsdb": "munich 1860"
+    }, 
+    "ac milán": {
+        "tf": "ac milan", 
+        "tsdb": "ac milan"
+    }, 
+    "afc bournemouth": {
+        "tf": "bournemouth", 
+        "tsdb": "bournemouth"
+    }, 
+    "alavés": {
+        "tf": "alaves", 
+        "tsdb": "alaves"
+    }, 
+    "alejandría": {
+        "tf": "fk oleksandria", 
+        "tsdb": "fk oleksandria"
+    }, 
+    "alemania": {
+        "tf": "germany", 
+        "tsdb": "germany"
+    }, 
+    "am atlético": {
+        "tf": "atlético madrid", 
+        "tsdb": "ath madrid"
+    }, 
+    "angers": {
+        "tf": "sco angers", 
+        "tsdb": "angers"
+    }, 
+    "arminia bielefeld": {
+        "tf": "arminia bielefeld", 
+        "tsdb": "bielefeld"
+    }, 
+    "as nancy": {
+        "tf": "nancy", 
+        "tsdb": "nancy"
+    }, 
+    "as roma": {
+        "tf": "roma", 
+        "tsdb": "roma"
+    }, 
+    "athletic bilbao": {
+        "tf": "athletic club", 
+        "tsdb": "ath bilbao"
+    }, 
+    "athletic club": {
+        "tf": "athletic club", 
+        "tsdb": "ath bilbao"
+    }, 
+    "atletico": {
+        "tf": " atletico de madrid", 
+        "tsdb": "ath madrid"
+    }, 
+    "atletico madrid": {
+        "tf": " atletico de madrid", 
+        "tsdb": "ath madrid"
+    }, 
+    "atlético": {
+        "tf": " atletico de madrid", 
+        "tsdb": "ath madrid"
+    }, 
+    "atlético madrid": {
+        "tf": " atletico de madrid", 
+        "tsdb": "ath madrid"
+    }, 
+    "basel": {
+        "tf": "fc basel", 
+        "tsdb": "fc basel"
+    }, 
+    "basilea": {
+        "tf": "fc basel", 
+        "tsdb": "fc basel"
+    }, 
+    "bastia": {
+        "tf": "sc bastia", 
+        "tsdb": "bastia"
+    }, 
+    "bayer 04": {
+        "tf": "", 
+        "tsdb": "leverkusen"
+    }, 
+    "bayer leverkusen": {
+        "tf": "bayer 04 leverkusen", 
+        "tsdb": "leverkusen"
+    }, 
+    "bayerleverkusen": {
+        "tf": "leverkusen", 
+        "tsdb": "leverkusen"
+    }, 
+    "bayern leverkusen": {
+        "tf": "leverkusen", 
+        "tsdb": "leverkusen"
+    }, 
+    "bayern munchen": {
+        "tf": "bayern munich", 
+        "tsdb": "bayern munich"
+    }, 
+    "bayern múnich": {
+        "tf": "bayern munich", 
+        "tsdb": "bayern munich"
+    }, 
+    "belgica": {
+        "tf": "belgium", 
+        "tsdb": "belgium"
+    }, 
+    "birmingham city": {
+        "tf": "birmingham", 
+        "tsdb": "birmingham"
+    }, 
+    "bolonia": {
+        "tf": "bologna", 
+        "tsdb": "bologna"
+    }, 
+    "bordeaux": {
+        "tf": "fc girondins bordeaux", 
+        "tsdb": "bordeaux"
+    }, 
+    "borussia dortmund": {
+        "tf": "borussia dortmund", 
+        "tsdb": ""
+    }, 
+    "borussia mgladbach": {
+        "tf": "borussia monchengladbach", 
+        "tsdb": "borussia monchengladbach"
+    }, 
+    "borussiadortmund": {
+        "tf": "borussia dortmund", 
+        "tsdb": "dortmund"
+    }, 
+    "borussiamonchengladbach": {
+        "tf": "borussia monchengladbach", 
+        "tsdb": "borussia monchengladbach"
+    }, 
+    "braga b": {
+        "tf": "braga", 
+        "tsdb": "braga"
+    }, 
+    "brasil": {
+        "tf": "brazil", 
+        "tsdb": "brazil"
+    }, 
+    "brujas": {
+        "tf": "brugge", 
+        "tsdb": "brugge"
+    }, 
+    "burdeos": {
+        "tf": "girondins", 
+        "tsdb": "girondins"
+    }, 
+    "bélgica": {
+        "tf": "belgium", 
+        "tsdb": "belgium"
+    }, 
+    "ca osasuna": {
+        "tf": "osasuna", 
+        "tsdb": "osasuna"
+    }, 
+    "cadiz": {
+        "tf": "cádiz cf", 
+        "tsdb": "cadiz"
+    }, 
+    "camerun": {
+        "tf": "cameroon", 
+        "tsdb": "cameroon"
+    }, 
+    "camerún": {
+        "tf": "cameroon", 
+        "tsdb": "cameroon"
+    }, 
+    "cd leganés": {
+        "tf": "leganes", 
+        "tsdb": "leganes"
+    }, 
+    "cenit": {
+        "tf": "zenit st. petersburg", 
+        "tsdb": "zenit st petersburg"
+    }, 
+    "chaves": {
+        "tf": "gd chaves", 
+        "tsdb": "chaves"
+    }, 
+    "chequia": {
+        "tf": "czech", 
+        "tsdb": "czech"
+    }, 
+    "chievo verona": {
+        "tf": "chievo", 
+        "tsdb": "chievo"
+    }, 
+    "chivas guadalajara": {
+        "tf": "deportivo guadalajara", 
+        "tsdb": "cd guadalajara"
+    }, 
+    "city": {
+        "tf": "manchester city", 
+        "tsdb": "manchester city"
+    }, 
+    "club america": {
+        "tf": "cf américa", 
+        "tsdb": "cf america"
+    }, 
+    "club brugge": {
+        "tf": "brugge", 
+        "tsdb": "brugge"
+    }, 
+    "club brugge kv": {
+        "tf": "brugge", 
+        "tsdb": "brugge"
+    }, 
+    "club leon": {
+        "tf": "club león fc", 
+        "tsdb": "leon"
+    }, 
+    "cologne": {
+        "tf": "koln", 
+        "tsdb": "fc koln"
+    }, 
+    "colonia": {
+        "tf": "koln", 
+        "tsdb": "fc koln"
+    }, 
+    "corea del sur": {
+        "tf": "south korea", 
+        "tsdb": "south korea"
+    }, 
+    "costa marfil": {
+        "tf": "ivory coast", 
+        "tsdb": "ivory coast"
+    }, 
+    "croacia": {
+        "tf": "croatia", 
+        "tsdb": "croatia"
+    }, 
+    "croton": {
+        "tf": "crotone", 
+        "tsdb": "crotone"
+    }, 
+    "cska moscú": {
+        "tf": "cska moscú", 
+        "tsdb": "cska moscow"
+    }, 
+    "cska moskva": {
+        "tf": "cska moscú", 
+        "tsdb": "cska moscow"
+    }, 
+    "córdoba": {
+        "tf": "córdoba cf", 
+        "tsdb": "cordoba"
+    }, 
+    "dallas": {
+        "tf": "fc dallas", 
+        "tsdb": "fc dallas"
+    }, 
+    "darmstadt 98": {
+        "tf": "sv darmstadt 98", 
+        "tsdb": "darmstadt"
+    }, 
+    "darmstadt98": {
+        "tf": "darmstadt", 
+        "tsdb": "darmstadt"
+    }, 
+    "deportivo": {
+        "tf": "la coruna", 
+        "tsdb": "la coruna"
+    }, 
+    "deportivo la coruna": {
+        "tf": "la coruna", 
+        "tsdb": "la coruna"
+    }, 
+    "deportivo la coruña": {
+        "tf": "la coruna", 
+        "tsdb": "la coruna"
+    }, 
+    "deportivo lacoruna": {
+        "tf": "deportivo la coruña", 
+        "tsdb": "la coruna"
+    }, 
+    "deportivode la coruna": {
+        "tf": "deportivo la coruña", 
+        "tsdb": "la coruna"
+    }, 
+    "derby county": {
+        "tf": "derby county", 
+        "tsdb": "derby"
+    }, 
+    "dijon fco": {
+        "tf": "dijon", 
+        "tsdb": "dijon"
+    }, 
+    "dinamarca": {
+        "tf": "denmark", 
+        "tsdb": "denmark"
+    }, 
+    "dundee": {
+        "tf": "dundee fc", 
+        "tsdb": "dundee fc"
+    }, 
+    "dynamo dresden": {
+        "tf": "sg dynamo dresden", 
+        "tsdb": "dynamo dresden"
+    }, 
+    "ea guingamp": {
+        "tf": "guingamp", 
+        "tsdb": "guingamp"
+    }, 
+    "eeuu": {
+        "tf": "usa", 
+        "tsdb": "usa"
+    }, 
+    "eindhoven": {
+        "tf": "psv eindhoven", 
+        "tsdb": "psv eindhoven"
+    }, 
+    "eintrach frankfurt": {
+        "tf": "frankfurt", 
+        "tsdb": "ein frankfurt"
+    }, 
+    "eintracht": {
+        "tf": "frankfurt", 
+        "tsdb": "ein frankfurt"
+    }, 
+    "eintracht braunschweig": {
+        "tf": "eintracht braunschweig", 
+        "tsdb": "braunschweig"
+    }, 
+    "eintracht frankfurt": {
+        "tf": "frankfurt", 
+        "tsdb": "ein frankfurt"
+    }, 
+    "eintracht p.": {
+        "tf": "eintracht francfort", 
+        "tsdb": "ein frankfurt"
+    }, 
+    "erzgebirge aue": {
+        "tf": "fc erzgebirge aue", 
+        "tsdb": "aue"
+    }, 
+    "españa": {
+        "tf": "spain", 
+        "tsdb": "spain"
+    }, 
+    "español": {
+        "tf": "espanyol", 
+        "tsdb": "espanyol"
+    }, 
+    "estados unidos": {
+        "tf": "usa", 
+        "tsdb": "usa"
+    }, 
+    "estándar": {
+        "tf": "standard", 
+        "tsdb": "standard"
+    }, 
+    "f.c. paços ferreira": {
+        "tf": "ferreira", 
+        "tsdb": "ferreira"
+    }, 
+    "fc barcelona": {
+        "tf": "barcelona", 
+        "tsdb": "barcelona"
+    }, 
+    "fc bayern": {
+        "tf": "bayern munich", 
+        "tsdb": "bayern munich"
+    }, 
+    "fc bayern munich": {
+        "tf": "bayern munich", 
+        "tsdb": "bayern munich"
+    }, 
+    "fc bologna": {
+        "tf": "bologna", 
+        "tsdb": "bologna"
+    }, 
+    "fc cologne": {
+        "tf": "1.fc köln", 
+        "tsdb": "fc koln"
+    }, 
+    "fc girondins bordeaux": {
+        "tf": "girondins", 
+        "tsdb": "girondins"
+    }, 
+    "fc ingolstadt 04": {
+        "tf": "fc ingolstadt 04", 
+        "tsdb": "ingolstadt"
+    }, 
+    "fc koln": {
+        "tf": "koln", 
+        "tsdb": "koln"
+    }, 
+    "fc köln": {
+        "tf": "koln", 
+        "tsdb": "koln"
+    }, 
+    "fc lorient": {
+        "tf": "lorient", 
+        "tsdb": "lorient"
+    }, 
+    "fc metz": {
+        "tf": "metz", 
+        "tsdb": "metz"
+    }, 
+    "fc nantes": {
+        "tf": "nantes", 
+        "tsdb": "nantes"
+    }, 
+    "fc paris saint-germain": {
+        "tf": "paris sg", 
+        "tsdb": "paris sg"
+    }, 
+    "feirense": {
+        "tf": "cd feirense", 
+        "tsdb": "feirense"
+    }, 
+    "francia": {
+        "tf": "france", 
+        "tsdb": "france"
+    }, 
+    "friburgo": {
+        "tf": "freiburg", 
+        "tsdb": "freiburg"
+    }, 
+    "futbol club barcelona": {
+        "tf": "barcelona", 
+        "tsdb": "barcelona"
+    }, 
+    "fútbol club barcelona": {
+        "tf": "barcelona", 
+        "tsdb": "barcelona"
+    }, 
+    "gent": {
+        "tf": "kaa gent", 
+        "tsdb": "gent"
+    }, 
+    "gijon": {
+        "tf": "sporting gijon", 
+        "tsdb": "sp gijon"
+    }, 
+    "girondins bordeaux": {
+        "tf": "fc girondins bordeaux", 
+        "tsdb": "bordeaux"
+    }, 
+    "girondins burdeos": {
+        "tf": "girondins", 
+        "tsdb": "girondins"
+    }, 
+    "grecia": {
+        "tf": "greece", 
+        "tsdb": "greece"
+    }, 
+    "greuther furth": {
+        "tf": "spvgg greuther fürth", 
+        "tsdb": "spvgg greuther fürth"
+    }, 
+    "groningen": {
+        "tf": "fc groningen", 
+        "tsdb": "fc groningen"
+    }, 
+    "génova": {
+        "tf": "genoa cfc", 
+        "tsdb": "genoa"
+    }, 
+    "hamburgo": {
+        "tf": "hamburg", 
+        "tsdb": "hamburg"
+    }, 
+    "hamilton academical": {
+        "tf": "hamilton academical fc", 
+        "tsdb": "hamilton"
+    }, 
+    "hannover 96": {
+        "tf": "hannover 96", 
+        "tsdb": "hannover"
+    }, 
+    "hapoel be'er sheva": {
+        "tf": "hapoel beer sheva", 
+        "tsdb": ""
+    }, 
+    "heerenveen": {
+        "tf": "sc heerenveen", 
+        "tsdb": "sc heerenveen"
+    }, 
+    "heidenheim": {
+        "tf": "1.fc heidenheim 1846", 
+        "tsdb": "fc heidenheim"
+    }, 
+    "hertha berlin": {
+        "tf": "hertha", 
+        "tsdb": "hertha"
+    }, 
+    "hertha berlín": {
+        "tf": "hertha berlin", 
+        "tsdb": "hertha"
+    }, 
+    "hertha bsc": {
+        "tf": "hertha", 
+        "tsdb": "hertha"
+    }, 
+    "holanda": {
+        "tf": "netherlands", 
+        "tsdb": "netherlands"
+    }, 
+    "hull city": {
+        "tf": "hull", 
+        "tsdb": "hull"
+    }, 
+    "inglaterra": {
+        "tf": "england", 
+        "tsdb": "england"
+    }, 
+    "inter milan": {
+        "tf": "inter", 
+        "tsdb": "inter"
+    }, 
+    "inter milán": {
+        "tf": "inter", 
+        "tsdb": "inter"
+    }, 
+    "internazionale": {
+        "tf": "inter", 
+        "tsdb": "inter"
+    }, 
+    "inverness ct": {
+        "tf": "inverness caledonian thistle fc", 
+        "tsdb": "inverness c"
+    }, 
+    "ipswich town": {
+        "tf": "ipswich town", 
+        "tsdb": "ipswich"
+    }, 
+    "irlanda": {
+        "tf": "ireland", 
+        "tsdb": "ireland"
+    }, 
+    "italia": {
+        "tf": "italy", 
+        "tsdb": "italy"
+    }, 
+    "jaguares chiapas": {
+        "tf": "chiapas fc", 
+        "tsdb": "chiapas"
+    }, 
+    "japon": {
+        "tf": "japan", 
+        "tsdb": "japan"
+    }, 
+    "japón": {
+        "tf": "japan", 
+        "tsdb": "japan"
+    }, 
+    "koln": {
+        "tf": "fc koln", 
+        "tsdb": "fc koln"
+    }, 
+    "krasnodar": {
+        "tf": "krasnodar", 
+        "tsdb": "fc krasnodar"
+    }, 
+    "la galaxy": {
+        "tf": "los angeles galaxy", 
+        "tsdb": "l.a. galaxy"
+    }, 
+    "lectura": {
+        "tf": "fc reading", 
+        "tsdb": "reading"
+    }, 
+    "legan&#233;s": {
+        "tf": "cd leganés", 
+        "tsdb": "leganes"
+    }, 
+    "leganés": {
+        "tf": "leganes", 
+        "tsdb": "leganes"
+    }, 
+    "leicester city": {
+        "tf": "leicester", 
+        "tsdb": "leicester"
+    }, 
+    "lokomotiv moscow": {
+        "tf": "lokomotiv", 
+        "tsdb": "lok. moscow"
+    }, 
+    "lokomotiv moscu": {
+        "tf": "lokomotiv", 
+        "tsdb": "lok. moscow"
+    }, 
+    "lokomotiv moscú": {
+        "tf": "lokomotiv", 
+        "tsdb": "lok. moscow"
+    }, 
+    "lokomotiv moskva": {
+        "tf": "lokomotiv", 
+        "tsdb": "lok. moscow"
+    }, 
+    "losc lille": {
+        "tf": "lille", 
+        "tsdb": "lille"
+    }, 
+    "mainz 05": {
+        "tf": "mainz", 
+        "tsdb": "mainz"
+    }, 
+    "malaga": {
+        "tf": "málaga cf", 
+        "tsdb": "malaga"
+    }, 
+    "man city": {
+        "tf": "manchester city", 
+        "tsdb": "manchester city"
+    }, 
+    "man united": {
+        "tf": "manchester united", 
+        "tsdb": "manchester united"
+    }, 
+    "manchester city f.c.": {
+        "tf": "manchester city", 
+        "tsdb": "manchester city"
+    }, 
+    "manchester city fc": {
+        "tf": "manchester city", 
+        "tsdb": "manchester city"
+    }, 
+    "manchesterunited": {
+        "tf": "manchester united", 
+        "tsdb": "man united"
+    }, 
+    "manu": {
+        "tf": "manchester united", 
+        "tsdb": "manchester united"
+    }, 
+    "marsella": {
+        "tf": "marseille", 
+        "tsdb": "marseille"
+    }, 
+    "mets": {
+        "tf": "fc metz", 
+        "tsdb": "metz"
+    }, 
+    "mgladbach": {
+        "tf": "borussia monchengladbach", 
+        "tsdb": "borussia monchengladbach"
+    }, 
+    "milan": {
+        "tf": "ac milan", 
+        "tsdb": "ac milan"
+    }, 
+    "milán": {
+        "tf": "ac milan", 
+        "tsdb": "milan"
+    }, 
+    "monaco": {
+        "tf": "as monaco", 
+        "tsdb": "as monaco"
+    }, 
+    "monchengladbach": {
+        "tf": "borussia mönchengladbach", 
+        "tsdb": "m'gladbach"
+    }, 
+    "málaga": {
+        "tf": "malaga", 
+        "tsdb": "malaga"
+    }, 
+    "málaga fc": {
+        "tf": "malaga", 
+        "tsdb": "malaga"
+    }, 
+    "méxico": {
+        "tf": "mexico", 
+        "tsdb": "mexico"
+    }, 
+    "mónaco": {
+        "tf": "as monaco", 
+        "tsdb": "as monaco"
+    }, 
+    "nacional": {
+        "tf": "cd nacional", 
+        "tsdb": "cd nacional madeira "
+    }, 
+    "napoles": {
+        "tf": "napoli", 
+        "tsdb": "napoli"
+    }, 
+    "nec": {
+        "tf": "nec nijmegen", 
+        "tsdb": "nec nijmegen"
+    }, 
+    "new york rb": {
+        "tf": "new york red bulls", 
+        "tsdb": "new york red bulls"
+    }, 
+    "new york redbulls": {
+        "tf": "new york red bulls", 
+        "tsdb": "new york red bulls"
+    }, 
+    "newcastleunited": {
+        "tf": "newcastle united", 
+        "tsdb": "newcastle"
+    }, 
+    "niza": {
+        "tf": "ogc nice", 
+        "tsdb": "nice"
+    }, 
+    "olympiakos piraues": {
+        "tf": "olympiakos", 
+        "tsdb": "olympiakos"
+    }, 
+    "olympique lyon": {
+        "tf": "lyon", 
+        "tsdb": "lyon"
+    }, 
+    "olympique lyonnais": {
+        "tf": "lyon", 
+        "tsdb": "lyon"
+    }, 
+    "olympique marseille": {
+        "tf": "marseille", 
+        "tsdb": "marseille"
+    }, 
+    "olympique marsella": {
+        "tf": "marseille", 
+        "tsdb": "marseille"
+    }, 
+    "olympiquemarseille": {
+        "tf": "marseille", 
+        "tsdb": "marseille"
+    }, 
+    "oporto": {
+        "tf": "fc porto", 
+        "tsdb": "fc porto"
+    }, 
+    "orlandocity": {
+        "tf": "orlando city sc", 
+        "tsdb": "orlando city"
+    }, 
+    "pacos ferreira": {
+        "tf": "ferreira", 
+        "tsdb": "ferreira"
+    }, 
+    "paises bajos": {
+        "tf": "netherlands", 
+        "tsdb": "netherlands"
+    }, 
+    "paris saint-germain": {
+        "tf": "paris sg", 
+        "tsdb": "paris sg"
+    }, 
+    "paris saintgermain": {
+        "tf": "fc paris saint-germain", 
+        "tsdb": "paris sg"
+    }, 
+    "partick thistle": {
+        "tf": "partick thistle fc ", 
+        "tsdb": "partick"
+    }, 
+    "paços ferreira": {
+        "tf": "ferreira", 
+        "tsdb": "ferreira"
+    }, 
+    "países bajos": {
+        "tf": "netherlands", 
+        "tsdb": "netherlands"
+    }, 
+    "polonia": {
+        "tf": "poland", 
+        "tsdb": "poland"
+    }, 
+    "porto": {
+        "tf": "fc porto", 
+        "tsdb": "fc porto"
+    }, 
+    "psg": {
+        "tf": "paris sg", 
+        "tsdb": "paris sg"
+    }, 
+    "pumas unam": {
+        "tf": "unam pumas", 
+        "tsdb": "pumas"
+    }, 
+    "r. oviedo": {
+        "tf": "real oviedo", 
+        "tsdb": "real oviedo"
+    }, 
+    "rangers": {
+        "tf": "rangers fc", 
+        "tsdb": "rangers"
+    }, 
+    "rb leipzig": {
+        "tf": "rasenballsport leipzig", 
+        "tsdb": "rasenballsport leipzig"
+    }, 
+    "rcde espanyol": {
+        "tf": "espanyol", 
+        "tsdb": "espanyol"
+    }, 
+    "rcde español": {
+        "tf": "espanyol", 
+        "tsdb": "espanyol"
+    }, 
+    "real mallorca": {
+        "tf": "rcd mallorca", 
+        "tsdb": "mallorca"
+    }, 
+    "real oviedo": {
+        "tf": "real oviedo", 
+        "tsdb": "real oviedo"
+    }, 
+    "republica checa": {
+        "tf": "czech", 
+        "tsdb": "czech"
+    }, 
+    "república checa": {
+        "tf": "czech", 
+        "tsdb": "czech"
+    }, 
+    "rostov": {
+        "tf": "fk rostov", 
+        "tsdb": "fk rostov"
+    }, 
+    "rubin kazan": {
+        "tf": "rubin kazan", 
+        "tsdb": "fk rubin kazan"
+    }, 
+    "rusia": {
+        "tf": "russia", 
+        "tsdb": "russia"
+    }, 
+    "saint etienne": {
+        "tf": "as saint-Étienne", 
+        "tsdb": "st etienne"
+    }, 
+    "saint-etienne": {
+        "tf": "saint-etienne", 
+        "tsdb": "st etienne"
+    }, 
+    "saint-étienne": {
+        "tf": "saint-etienne", 
+        "tsdb": "st etienne"
+    }, 
+    "saintetienne": {
+        "tf": "as saint-Étienne", 
+        "tsdb": "st etienne"
+    }, 
+    "santos laguna": {
+        "tf": "santos laguna", 
+        "tsdb": "santos"
+    }, 
+    "seattlesounders": {
+        "tf": "seattle sounders fc", 
+        "tsdb": "seattle sounders fc"
+    }, 
+    "sevilla cf": {
+        "tf": "sevilla", 
+        "tsdb": "sevilla"
+    }, 
+    "sheffield wednesday": {
+        "tf": "sheffield", 
+        "tsdb": "sheffield"
+    }, 
+    "sj earthquakes": {
+        "tf": "san jose earthquakes", 
+        "tsdb": "san jose earthquakes"
+    }, 
+    "sl benfica": {
+        "tf": "benfica", 
+        "tsdb": "benfica"
+    }, 
+    "sparta praha": {
+        "tf": "sparta praga", 
+        "tsdb": "sparta prague"
+    }, 
+    "sparta rotterdam": {
+        "tf": "sparta rotterdam", 
+        "tsdb": "sparta"
+    }, 
+    "sporting": {
+        "tf": "sporting cp", 
+        "tsdb": "sporting cp"
+    }, 
+    "sporting braga": {
+        "tf": "braga", 
+        "tsdb": "braga"
+    }, 
+    "sporting gijon": {
+        "tf": "sporting gijon", 
+        "tsdb": "sp gijon"
+    }, 
+    "sporting gijón": {
+        "tf": "sporting gijon", 
+        "tsdb": "sp gijon"
+    }, 
+    "sporting lisboa": {
+        "tf": "sporting cp", 
+        "tsdb": "sporting cp"
+    }, 
+    "sporting portugal": {
+        "tf": "sporting cp", 
+        "tsdb": "sporting lisbon"
+    }, 
+    "sportinggijon": {
+        "tf": "sporting gijon", 
+        "tsdb": "sp gijon"
+    }, 
+    "sportingportugal": {
+        "tf": "sporting cp", 
+        "tsdb": "sporting cp"
+    }, 
+    "ssc napoli": {
+        "tf": "napoli", 
+        "tsdb": "napoli"
+    }, 
+    "st etienne": {
+        "tf": "as saint-Étienne", 
+        "tsdb": "st etienne"
+    }, 
+    "st. johnstone": {
+        "tf": "st. johnstone fc", 
+        "tsdb": "st johnstone"
+    }, 
+    "st. pauli": {
+        "tf": "fc st. pauli", 
+        "tsdb": "st pauli"
+    }, 
+    "stade rennais": {
+        "tf": "rennes", 
+        "tsdb": "rennes"
+    }, 
+    "stade rennais fc": {
+        "tf": "rennes", 
+        "tsdb": "rennes"
+    }, 
+    "standard liege": {
+        "tf": "standard", 
+        "tsdb": "standard"
+    }, 
+    "standard lieja": {
+        "tf": "standard", 
+        "tsdb": "standard"
+    }, 
+    "stokecity": {
+        "tf": "stoke city", 
+        "tsdb": "stoke"
+    }, 
+    "suecia": {
+        "tf": "sweden", 
+        "tsdb": "sweden"
+    }, 
+    "suiza": {
+        "tf": "switzerland", 
+        "tsdb": "switzerland"
+    }, 
+    "sunderland afc": {
+        "tf": "sunderland", 
+        "tsdb": "sunderland"
+    }, 
+    "tigres uanl": {
+        "tf": "tigres uanl", 
+        "tsdb": "tigres"
+    }, 
+    "tottenham hotspur": {
+        "tf": "tottenham", 
+        "tsdb": "tottenham"
+    }, 
+    "tottenhamhotspur": {
+        "tf": "tottenham", 
+        "tsdb": "tottenham"
+    }, 
+    "toulouse fc": {
+        "tf": "toulouse", 
+        "tsdb": "toulouse"
+    }, 
+    "twente": {
+        "tf": "fc twente enschede", 
+        "tsdb": "fc twente"
+    }, 
+    "u.d. las palmas": {
+        "tf": "las palmas", 
+        "tsdb": "las palmas"
+    }, 
+    "ucrania": {
+        "tf": "ukraine", 
+        "tsdb": "ukraine"
+    }, 
+    "ud las palmas": {
+        "tf": "las palmas", 
+        "tsdb": "las palmas"
+    }, 
+    "udinese calcio": {
+        "tf": "udinese", 
+        "tsdb": "udinese"
+    }, 
+    "union deportiva las palmas": {
+        "tf": "las palmas", 
+        "tsdb": "las palmas"
+    }, 
+    "utrecht": {
+        "tf": "fc utrecht", 
+        "tsdb": "fc utrecht"
+    }, 
+    "valencia c.f.": {
+        "tf": "valencia", 
+        "tsdb": "valencia"
+    }, 
+    "valencia cf": {
+        "tf": "valencia", 
+        "tsdb": "valencia"
+    }, 
+    "vfl wolfsburg": {
+        "tf": "wolfsburg", 
+        "tsdb": "wolfsburg"
+    }, 
+    "vitoria guimaraes": {
+        "tf": "vitória guimarães sc", 
+        "tsdb": "guimaraes"
+    }, 
+    "vitoriasetubal": {
+        "tf": "vitória setúbal fc", 
+        "tsdb": "vitoria setubal"
+    }, 
+    "west brom united": {
+        "tf": "west brom", 
+        "tsdb": "west brom"
+    }, 
+    "west bromwich": {
+        "tf": "west brom", 
+        "tsdb": "west brom"
+    }, 
+    "west bromwich albion": {
+        "tf": "west brom", 
+        "tsdb": "west brom"
+    }, 
+    "west hamunited": {
+        "tf": "west ham united", 
+        "tsdb": "west ham"
+    }, 
+    "whitecaps": {
+        "tf": "vancouver whitecaps", 
+        "tsdb": "vancouver whitecaps"
+    }, 
+    "willem ii": {
+        "tf": "willem ii tilburg", 
+        "tsdb": "willem ii"
+    }, 
+    "wolfsburgo": {
+        "tf": "wolfsburg", 
+        "tsdb": "wolfsburg"
+    }, 
+    "wurzburger kickers": {
+        "tf": "würzburger kickers", 
+        "tsdb": "wuerzburger kickers"
+    }, 
+    "zarya": {
+        "tf": "zorya luhansk", 
+        "tsdb": "zorya"
+    }, 
+    "zurich": {
+        "tf": "fc zurich", 
+        "tsdb": "zurich"
+    }
+}

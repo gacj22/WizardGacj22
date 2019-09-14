@@ -1,0 +1,23 @@
+{
+  "id": "anilegends",
+  "name": "Anilegends",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "http://i.imgur.com/9Zu5NBc.png",
+  "banner": "http://i.imgur.com/JQSXCaB.png",
+  "categories": [
+    "tvshow",
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

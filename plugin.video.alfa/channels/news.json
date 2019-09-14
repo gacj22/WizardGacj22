@@ -1,0 +1,48 @@
+{
+  "id": "news",
+  "name": "Novedades",
+  "active": false,
+  "adult": false,
+  "language": ["*"],
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "multithread",
+      "type": "bool",
+      "label": "@60656",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "result_mode",
+      "type": "list",
+      "label": "@60657",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "@60658",
+        "@60659",
+        "@60660"
+      ]
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "@60667",
+        "@60668",
+        "@60669",
+        "@60670",
+        "@60671"
+      ]
+    }
+  ]
+}

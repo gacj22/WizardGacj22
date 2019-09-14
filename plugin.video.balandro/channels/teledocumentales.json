@@ -1,0 +1,15 @@
+{
+  "id": "teledocumentales",
+  "name": "TeleDocumentales",
+  "thumbnail": "teledocumentales.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["documentary"],
+
+  "categories": ["documentary"],
+  "language": ["cast", "vose"],
+
+  "notes": "Documentales en castellano y subtitulados."
+}

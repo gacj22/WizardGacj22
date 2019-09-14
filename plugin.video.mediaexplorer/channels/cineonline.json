@@ -1,0 +1,81 @@
+{
+    "active": true, 
+    "adult": false, 
+    "categories": [
+        "movie", 
+        "tvshow", 
+        "adult"
+    ], 
+    "changes": [
+        {
+            "date": "28/01/2019",
+            "description": "Reparar secion novedades de epidodios"
+        },
+        {
+            "date": "08/12/2018", 
+            "description": "Añadida búsqueda por generos"
+        }, 
+        {
+            "date": "11/09/2018", 
+            "description": "Añadido servidor Mega y corregido enlaces protegidos"
+        }, 
+        {
+            "date": "08/01/2018", 
+            "description": "Primera versión"
+        }
+    ], 
+    "id": "cineonline", 
+    "min_version": {
+        "main": "1.0.4.201812220000", 
+        "python": "2.7.9"
+    }, 
+    "name": "Cine-Online", 
+    "newest": {
+        "episode": {
+            "action": "newest_episodes", 
+            "content_type": "episodes", 
+            "url": "https://www.cine-online.eu/episodios/"
+        }, 
+        "movie": {
+            "action": "contents", 
+            "content_type": "movies", 
+            "url": "https://www.cine-online.eu/tag/castellano/"
+        }
+    }, 
+    "search": {
+        "adult": {
+            "action": "adult_search", 
+            "content_type": "videos"
+        }, 
+        "movie": {
+            "action": "movie_search", 
+            "content_type": "movies"
+        }, 
+        "movie_gender": {
+            "action_gender": "contents", 
+            "content_type": "movies", 
+            "url": {
+                "action": "https://www.cine-online.eu/categoria/accion/", 
+                "adventure": "https://www.cine-online.eu/categoria/aventura/", 
+                "animation": "https://www.cine-online.eu/categoria/animacion/", 
+                "children": "https://www.cine-online.eu/categoria/infantil/", 
+                "comedy": "https://www.cine-online.eu/categoria/comedia/", 
+                "drama": "https://www.cine-online.eu/categoria/drama/", 
+                "fantasia": "https://www.cine-online.eu/categoria/fantasia/", 
+                "intrigue": "https://www.cine-online.eu/categoria/intriga/", 
+                "musical": "https://www.cine-online.eu/categoria/musica/", 
+                "romantic": "https://www.cine-online.eu/categoria/romance/", 
+                "science-fiction": "https://www.cine-online.eu/categoria/science-fiction/", 
+                "terror": "https://www.cine-online.eu/categoria/terror/", 
+                "war": "https://www.cine-online.eu/categoria/guerra/", 
+                "western": "https://www.cine-online.eu/categoria/western/"
+            }
+        }, 
+        "tvshow": {
+            "action": "tv_search", 
+            "content_type": "tvshows"
+        }
+    }, 
+    "settings": [], 
+    "version": 4
+}

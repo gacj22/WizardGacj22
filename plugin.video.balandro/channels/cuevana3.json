@@ -1,0 +1,15 @@
+{
+  "id": "cuevana3",
+  "name": "Cuevana 3",
+  "thumbnail": "cuevana3.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["lat", "cast", "vose"],
+
+  "notes": "Películas por idiomas, por género, estrenos. Puede requerir el uso de proxies en función del país/operadora desde el que se accede."
+}

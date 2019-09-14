@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <allowoverlays>false</allowoverlays>
+    <controls>
+        <control type="group">
+            <posx>340</posx>
+            <posy>110</posy>
+            <width>600</width>
+            <height>500</height>
+            <control type="image" id="10001">
+                <width>600</width>
+                <height>500</height>
+                <texture border="10">Windows/Background.png</texture>
+            </control>
+            <control type="image">
+                <width>600</width>
+                <height>35</height>
+                <texture border="10">Windows/Head.png</texture>
+            </control>
+            <control type="label" id="10002">
+                <posy>0</posy>
+                <posx>0</posx>
+                <height>35</height>
+                <width>600</width>
+                <font>font12</font>
+                <textcolor>0xFFFFFFFF</textcolor>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>MediaExplorer</label>
+            </control>
+            <control type="label" id="10004">
+                <posy>40</posy>
+                <posx>20</posx>
+                <height>40</height>
+                <width>560</width>
+                <font>font12</font>
+                <textcolor>0xFFFFFFFF</textcolor>
+                <align>center</align>
+                <aligny>posy</aligny>
+            </control>
+            <control type="textbox" id="10005">
+                <posy>80</posy>
+                <posx>20</posx>
+                <height>400</height>
+                <width>560</width>
+                <font>font10</font>
+                <textcolor>0xFFFFFFFF</textcolor>
+                <wrapmultiline>true</wrapmultiline>
+                <autoscroll delay="2000" time="1500" repeat="2000">true</autoscroll>
+                <align>justify</align>
+                <aligny>posy</aligny>
+                <label></label>
+            </control>
+
+            <control type="button" id="10006">
+                <posy>460</posy>
+                <posx>480</posx>
+                <width>110</width>
+                <height>30</height>
+                <textwidth>100</textwidth>
+                <texturefocus>Controls/ButtonFO.png</texturefocus>
+                <texturenofocus>Controls/ButtonNF.png</texturenofocus>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>Continuar</label>
+            </control>
+            <control type="button" id="10007">
+                <posy>460</posy>
+                <posx>480</posx>
+                <width>110</width>
+                <height>30</height>
+                <textwidth>100</textwidth>
+                <texturefocus>Controls/ButtonFO.png</texturefocus>
+                <texturenofocus>Controls/ButtonNF.png</texturenofocus>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>Si</label>
+            </control>
+            <control type="button" id="10008">
+                <posy>460</posy>
+                <posx>350</posx>
+                <width>110</width>
+                <height>30</height>
+                <textwidth>100</textwidth>
+                <texturefocus>Controls/ButtonFO.png</texturefocus>
+                <texturenofocus>Controls/ButtonNF.png</texturenofocus>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>No</label>
+            </control>
+        </control>
+    </controls>
+</window>

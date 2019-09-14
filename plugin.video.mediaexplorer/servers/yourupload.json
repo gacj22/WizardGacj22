@@ -1,0 +1,29 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "24/08/2007",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [
+      "http://www.yourupload.com/embed/embed"
+    ],
+    "patterns": [
+      {
+        "pattern": "yourupload.com/(?:embed|watch)/([A-z0-9]+)",
+        "url": "http://www.yourupload.com/embed/\\1"
+      },
+      {
+        "pattern": "embed[./]yourupload.com(?:/|.php\\?url=)([A-z0-9]+)",
+        "url": "http://www.yourupload.com/embed/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "yourupload",
+  "name": "YourUpload",
+  "settings": [],
+  "version": 2
+}

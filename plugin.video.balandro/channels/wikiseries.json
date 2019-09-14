@@ -1,0 +1,15 @@
+{
+  "id": "wikiseries",
+  "name": "WikiSeries",
+  "thumbnail": "wikiseries.jpg",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["tvshow"],
+
+  "categories": ["tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Nuevos capítulos, series por género, listado."
+}
