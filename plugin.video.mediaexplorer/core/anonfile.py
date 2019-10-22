@@ -46,7 +46,7 @@ class FileUpload:
 def upload(path, filename=None):
     form = FileUpload('file', path, filename)
 
-    response = httptools.downloadpage('https://anonfile.com/api/upload', post=form.post, headers=form.headers).data
+    response = httptools.downloadpage('https://api.anonfile.com/upload', post=form.post, headers=form.headers).data
     try:
         response = jsontools.load_json(response)
     except Exception:
